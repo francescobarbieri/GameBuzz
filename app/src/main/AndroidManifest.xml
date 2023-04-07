@@ -12,13 +12,13 @@
         android:theme="@style/Theme.GameBuzz"
         tools:targetApi="31">
         <activity
-            android:name=".AuthActivity"
+            android:name=".ui.welcome.AuthActivity"
             android:exported="false" />
         <activity
-            android:name=".SettingsActivity"
+            android:name=".ui.main.SettingsActivity"
             android:exported="false" />
         <activity
-            android:name=".AppActivity"
+            android:name=".ui.main.AppActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

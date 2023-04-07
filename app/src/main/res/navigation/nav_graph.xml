@@ -7,17 +7,17 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.gamebuzz.HomeFragment"
+        android:name="com.gamebuzz.ui.main.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/exploreFragment"
-        android:name="com.gamebuzz.ExploreFragment"
+        android:name="com.gamebuzz.ui.main.ExploreFragment"
         android:label="fragment_search"
         tools:layout="@layout/fragment_search" />
     <fragment
         android:id="@+id/searchFragment"
-        android:name="com.gamebuzz.SearchFragment"
+        android:name="com.gamebuzz.ui.main.SearchFragment"
         android:label="fragment_search"
         tools:layout="@layout/fragment_search" />
 </navigation>
