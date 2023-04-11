@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "563584544916",
+    "project_id": "gamebuzz-6c020",
+    "storage_bucket": "gamebuzz-6c020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563584544916:android:398753b2280b91e8f18481",
+        "android_client_info": {
+          "package_name": "com.gamebuzz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "563584544916-roq09sq5mmdi8t05n78u89ru2734d3ob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOHf9apcOorJHVXyfL3GA9QcmyheRxAWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "563584544916-57ihg581kjcqgp3hm3i7aaqc42pj3jsm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
