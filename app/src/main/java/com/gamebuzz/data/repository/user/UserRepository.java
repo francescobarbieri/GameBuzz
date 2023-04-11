@@ -69,7 +69,8 @@ public class UserRepository implements IUserRepository, UserResponseCallback {
 
     @Override
     public void onFailureFromAuthentication(String message) {
-        // TODO: do this
+        Result.Error result = new Result.Error(message);
+        userMutableLiveData.postValue(result);
     }
 
     @Override
