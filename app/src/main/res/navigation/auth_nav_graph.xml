@@ -38,6 +38,13 @@
             app:popEnterAnim="@anim/nav_default_pop_enter_anim"
             app:popExitAnim="@anim/nav_default_pop_exit_anim" />
     </fragment>
+
+    <activity
+        android:id="@+id/AppActivity"
+        android:name="com.gamebuzz.ui.main.AppActivity"
+        android:label="activity_main_app"
+        tools:layout="@layout/activity_app" />
+
     <fragment
         android:id="@+id/SignupFragment"
         android:name="com.gamebuzz.ui.welcome.SignupFragment"
@@ -50,5 +57,8 @@
             app:exitAnim="@anim/nav_default_exit_anim"
             app:popEnterAnim="@anim/nav_default_pop_enter_anim"
             app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/navigate_to_appActivity"
+            app:destination="@id/AppActivity" />
     </fragment>
 </navigation>
