@@ -20,9 +20,11 @@ import android.widget.Button;
 import org.apache.commons.validator.routines.EmailValidator;
 
 import com.gamebuzz.R;
+import com.gamebuzz.data.repository.user.IUserRepository;
 import com.gamebuzz.databinding.FragmentSignupBinding;
 import com.gamebuzz.model.Result;
 import com.gamebuzz.model.User;
+import com.gamebuzz.util.ServiceLocator;
 import com.google.android.material.snackbar.Snackbar;
 
 public class SignupFragment extends Fragment {
@@ -41,7 +43,9 @@ public class SignupFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        userViewModel = new ViewModelProvider(requireActivity()).get(UserViewModel.class);
+        // userViewModel = new ViewModelProvider(requireActivity()).get(UserViewModel.class);
+        IUserRepository userRepository = ServiceLocator.getInstance().getUserRepository(requireActivity().getApplication());
+        userViewModel = new ViewModelProvider(requireActivity(), new UserViewModelFactory(userRepository)).get(UserViewModel.class);
         userViewModel.setAuthenticationError(false);
         // TODO: dataEncryptionUtil = new DataEncryptionUtil(requireActivity().getApplication();
     }
