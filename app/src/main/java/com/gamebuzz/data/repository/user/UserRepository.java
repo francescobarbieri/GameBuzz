@@ -64,7 +64,11 @@ public class UserRepository implements IUserRepository, UserResponseCallback {
 
     @Override
     public void onSuccessFromAuthentication (User user) {
-        // TODO: do this
+        // if(user != null) {
+        // TODO: userDataRemoteDataSource = saveUserData(user)
+        // }
+        Result.UserResponseSuccess result = new Result.UserResponseSuccess(user);
+        userMutableLiveData.postValue(result);
     }
 
     @Override

@@ -8,11 +8,17 @@ import static com.gamebuzz.util.Constants.WEAK_PASSWORD_ERROR;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.core.view.MenuProvider;
 import androidx.fragment.app.Fragment;
+import androidx.lifecycle.Lifecycle;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.navigation.Navigation;
 
+import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -61,6 +67,21 @@ public class SignupFragment extends Fragment {
     public void onViewCreated (@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
+        requireActivity().addMenuProvider(new MenuProvider() {
+            @Override
+            public void onCreateMenu(@NonNull Menu menu, @NonNull MenuInflater menuInflater) {
+                menu.clear();
+            }
+
+            @Override
+            public boolean onMenuItemSelected(@NonNull MenuItem menuItem) {
+                if(menuItem.getItemId() == android.R.id.home) {
+                    Navigation.findNavController(requireView()).navigateUp();
+                }
+                return false;
+            }
+        }, getViewLifecycleOwner(), Lifecycle.State.RESUMED);
+
         binding.buttonRegistration.setOnClickListener(v -> {
             String email = binding.textInputEditTextEmail.getText().toString().trim();
             String password = binding.textInputEditTextPassword.getText().toString().trim();
@@ -68,8 +89,10 @@ public class SignupFragment extends Fragment {
             if(isEmailOkay(email) & isPasswordOkay(password)) {
                 // TODO: binding.progressBar.setVisibility(View.VISIBLE);
                 if(!userViewModel.isAuthenticationError()) {
+                    Log.e(TAG, "First if");
                     userViewModel.getUserMutableLiveData(email, password, false).observe(
                             getViewLifecycleOwner(), result -> {
+                                Log.e(TAG, "Observe working");
                                 if(result.isSuccess()) {
                                     User user = ((Result.UserResponseSuccess) result).getData();
                                     // TODO: saveLoginData(email, password, user.getIdToken());
@@ -82,8 +105,7 @@ public class SignupFragment extends Fragment {
                                     Snackbar.make(requireActivity().findViewById(android.R.id.content),
                                             getErrorMessage(((Result.Error) result).getMessage()), Snackbar.LENGTH_SHORT).show();
                                 }
-                            }
-                    );
+                            });
                 } else {
                     userViewModel.getUser(email, password, false);
                 }

@@ -1,9 +1,14 @@
 package com.gamebuzz.ui.welcome;
 
+import static com.gamebuzz.util.Constants.INVALID_CREDENTIALS_ERROR;
+import static com.gamebuzz.util.Constants.INVALID_USER_ERROR;
+import static com.gamebuzz.util.Constants.MINIMUM_PASSWORD_LENGTH;
+
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
+import androidx.lifecycle.ViewModelProvider;
 import androidx.navigation.Navigation;
 
 import android.view.LayoutInflater;
@@ -12,52 +17,37 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import com.gamebuzz.R;
+import com.gamebuzz.data.repository.user.IUserRepository;
+import com.gamebuzz.model.Result;
+import com.gamebuzz.model.User;
+import com.gamebuzz.util.ServiceLocator;
+import com.google.android.material.snackbar.Snackbar;
+import com.google.android.material.textfield.TextInputLayout;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link LoginFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
+import org.apache.commons.validator.routines.EmailValidator;
+
 public class LoginFragment extends Fragment {
 
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
+    private static final String TAG = LoginFragment.class.getSimpleName();
 
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
+    private UserViewModel userViewModel;
+
+    private TextInputLayout textInputLayoutEmail;
+    private TextInputLayout textInputLayoutPassword;
 
     public LoginFragment() {
         // Required empty public constructor
     }
 
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment LoginFragment.
-     */
-    // TODO: Rename and change types and number of parameters
-    public static LoginFragment newInstance(String param1, String param2) {
-        LoginFragment fragment = new LoginFragment();
-        Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
-        return fragment;
-    }
+
+
+    public static LoginFragment newInstance() { return new LoginFragment(); }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
+        IUserRepository userRepository = ServiceLocator.getInstance().getUserRepository(requireActivity().getApplication());
+        userViewModel = new ViewModelProvider(requireActivity(), new UserViewModelFactory(userRepository)).get(UserViewModel.class);
     }
 
     @Override
@@ -71,8 +61,79 @@ public class LoginFragment extends Fragment {
     public void onViewCreated (@NonNull View view, @NonNull Bundle savedInstanceState) {
         final Button buttonSignup = view.findViewById(R.id.button_to_signin);
 
+        textInputLayoutEmail = view.findViewById(R.id.textInputLayoutEmail);
+        textInputLayoutPassword = view.findViewById(R.id.textInputLayoutPassword);
+
+        final Button buttonLogin = view.findViewById(R.id.buttonLogin);
+
+        buttonLogin.setOnClickListener( v -> {
+            String email = textInputLayoutEmail.getEditText().getText().toString().trim();
+            String password = textInputLayoutPassword.getEditText().getText().toString().trim();
+
+            if(isEmailOkay(email) & isPasswordOkay(password)) {
+                if(!userViewModel.isAuthenticationError()) {
+                    userViewModel.getUserMutableLiveData(email, password, true).observe(
+                            getViewLifecycleOwner(), result -> {
+                                if(result.isSuccess()) {
+                                    User user = ((Result.UserResponseSuccess) result).getData();
+                                    // TODO: saveLoginData(email, password, user.getIdToken());
+                                    userViewModel.setAuthenticationError(false);
+                                    // TODO: retrieveUserInformationAndStartActivity(user, R.id.navigate_to_newsPreferenceActivity);
+                                    Navigation.findNavController(view).navigate(
+                                            R.id.navigate_to_appActivity
+                                    );
+                                } else {
+                                    userViewModel.setAuthenticationError(true);
+                                    Snackbar.make(requireActivity().findViewById(android.R.id.content), getErrorMessage(((Result.Error) result).getMessage()), Snackbar.LENGTH_SHORT).show();
+                                }
+                            });
+                } else {
+                    userViewModel.getUser(email, password, true);
+                }
+            } else {
+                Snackbar.make(requireActivity().findViewById(android.R.id.content), "Check the data you inserted", Snackbar.LENGTH_SHORT).show();
+            }
+        });
+
         buttonSignup.setOnClickListener(v -> {
             Navigation.findNavController(view).navigate(R.id.navigate_to_signupFragment);
         });
     }
+
+
+    private boolean isPasswordOkay (String password) {
+        if(password.isEmpty() || password.length() < MINIMUM_PASSWORD_LENGTH) {
+            textInputLayoutPassword.setError("Password should be at least 6 characters");
+            return false;
+        } else {
+            return true;
+        }
+    }
+
+    private boolean isEmailOkay (String email)  {
+        if(!EmailValidator.getInstance().isValid(email)) {
+            textInputLayoutEmail.setError("Insert a valid email address");
+            return false;
+        } else {
+            return true;
+        }
+    }
+
+    private String getErrorMessage(String errorType) {
+        switch (errorType) {
+            case INVALID_CREDENTIALS_ERROR:
+                return "Invalid credential error";
+            case INVALID_USER_ERROR:
+                return "Invalid user error";
+            default:
+                return "Unknown error";
+        }
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        userViewModel.setAuthenticationError(false);
+    }
+
 }
