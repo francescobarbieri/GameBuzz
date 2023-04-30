@@ -24,22 +24,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.main.SettingsActivity"
-            android:exported="false" />
-        <activity
             android:name=".ui.main.AppActivity"
             android:exported="false"></activity>
-        <activity
-            android:name=".ui.main.SearchActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.SEARCH" />
-            </intent-filter>
-
-            <meta-data
-                android:name="android.app.searchable"
-                android:resource="@xml/searchable" />
-        </activity>
     </application>
 
 </manifest>
