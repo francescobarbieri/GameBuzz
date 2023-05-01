@@ -76,8 +76,7 @@ public class HomeFragment extends Fragment {
         gameRecyclerViewAdapter = new GameRecyclerViewAdapter(gameList, new GameRecyclerViewAdapter.OnItemClickListener() {
             @Override
             public void onGameItemClick(Game game) {
-                // Snackbar.make(view, game.getTitle(), 12).show();
-                Log.d(TAG, "Pressed: " + game.getTitle());
+                Snackbar.make(view, game.getTitle(), Snackbar.LENGTH_SHORT).show();
             }
         });
 

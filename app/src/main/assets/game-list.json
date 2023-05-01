@@ -1,0 +1,1161 @@
+[
+  {
+    "id": 35004,
+    "genres": [
+      {
+        "id": 15,
+        "name": "Strategy"
+      },
+      {
+        "id": 32,
+        "name": "Indie"
+      }
+    ],
+    "name": "Demon Horde Master",
+    "platforms": [
+      {
+        "id": 6,
+        "name": "PC (Microsoft Windows)"
+      }
+    ],
+    "release_dates": [
+      {
+        "id": 80453,
+        "human": "Jul 24, 2015"
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 82910,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/fht408rcsvoctjpirpuc.jpg"
+      },
+      {
+        "id": 82911,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/nbcrizros37amqnpptn5.jpg"
+      },
+      {
+        "id": 82912,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/wqzj76ul9nrairlbg2ml.jpg"
+      },
+      {
+        "id": 82913,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/bkxcnhdhu07yax9uabx1.jpg"
+      },
+      {
+        "id": 82914,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/swhorgknvh1fg3jydrd8.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 33603,
+        "cover": {
+          "id": 97281,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2329.jpg"
+        }
+      },
+      {
+        "id": 36962,
+        "cover": {
+          "id": 75577,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1mbd.jpg"
+        }
+      },
+      {
+        "id": 51577,
+        "cover": {
+          "id": 82238,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rge.jpg"
+        }
+      },
+      {
+        "id": 65827,
+        "cover": {
+          "id": 97215,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co230f.jpg"
+        }
+      },
+      {
+        "id": 79134,
+        "cover": {
+          "id": 82162,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rea.jpg"
+        }
+      },
+      {
+        "id": 107992,
+        "cover": {
+          "id": 75372,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1m5o.jpg"
+        }
+      },
+      {
+        "id": 111043,
+        "cover": {
+          "id": 76658,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1n5e.jpg"
+        }
+      },
+      {
+        "id": 113402,
+        "cover": {
+          "id": 75484,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1m8s.jpg"
+        }
+      },
+      {
+        "id": 115539,
+        "cover": {
+          "id": 82705,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rtd.jpg"
+        }
+      },
+      {
+        "id": 116674,
+        "cover": {
+          "id": 275291,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co5wez.jpg"
+        }
+      }
+    ],
+    "summary": "In Demon Horde Master you fight your opponent in a 1-on-1 chess like strategy card game with your own army of demons through which you cast your powerful magic and defeat your opponent to become the new leader of hell! For this you have 45 different spells, and 20 demons available."
+  },
+  {
+    "id": 118008,
+    "cover": {
+      "id": 90207,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1xlr.jpg"
+    },
+    "genres": [
+      {
+        "id": 13,
+        "name": "Simulator"
+      },
+      {
+        "id": 15,
+        "name": "Strategy"
+      },
+      {
+        "id": 32,
+        "name": "Indie"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 91383,
+        "company": {
+          "id": 23964,
+          "name": "Plasticity Studios"
+        }
+      }
+    ],
+    "name": "Tabletop Playground",
+    "platforms": [
+      {
+        "id": 6,
+        "name": "PC (Microsoft Windows)"
+      }
+    ],
+    "release_dates": [
+      {
+        "id": 220820,
+        "human": "May 15, 2020"
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 313890,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6q76.jpg"
+      },
+      {
+        "id": 313891,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6q77.jpg"
+      },
+      {
+        "id": 313892,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6q78.jpg"
+      },
+      {
+        "id": 313893,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6q79.jpg"
+      },
+      {
+        "id": 313894,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6q7a.jpg"
+      },
+      {
+        "id": 313895,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6q7b.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 31515,
+        "cover": {
+          "id": 75999,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1mn3.jpg"
+        }
+      },
+      {
+        "id": 33603,
+        "cover": {
+          "id": 97281,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2329.jpg"
+        }
+      },
+      {
+        "id": 36269,
+        "cover": {
+          "id": 81902,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r72.jpg"
+        }
+      },
+      {
+        "id": 36962,
+        "cover": {
+          "id": 75577,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1mbd.jpg"
+        }
+      },
+      {
+        "id": 51577,
+        "cover": {
+          "id": 82238,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rge.jpg"
+        }
+      },
+      {
+        "id": 55590,
+        "cover": {
+          "id": 81868,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r64.jpg"
+        }
+      },
+      {
+        "id": 55888,
+        "cover": {
+          "id": 75943,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1mlj.jpg"
+        }
+      },
+      {
+        "id": 65827,
+        "cover": {
+          "id": 97215,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co230f.jpg"
+        }
+      },
+      {
+        "id": 79134,
+        "cover": {
+          "id": 82162,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rea.jpg"
+        }
+      },
+      {
+        "id": 107992,
+        "cover": {
+          "id": 75372,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1m5o.jpg"
+        }
+      }
+    ],
+    "summary": "Play any kind of tabletop game you want online! You make the rules in a physically simulated 3D sandbox. Or create your own games using the integrated editor and share them with the world!"
+  },
+  {
+    "id": 32809,
+    "genres": [
+      {
+        "id": 13,
+        "name": "Simulator"
+      },
+      {
+        "id": 15,
+        "name": "Strategy"
+      },
+      {
+        "id": 32,
+        "name": "Indie"
+      }
+    ],
+    "name": "Ant Queen",
+    "platforms": [
+      {
+        "id": 3,
+        "name": "Linux"
+      },
+      {
+        "id": 6,
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 14,
+        "name": "Mac"
+      }
+    ],
+    "release_dates": [
+      {
+        "id": 76095,
+        "human": "Jun 17, 2016"
+      },
+      {
+        "id": 76096,
+        "human": "Jun 17, 2016"
+      },
+      {
+        "id": 76097,
+        "human": "Jun 17, 2016"
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 53585,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/jl1cxzhafxt6foz9drvl.jpg"
+      },
+      {
+        "id": 53586,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/yc3w51ev456sxod0nu9h.jpg"
+      },
+      {
+        "id": 53587,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/rdsxc7haaqza95ddzixt.jpg"
+      },
+      {
+        "id": 53588,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/xfryefjbpdzdovi02wx0.jpg"
+      },
+      {
+        "id": 53589,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/nhcmvbdymacxkr2z2swu.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 31515,
+        "cover": {
+          "id": 75999,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1mn3.jpg"
+        }
+      },
+      {
+        "id": 33603,
+        "cover": {
+          "id": 97281,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2329.jpg"
+        }
+      },
+      {
+        "id": 36269,
+        "cover": {
+          "id": 81902,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r72.jpg"
+        }
+      },
+      {
+        "id": 36962,
+        "cover": {
+          "id": 75577,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1mbd.jpg"
+        }
+      },
+      {
+        "id": 51577,
+        "cover": {
+          "id": 82238,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rge.jpg"
+        }
+      },
+      {
+        "id": 55590,
+        "cover": {
+          "id": 81868,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r64.jpg"
+        }
+      },
+      {
+        "id": 55888,
+        "cover": {
+          "id": 75943,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1mlj.jpg"
+        }
+      },
+      {
+        "id": 65827,
+        "cover": {
+          "id": 97215,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co230f.jpg"
+        }
+      },
+      {
+        "id": 79134,
+        "cover": {
+          "id": 82162,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rea.jpg"
+        }
+      },
+      {
+        "id": 107992,
+        "cover": {
+          "id": 75372,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1m5o.jpg"
+        }
+      }
+    ],
+    "summary": "Begin a journey like no other, become the Ant Queen and establish your empire.\nAnt Queen is a simulation game where you breed different types of ants to ultimately conquer your surroundings and achieve a stable ant colony."
+  },
+  {
+    "id": 105208,
+    "cover": {
+      "id": 238049,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co53oh.jpg"
+    },
+    "genres": [
+      {
+        "id": 32,
+        "name": "Indie"
+      }
+    ],
+    "name": "Switch - Black \u0026 White",
+    "platforms": [
+      {
+        "id": 6,
+        "name": "PC (Microsoft Windows)"
+      }
+    ],
+    "release_dates": [
+      {
+        "id": 381857,
+        "human": "Jul 21, 2018"
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 224316,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/jphh00umdvmn8z4asq4g.jpg"
+      },
+      {
+        "id": 224317,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/yhtkw7fqe43wljde8jvx.jpg"
+      },
+      {
+        "id": 224318,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/qknixvkhraohqalkj9kd.jpg"
+      },
+      {
+        "id": 224319,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/wkhbjfuhuxxkrc3hmtuo.jpg"
+      },
+      {
+        "id": 224320,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/fdqrmocobiwcsnjaeeqh.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 51591,
+        "cover": {
+          "id": 82498,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rnm.jpg"
+        }
+      },
+      {
+        "id": 65827,
+        "cover": {
+          "id": 97215,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co230f.jpg"
+        }
+      },
+      {
+        "id": 75948,
+        "cover": {
+          "id": 82408,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rl4.jpg"
+        }
+      },
+      {
+        "id": 94741,
+        "cover": {
+          "id": 74786,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1lpe.jpg"
+        }
+      },
+      {
+        "id": 106992,
+        "cover": {
+          "id": 70379,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1iaz.jpg"
+        }
+      },
+      {
+        "id": 111043,
+        "cover": {
+          "id": 76658,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1n5e.jpg"
+        }
+      },
+      {
+        "id": 113895,
+        "cover": {
+          "id": 73442,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ko2.jpg"
+        }
+      },
+      {
+        "id": 115850,
+        "cover": {
+          "id": 72064,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1jls.jpg"
+        }
+      },
+      {
+        "id": 119788,
+        "cover": {
+          "id": 101481,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co26ax.jpg"
+        }
+      },
+      {
+        "id": 121309,
+        "cover": {
+          "id": 213883,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co4l17.jpg"
+        }
+      }
+    ],
+    "summary": "Minimalistic game in the style \"Black \u0026 White\". Game that will test your reaction."
+  },
+  {
+    "id": 89616,
+    "cover": {
+      "id": 192106,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co448a.jpg"
+    },
+    "genres": [
+      {
+        "id": 9,
+        "name": "Puzzle"
+      },
+      {
+        "id": 33,
+        "name": "Arcade"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 154613,
+        "company": {
+          "id": 38839,
+          "name": "Meng Li"
+        }
+      }
+    ],
+    "name": "Bubble Whirl Shooter",
+    "platforms": [
+      {
+        "id": 34,
+        "name": "Android"
+      },
+      {
+        "id": 39,
+        "name": "iOS"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 18115,
+        "cover": {
+          "id": 14327,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/bj9is2kiojbsu0dmmpns.jpg"
+        }
+      },
+      {
+        "id": 19222,
+        "cover": {
+          "id": 15533,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/tzsnzwgiv9ltiihzk78t.jpg"
+        }
+      },
+      {
+        "id": 25905,
+        "cover": {
+          "id": 82692,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rt0.jpg"
+        }
+      },
+      {
+        "id": 41349,
+        "cover": {
+          "id": 26537,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/z0txggvrpwn6kyo9fpxt.jpg"
+        }
+      },
+      {
+        "id": 85804,
+        "cover": {
+          "id": 63503,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/vpugdpzhmmvfwgnekecq.jpg"
+        }
+      },
+      {
+        "id": 87170,
+        "cover": {
+          "id": 63131,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/gcsw2oz25sdtlnhdfpoi.jpg"
+        }
+      },
+      {
+        "id": 87507,
+        "cover": {
+          "id": 82678,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rsm.jpg"
+        }
+      },
+      {
+        "id": 90788,
+        "cover": {
+          "id": 82609,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rqp.jpg"
+        }
+      },
+      {
+        "id": 90965,
+        "cover": {
+          "id": 82276,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rhg.jpg"
+        }
+      },
+      {
+        "id": 95776,
+        "cover": {
+          "id": 82690,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rsy.jpg"
+        }
+      }
+    ],
+    "summary": "Shoot bubbles and match colors to pop your way up to victory in this bubble shooting adventure, win magic keys to unlock more secret colorful bubble world, it’s time to enjoy the endless bubble shooting fun!"
+  },
+  {
+    "id": 85031,
+    "cover": {
+      "id": 61466,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/yektasaxw6l4ejte7ljb.jpg"
+    },
+    "genres": [
+      {
+        "id": 9,
+        "name": "Puzzle"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 130531,
+        "company": {
+          "id": 709,
+          "name": "Teyon"
+        }
+      },
+      {
+        "id": 130532,
+        "company": {
+          "id": 4367,
+          "name": "SelectSoft Publishing"
+        }
+      }
+    ],
+    "name": "City Mysteries",
+    "platforms": [
+      {
+        "id": 37,
+        "name": "Nintendo 3DS"
+      }
+    ],
+    "release_dates": [
+      {
+        "id": 138333,
+        "human": "Jul 03, 2014"
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 155025,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/vqubr5dngvnav82gr2qq.jpg"
+      },
+      {
+        "id": 155026,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/hef5xbwivlqhormbijmq.jpg"
+      },
+      {
+        "id": 155027,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/z9cp1rt16dpybiqt5kcn.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 10603,
+        "cover": {
+          "id": 95135,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co21en.jpg"
+        }
+      },
+      {
+        "id": 19222,
+        "cover": {
+          "id": 15533,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/tzsnzwgiv9ltiihzk78t.jpg"
+        }
+      },
+      {
+        "id": 25905,
+        "cover": {
+          "id": 82692,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rt0.jpg"
+        }
+      },
+      {
+        "id": 41349,
+        "cover": {
+          "id": 26537,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/z0txggvrpwn6kyo9fpxt.jpg"
+        }
+      },
+      {
+        "id": 86974,
+        "cover": {
+          "id": 63070,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/ji71ue6whfo0dwhrdg20.jpg"
+        }
+      },
+      {
+        "id": 87507,
+        "cover": {
+          "id": 82678,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rsm.jpg"
+        }
+      },
+      {
+        "id": 88511,
+        "cover": {
+          "id": 64638,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/eyrnmlvuighg6q9klayq.jpg"
+        }
+      },
+      {
+        "id": 90788,
+        "cover": {
+          "id": 82609,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rqp.jpg"
+        }
+      },
+      {
+        "id": 95776,
+        "cover": {
+          "id": 82690,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rsy.jpg"
+        }
+      },
+      {
+        "id": 106992,
+        "cover": {
+          "id": 70379,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1iaz.jpg"
+        }
+      }
+    ],
+    "summary": "Search buildings, streets, landmarks as you seek and find hidden objects in New York, Paris, Moscow and London!"
+  },
+  {
+    "id": 32055,
+    "genres": [
+      {
+        "id": 31,
+        "name": "Adventure"
+      },
+      {
+        "id": 32,
+        "name": "Indie"
+      }
+    ],
+    "name": "Puzzle Blocks",
+    "platforms": [
+      {
+        "id": 6,
+        "name": "PC (Microsoft Windows)"
+      }
+    ],
+    "release_dates": [
+      {
+        "id": 75624,
+        "human": "Jul 22, 2016"
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 51757,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/kvbjeprp9raj2wxv2fsw.jpg"
+      },
+      {
+        "id": 51758,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/znnciswh1ih0qyjkrvoh.jpg"
+      },
+      {
+        "id": 51759,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/mrngwlepyyy3zmgza1ly.jpg"
+      },
+      {
+        "id": 51760,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/phdaozl4ensx0hddkupx.jpg"
+      },
+      {
+        "id": 51761,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/qmbjbwsx3w7qzxhn5c90.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 13189,
+        "cover": {
+          "id": 81889,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r6p.jpg"
+        }
+      },
+      {
+        "id": 25222,
+        "cover": {
+          "id": 185047,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co3ys7.jpg"
+        }
+      },
+      {
+        "id": 27266,
+        "cover": {
+          "id": 82227,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rg3.jpg"
+        }
+      },
+      {
+        "id": 28277,
+        "cover": {
+          "id": 68046,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/v8qebygfdgzfmjaez55j.jpg"
+        }
+      },
+      {
+        "id": 55282,
+        "cover": {
+          "id": 71023,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1isv.jpg"
+        }
+      },
+      {
+        "id": 75948,
+        "cover": {
+          "id": 82408,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rl4.jpg"
+        }
+      },
+      {
+        "id": 87975,
+        "cover": {
+          "id": 71308,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1j0s.jpg"
+        }
+      },
+      {
+        "id": 96217,
+        "cover": {
+          "id": 72919,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1k9j.jpg"
+        }
+      },
+      {
+        "id": 106992,
+        "cover": {
+          "id": 70379,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1iaz.jpg"
+        }
+      },
+      {
+        "id": 111130,
+        "cover": {
+          "id": 68904,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1h60.jpg"
+        }
+      }
+    ],
+    "summary": "Puzzle Blocks is a Virtual Reality Nonogram Puzzles game for HTC Vive, \nCreate \u0026 Share custom levels and puzzles directly on Steam Workshop."
+  },
+  {
+    "id": 116932,
+    "genres": [
+      {
+        "id": 32,
+        "name": "Indie"
+      }
+    ],
+    "name": "With Loneliness",
+    "platforms": [
+      {
+        "id": 6,
+        "name": "PC (Microsoft Windows)"
+      }
+    ],
+    "release_dates": [
+      {
+        "id": 419048,
+        "human": "Apr 29, 2019"
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 303088,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6hv4.jpg"
+      },
+      {
+        "id": 303089,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6hv5.jpg"
+      },
+      {
+        "id": 303090,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6hv6.jpg"
+      },
+      {
+        "id": 303091,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6hv7.jpg"
+      },
+      {
+        "id": 303092,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6hv8.jpg"
+      },
+      {
+        "id": 303093,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6hv9.jpg"
+      },
+      {
+        "id": 303094,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6hva.jpg"
+      },
+      {
+        "id": 303095,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6hvb.jpg"
+      },
+      {
+        "id": 303096,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6hvc.jpg"
+      },
+      {
+        "id": 303097,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6hvd.jpg"
+      },
+      {
+        "id": 303098,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6hve.jpg"
+      },
+      {
+        "id": 303099,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6hvf.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 32902,
+        "cover": {
+          "id": 82654,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rry.jpg"
+        }
+      },
+      {
+        "id": 37419,
+        "cover": {
+          "id": 272868,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co5ujo.jpg"
+        }
+      },
+      {
+        "id": 40524,
+        "cover": {
+          "id": 99438,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co24q6.jpg"
+        }
+      },
+      {
+        "id": 76263,
+        "cover": {
+          "id": 291832,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co696g.jpg"
+        }
+      },
+      {
+        "id": 96217,
+        "cover": {
+          "id": 72919,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1k9j.jpg"
+        }
+      },
+      {
+        "id": 105233,
+        "cover": {
+          "id": 75169,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1m01.jpg"
+        }
+      },
+      {
+        "id": 106987,
+        "cover": {
+          "id": 130983,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2t2f.jpg"
+        }
+      },
+      {
+        "id": 111130,
+        "cover": {
+          "id": 68904,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1h60.jpg"
+        }
+      },
+      {
+        "id": 113895,
+        "cover": {
+          "id": 73442,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ko2.jpg"
+        }
+      },
+      {
+        "id": 119121,
+        "cover": {
+          "id": 74643,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1llf.jpg"
+        }
+      }
+    ],
+    "summary": "\"With Loneliness\" is an athletic VR game that aims to escape from \"garbage world\" by clearing obstacles.",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      }
+    ]
+  },
+  {
+    "id": 230654,
+    "involved_companies": [
+      {
+        "id": 199895,
+        "company": {
+          "id": 23993,
+          "name": "Tec Toy"
+        }
+      }
+    ],
+    "name": "Hockey de Mesa",
+    "platforms": [
+      {
+        "id": 64,
+        "name": "Sega Master System/Mark III"
+      }
+    ],
+    "release_dates": [
+      {
+        "id": 436853,
+        "human": "Aug 2008"
+      }
+    ]
+  },
+  {
+    "id": 45932,
+    "cover": {
+      "id": 246696,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co5aco.jpg"
+    },
+    "genres": [
+      {
+        "id": 9,
+        "name": "Puzzle"
+      }
+    ],
+    "name": "Effacer: Hangman from the 25th Century",
+    "platforms": [
+      {
+        "id": 117,
+        "name": "Philips CD-i"
+      }
+    ],
+    "release_dates": [
+      {
+        "id": 98039,
+        "human": "Feb 01, 1994"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 10603,
+        "cover": {
+          "id": 95135,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co21en.jpg"
+        }
+      },
+      {
+        "id": 19222,
+        "cover": {
+          "id": 15533,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/tzsnzwgiv9ltiihzk78t.jpg"
+        }
+      },
+      {
+        "id": 25905,
+        "cover": {
+          "id": 82692,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rt0.jpg"
+        }
+      },
+      {
+        "id": 41349,
+        "cover": {
+          "id": 26537,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/z0txggvrpwn6kyo9fpxt.jpg"
+        }
+      },
+      {
+        "id": 86974,
+        "cover": {
+          "id": 63070,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/ji71ue6whfo0dwhrdg20.jpg"
+        }
+      },
+      {
+        "id": 87507,
+        "cover": {
+          "id": 82678,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rsm.jpg"
+        }
+      },
+      {
+        "id": 88511,
+        "cover": {
+          "id": 64638,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/eyrnmlvuighg6q9klayq.jpg"
+        }
+      },
+      {
+        "id": 90788,
+        "cover": {
+          "id": 82609,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rqp.jpg"
+        }
+      },
+      {
+        "id": 95776,
+        "cover": {
+          "id": 82690,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rsy.jpg"
+        }
+      },
+      {
+        "id": 106992,
+        "cover": {
+          "id": 70379,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1iaz.jpg"
+        }
+      }
+    ]
+  }
+]

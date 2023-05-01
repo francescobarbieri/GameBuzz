@@ -10,9 +10,16 @@ curl -X POST https://api.igdb.com/v4/games -H "Content-Type: application/json" -
 Curl chiamata per info details:
 curl -X POST https://api.igdb.com/v4/games -H "Accept: application/json" -H "Client-ID: 9xiakk40c8cslp3k9o5mp0ep6ma7tr" -H "Authorization: Bearer 2nrr07otd509tumen5i2hunfox8gxo" -d "fields summary,name;"
 
+curl -X POST https://api.igdb.com/v4/genres -H "Accept: application/json" -H "Client-ID: 9xiakk40c8cslp3k9o5mp0ep6ma7tr" -H "Authorization: Bearer xax6mopvjl3ebra4bqihnf1q617y3k" -d "fields name; limit 500; sort id asc;"
 
-curl -X POST https://api.igdb.com/v4/genres -H "Accept: application/json" -H "Client-ID: 9xiakk40c8cslp3k9o5mp0ep6ma7tr" -H "Authorization: Bearer 2nrr07otd509tumen5i2hunfox8gxo" -d "fields name;"
+curl -X POST https://api.igdb.com/v4/themes -H "Accept: application/json" -H "Client-ID: 9xiakk40c8cslp3k9o5mp0ep6ma7tr" -H "Authorization: Bearer xax6mopvjl3ebra4bqihnf1q617y3k" -d "fields name; limit 10;"
 
-curl -X POST https://api.igdb.com/v4/keywords -H "Accept: application/json" -H "Client-ID: 9xiakk40c8cslp3k9o5mp0ep6ma7tr" -H "Authorization: Bearer 2nrr07otd509tumen5i2hunfox8gxo" -d "fields name;"
+curl -X POST https://api.igdb.com/v4/keywords -H "Accept: application/json" -H "Client-ID: 9xiakk40c8cslp3k9o5mp0ep6ma7tr" -H "Authorization: Bearer xax6mopvjl3ebra4bqihnf1q617y3k" -d "fields name; limit 50;"
 
-curl -X POST https://api.igdb.com/v4/languages -H "Accept: application/json" -H "Client-ID: 9xiakk40c8cslp3k9o5mp0ep6ma7tr" -H "Authorization: Bearer 2nrr07otd509tumen5i2hunfox8gxo" -d "fields name;"
+curl -X POST https://api.igdb.com/v4/languages -H "Accept: application/json" -H "Client-ID: 9xiakk40c8cslp3k9o5mp0ep6ma7tr" -H "Authorization: Bearer xax6mopvjl3ebra4bqihnf1q617y3k" -d "fields name;"
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Curl chiamata home + details: (una chiamata e ottengo i dati anche per la pagina details, che passo quando clicco sull'item)
+curl -X POST https://api.igdb.com/v4/games -H "Accept: application/json" -H "Client-ID: 9xiakk40c8cslp3k9o5mp0ep6ma7tr" -H "Authorization: Bearer 2nrr07otd509tumen5i2hunfox8gxo" -d "fields name, summary, genres.name, cover.url, release_dates.human, similar_games.cover.url, screenshots.url, involved_companies.company.name, themes.name, platforms.name; where cover != null; where themes != null; where platforms != null; limit 10;"

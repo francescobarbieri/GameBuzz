@@ -56,6 +56,9 @@ public class GameRecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView.V
         public GameViewHolder(@NonNull View itemView) {
             super(itemView);
             textViewTitle = itemView.findViewById(R.id.textview_game_title);
+
+            // When user clicks, onClick is invoked
+            itemView.setOnClickListener(this);
         }
 
         public void bind(Game game) {
