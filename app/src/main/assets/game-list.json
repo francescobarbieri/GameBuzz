@@ -1,17 +1,48 @@
 [
   {
-    "id": 35004,
+    "id": 1,
+    "cover": {
+      "id": 291911,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co698n.jpg"
+    },
     "genres": [
       {
-        "id": 15,
-        "name": "Strategy"
+        "id": 5,
+        "name": "Shooter"
       },
       {
-        "id": 32,
-        "name": "Indie"
+        "id": 13,
+        "name": "Simulator"
+      },
+      {
+        "id": 31,
+        "name": "Adventure"
       }
     ],
-    "name": "Demon Horde Master",
+    "involved_companies": [
+      {
+        "id": 2739,
+        "company": {
+          "id": 4,
+          "name": "Eidos Interactive"
+        }
+      },
+      {
+        "id": 2740,
+        "company": {
+          "id": 3,
+          "name": "Looking Glass Studios"
+        }
+      },
+      {
+        "id": 21014,
+        "company": {
+          "id": 26,
+          "name": "Square Enix"
+        }
+      }
+    ],
+    "name": "Thief II: The Metal Age",
     "platforms": [
       {
         "id": 6,
@@ -20,111 +51,153 @@
     ],
     "release_dates": [
       {
-        "id": 80453,
-        "human": "Jul 24, 2015"
+        "id": 25216,
+        "human": "Mar 21, 2000"
+      },
+      {
+        "id": 25217,
+        "human": "2000"
+      },
+      {
+        "id": 25218,
+        "human": "May 22, 2012"
       }
     ],
     "screenshots": [
       {
-        "id": 82910,
-        "url": "//images.igdb.com/igdb/image/upload/t_thumb/fht408rcsvoctjpirpuc.jpg"
+        "id": 16867,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/puvydf5d6v0zirxfhzpg.jpg"
       },
       {
-        "id": 82911,
-        "url": "//images.igdb.com/igdb/image/upload/t_thumb/nbcrizros37amqnpptn5.jpg"
+        "id": 16868,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/z0b9mqcqbtmnnxigekjc.jpg"
       },
       {
-        "id": 82912,
-        "url": "//images.igdb.com/igdb/image/upload/t_thumb/wqzj76ul9nrairlbg2ml.jpg"
+        "id": 40856,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ja4t61c1ndvtzufbdrf4.jpg"
       },
       {
-        "id": 82913,
-        "url": "//images.igdb.com/igdb/image/upload/t_thumb/bkxcnhdhu07yax9uabx1.jpg"
+        "id": 40857,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/yf2hsfdd4fe9ev6wmpye.jpg"
       },
       {
-        "id": 82914,
-        "url": "//images.igdb.com/igdb/image/upload/t_thumb/swhorgknvh1fg3jydrd8.jpg"
+        "id": 40858,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/h4eotdbgoo30v40jtus0.jpg"
+      },
+      {
+        "id": 377572,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc83c4.jpg"
+      },
+      {
+        "id": 377573,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc83c5.jpg"
+      },
+      {
+        "id": 377574,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc83c6.jpg"
+      },
+      {
+        "id": 377575,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc83c7.jpg"
+      },
+      {
+        "id": 377576,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc83c8.jpg"
       }
     ],
     "similar_games": [
       {
-        "id": 33603,
+        "id": 2,
         "cover": {
-          "id": 97281,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2329.jpg"
+          "id": 96746,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co22ne.jpg"
         }
       },
       {
-        "id": 36962,
+        "id": 3,
         "cover": {
-          "id": 75577,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1mbd.jpg"
+          "id": 129190,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2rom.jpg"
         }
       },
       {
-        "id": 51577,
+        "id": 4,
         "cover": {
-          "id": 82238,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rge.jpg"
+          "id": 96744,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co22nc.jpg"
         }
       },
       {
-        "id": 65827,
+        "id": 41,
         "cover": {
-          "id": 97215,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co230f.jpg"
+          "id": 81923,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r7n.jpg"
         }
       },
       {
-        "id": 79134,
+        "id": 533,
         "cover": {
-          "id": 82162,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rea.jpg"
+          "id": 266140,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co5pcs.jpg"
         }
       },
       {
-        "id": 107992,
+        "id": 3025,
         "cover": {
-          "id": 75372,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1m5o.jpg"
+          "id": 94225,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co20pd.jpg"
         }
       },
       {
-        "id": 111043,
+        "id": 7346,
         "cover": {
-          "id": 76658,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1n5e.jpg"
+          "id": 172453,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co3p2d.jpg"
         }
       },
       {
-        "id": 113402,
+        "id": 9377,
         "cover": {
-          "id": 75484,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1m8s.jpg"
+          "id": 125641,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2oy1.jpg"
         }
       },
       {
-        "id": 115539,
+        "id": 11118,
         "cover": {
-          "id": 82705,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rtd.jpg"
+          "id": 266148,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co5pd0.jpg"
         }
       },
       {
-        "id": 116674,
+        "id": 26855,
         "cover": {
-          "id": 275291,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co5wez.jpg"
+          "id": 274638,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co5vwu.jpg"
         }
       }
     ],
-    "summary": "In Demon Horde Master you fight your opponent in a 1-on-1 chess like strategy card game with your own army of demons through which you cast your powerful magic and defeat your opponent to become the new leader of hell! For this you have 45 different spells, and 20 demons available."
+    "summary": "The ultimate thief is back! Tread softly as you make your way through 15 new complex, non-linear levels full of loot to steal and guards to outsmart. Improved enemy AI, new gadgets and a riveting story will draw you into the world of Thief II: The Metal Age, a place of powerful new technologies, fanatical religions and corruption.",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      },
+      {
+        "id": 17,
+        "name": "Fantasy"
+      },
+      {
+        "id": 23,
+        "name": "Stealth"
+      }
+    ]
   },
   {
-    "id": 118008,
+    "id": 2,
     "cover": {
-      "id": 90207,
-      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1xlr.jpg"
+      "id": 96746,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co22ne.jpg"
     },
     "genres": [
       {
@@ -132,24 +205,34 @@
         "name": "Simulator"
       },
       {
-        "id": 15,
-        "name": "Strategy"
-      },
-      {
-        "id": 32,
-        "name": "Indie"
+        "id": 31,
+        "name": "Adventure"
       }
     ],
     "involved_companies": [
       {
-        "id": 91383,
+        "id": 6,
         "company": {
-          "id": 23964,
-          "name": "Plasticity Studios"
+          "id": 3,
+          "name": "Looking Glass Studios"
+        }
+      },
+      {
+        "id": 7,
+        "company": {
+          "id": 4,
+          "name": "Eidos Interactive"
+        }
+      },
+      {
+        "id": 21013,
+        "company": {
+          "id": 26,
+          "name": "Square Enix"
         }
       }
     ],
-    "name": "Tabletop Playground",
+    "name": "Thief: The Dark Project",
     "platforms": [
       {
         "id": 6,
@@ -158,127 +241,737 @@
     ],
     "release_dates": [
       {
-        "id": 220820,
-        "human": "May 15, 2020"
+        "id": 25214,
+        "human": "Nov 30, 1998"
+      },
+      {
+        "id": 25215,
+        "human": "1998"
       }
     ],
     "screenshots": [
       {
-        "id": 313890,
-        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6q76.jpg"
+        "id": 21009,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/wisqqkvrtl93vfocx6wn.jpg"
       },
       {
-        "id": 313891,
-        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6q77.jpg"
+        "id": 21010,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/zzd1rj1nvidcf2c1kxfi.jpg"
       },
       {
-        "id": 313892,
-        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6q78.jpg"
+        "id": 21011,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/toutvbhdj0ll88wt9jjf.jpg"
       },
       {
-        "id": 313893,
-        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6q79.jpg"
+        "id": 21012,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/e9hwdhnl6fbpne1thiu2.jpg"
       },
       {
-        "id": 313894,
-        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6q7a.jpg"
-      },
-      {
-        "id": 313895,
-        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6q7b.jpg"
+        "id": 21013,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ejqhijtsgahc2bru0tn8.jpg"
       }
     ],
     "similar_games": [
       {
-        "id": 31515,
+        "id": 1,
         "cover": {
-          "id": 75999,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1mn3.jpg"
+          "id": 291911,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co698n.jpg"
         }
       },
       {
-        "id": 33603,
+        "id": 3,
         "cover": {
-          "id": 97281,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2329.jpg"
+          "id": 129190,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2rom.jpg"
         }
       },
       {
-        "id": 36269,
+        "id": 4,
         "cover": {
-          "id": 81902,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r72.jpg"
+          "id": 96744,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co22nc.jpg"
         }
       },
       {
-        "id": 36962,
+        "id": 41,
         "cover": {
-          "id": 75577,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1mbd.jpg"
+          "id": 81923,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r7n.jpg"
         }
       },
       {
-        "id": 51577,
+        "id": 472,
         "cover": {
-          "id": 82238,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rge.jpg"
+          "id": 85100,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1tnw.jpg"
         }
       },
       {
-        "id": 55590,
+        "id": 533,
         "cover": {
-          "id": 81868,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r64.jpg"
+          "id": 266140,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co5pcs.jpg"
         }
       },
       {
-        "id": 55888,
+        "id": 660,
         "cover": {
-          "id": 75943,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1mlj.jpg"
+          "id": 82219,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rfv.jpg"
         }
       },
       {
-        "id": 65827,
+        "id": 3025,
         "cover": {
-          "id": 97215,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co230f.jpg"
+          "id": 94225,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co20pd.jpg"
         }
       },
       {
-        "id": 79134,
+        "id": 9377,
         "cover": {
-          "id": 82162,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rea.jpg"
+          "id": 125641,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2oy1.jpg"
         }
       },
       {
-        "id": 107992,
+        "id": 11118,
         "cover": {
-          "id": 75372,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1m5o.jpg"
+          "id": 266148,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co5pd0.jpg"
         }
       }
     ],
-    "summary": "Play any kind of tabletop game you want online! You make the rules in a physically simulated 3D sandbox. Or create your own games using the integrated editor and share them with the world!"
+    "summary": "Thief is a first-person stealth game that likes the dark. You sneak through the ruins of haunted cathedrals, subterranean ruins, and forbidding prisons, in a dark and sinister city - heavily inspired by Steampunk and the Dark Ages. Garrett finds an ally in the shadows, as he steals for money and uncovers the hidden agendas of allies and enemies. The story that unravels is one of deception and revenge.",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      },
+      {
+        "id": 17,
+        "name": "Fantasy"
+      },
+      {
+        "id": 23,
+        "name": "Stealth"
+      }
+    ]
   },
   {
-    "id": 32809,
+    "id": 3,
+    "cover": {
+      "id": 129190,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2rom.jpg"
+    },
     "genres": [
+      {
+        "id": 5,
+        "name": "Shooter"
+      },
       {
         "id": 13,
         "name": "Simulator"
       },
       {
-        "id": 15,
-        "name": "Strategy"
-      },
-      {
-        "id": 32,
-        "name": "Indie"
+        "id": 31,
+        "name": "Adventure"
       }
     ],
-    "name": "Ant Queen",
+    "involved_companies": [
+      {
+        "id": 489,
+        "company": {
+          "id": 25,
+          "name": "Ion Storm"
+        }
+      },
+      {
+        "id": 490,
+        "company": {
+          "id": 4,
+          "name": "Eidos Interactive"
+        }
+      },
+      {
+        "id": 21015,
+        "company": {
+          "id": 26,
+          "name": "Square Enix"
+        }
+      }
+    ],
+    "name": "Thief: Deadly Shadows",
+    "platforms": [
+      {
+        "id": 6,
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 11,
+        "name": "Xbox"
+      }
+    ],
+    "release_dates": [
+      {
+        "id": 25219,
+        "human": "May 25, 2004"
+      },
+      {
+        "id": 25220,
+        "human": "Jun 11, 2004"
+      },
+      {
+        "id": 25221,
+        "human": "Mar 29, 2007"
+      },
+      {
+        "id": 25222,
+        "human": "May 25, 2004"
+      },
+      {
+        "id": 25223,
+        "human": "Jun 11, 2004"
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 521,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ccvyu2a3t0ehowio0kcs.jpg"
+      },
+      {
+        "id": 522,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ggvkkgfccrlcgoduwnpc.jpg"
+      },
+      {
+        "id": 523,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/z8gvh3ozti5ct86ckhzo.jpg"
+      },
+      {
+        "id": 524,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/pcdj2kkzs7ydwrxtgszs.jpg"
+      },
+      {
+        "id": 525,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ynrqiomcxtdigktqlnpd.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 1,
+        "cover": {
+          "id": 291911,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co698n.jpg"
+        }
+      },
+      {
+        "id": 2,
+        "cover": {
+          "id": 96746,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co22ne.jpg"
+        }
+      },
+      {
+        "id": 4,
+        "cover": {
+          "id": 96744,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co22nc.jpg"
+        }
+      },
+      {
+        "id": 41,
+        "cover": {
+          "id": 81923,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r7n.jpg"
+        }
+      },
+      {
+        "id": 564,
+        "cover": {
+          "id": 226098,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co4ugi.jpg"
+        }
+      },
+      {
+        "id": 660,
+        "cover": {
+          "id": 82219,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rfv.jpg"
+        }
+      },
+      {
+        "id": 910,
+        "cover": {
+          "id": 138418,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2ysy.jpg"
+        }
+      },
+      {
+        "id": 3025,
+        "cover": {
+          "id": 94225,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co20pd.jpg"
+        }
+      },
+      {
+        "id": 9377,
+        "cover": {
+          "id": 125641,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2oy1.jpg"
+        }
+      },
+      {
+        "id": 9938,
+        "cover": {
+          "id": 82230,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rg6.jpg"
+        }
+      }
+    ],
+    "summary": "In the third instalment of the Thief series, master-thief Garrett is contacted by Keeper Artemus with a mission to steal two valuable artefacts. At the same time, Garrett learns about a prophecy: the coming of a Dark Age. He embarks upon a journey to unravel a mystery that threatens the existence of the order of Keepers. Is it possible that there is a traitor in their midst?\n\nThe stealth and thievery game, Thief: Deadly Shadows comes with a number of improvements over two previous parts. Released in 2004, it left behind the aging Dark Engine, using a heavily modified Unreal engine instead. Realistic lighting effects have been implemented: each character and object now casts its own shadow. A third person\u0027s view has been made available in addition to the standard first person perspective.\n\nThe stealth system that made Thief: The Dark Project and Thief 2: The Metal Age famous is still in place. You have to stick to the shadows and avoid making noise, as guards will react to anything suspicious. It is also the first game of the series that introduced free roaming. The City, divided into several unlockable districts, is yours to explore. You can interact with the city\u0027s inhabitants: pickpocket, steal, or even mug them for loot.",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      },
+      {
+        "id": 17,
+        "name": "Fantasy"
+      },
+      {
+        "id": 23,
+        "name": "Stealth"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "cover": {
+      "id": 96744,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co22nc.jpg"
+    },
+    "genres": [
+      {
+        "id": 5,
+        "name": "Shooter"
+      },
+      {
+        "id": 31,
+        "name": "Adventure"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 6992,
+        "company": {
+          "id": 27,
+          "name": "Eidos Montréal"
+        }
+      },
+      {
+        "id": 6993,
+        "company": {
+          "id": 26,
+          "name": "Square Enix"
+        }
+      }
+    ],
+    "name": "Thief",
+    "platforms": [
+      {
+        "id": 6,
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 9,
+        "name": "PlayStation 3"
+      },
+      {
+        "id": 12,
+        "name": "Xbox 360"
+      },
+      {
+        "id": 14,
+        "name": "Mac"
+      },
+      {
+        "id": 48,
+        "name": "PlayStation 4"
+      },
+      {
+        "id": 49,
+        "name": "Xbox One"
+      }
+    ],
+    "release_dates": [
+      {
+        "id": 7643,
+        "human": "Feb 25, 2014"
+      },
+      {
+        "id": 7644,
+        "human": "Feb 25, 2014"
+      },
+      {
+        "id": 7645,
+        "human": "Feb 25, 2014"
+      },
+      {
+        "id": 7646,
+        "human": "Feb 25, 2014"
+      },
+      {
+        "id": 106370,
+        "human": "Feb 25, 2014"
+      },
+      {
+        "id": 106371,
+        "human": "Feb 28, 2014"
+      },
+      {
+        "id": 136391,
+        "human": "Feb 25, 2014"
+      },
+      {
+        "id": 421320,
+        "human": "Feb 27, 2014"
+      },
+      {
+        "id": 421321,
+        "human": "Feb 27, 2014"
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 2328,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/zeqv7lvh8aaemeaa2bhl.jpg"
+      },
+      {
+        "id": 2329,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/fnymr7nmagyhaycwkftg.jpg"
+      },
+      {
+        "id": 2330,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/u9m4lnfpkv3u9sh1ufsw.jpg"
+      },
+      {
+        "id": 2331,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sgbhfpclrk5udlowkpyq.jpg"
+      },
+      {
+        "id": 6519,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/mrhprawxqcaidwvhszch.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 533,
+        "cover": {
+          "id": 266140,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co5pcs.jpg"
+        }
+      },
+      {
+        "id": 1121,
+        "cover": {
+          "id": 125924,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2p5w.jpg"
+        }
+      },
+      {
+        "id": 2031,
+        "cover": {
+          "id": 95040,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co21c0.jpg"
+        }
+      },
+      {
+        "id": 3025,
+        "cover": {
+          "id": 94225,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co20pd.jpg"
+        }
+      },
+      {
+        "id": 3042,
+        "cover": {
+          "id": 287666,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co65yq.jpg"
+        }
+      },
+      {
+        "id": 3188,
+        "cover": {
+          "id": 81910,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r7a.jpg"
+        }
+      },
+      {
+        "id": 5606,
+        "cover": {
+          "id": 90098,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1xiq.jpg"
+        }
+      },
+      {
+        "id": 5647,
+        "cover": {
+          "id": 81896,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r6w.jpg"
+        }
+      },
+      {
+        "id": 9938,
+        "cover": {
+          "id": 82230,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rg6.jpg"
+        }
+      },
+      {
+        "id": 11118,
+        "cover": {
+          "id": 266148,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co5pd0.jpg"
+        }
+      }
+    ],
+    "summary": "There is a rising tide of fear in The City. Hatred saturates every stone and whilst the rich prosper, the less fortunate face misery and repression. Ravaged with sickness and famine, they wait for something to change.\nInto this shadowy world steps Garrett, THE master thief in Thief, a reinvention of a franchise that helped define an entire genre of games. This first-person adventure features intelligent design that allows players to take full control, with freedom to choose their path through the game\u0027s levels and how they approach and overcome each challenge.",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      },
+      {
+        "id": 23,
+        "name": "Stealth"
+      },
+      {
+        "id": 33,
+        "name": "Sandbox"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "cover": {
+      "id": 93899,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co20gb.jpg"
+    },
+    "genres": [
+      {
+        "id": 12,
+        "name": "Role-playing (RPG)"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 11,
+        "company": {
+          "id": 2,
+          "name": "BioWare"
+        }
+      },
+      {
+        "id": 12,
+        "company": {
+          "id": 12,
+          "name": "Black Isle Studios"
+        }
+      },
+      {
+        "id": 13,
+        "company": {
+          "id": 5,
+          "name": "Interplay Entertainment"
+        }
+      },
+      {
+        "id": 18471,
+        "company": {
+          "id": 222,
+          "name": "BioWare Edmonton"
+        }
+      }
+    ],
+    "name": "Baldur\u0027s Gate",
+    "platforms": [
+      {
+        "id": 3,
+        "name": "Linux"
+      },
+      {
+        "id": 6,
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 14,
+        "name": "Mac"
+      },
+      {
+        "id": 39,
+        "name": "iOS"
+      }
+    ],
+    "release_dates": [
+      {
+        "id": 28327,
+        "human": "Oct 14, 2015"
+      },
+      {
+        "id": 124722,
+        "human": "Dec 21, 1998"
+      },
+      {
+        "id": 149982,
+        "human": "Nov 30, 2012"
+      },
+      {
+        "id": 178907,
+        "human": "Oct 14, 2015"
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 15541,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/pnlcmjbgsgcroc7eckp0.jpg"
+      },
+      {
+        "id": 136331,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/g1luboq2uilkirzjmjix.jpg"
+      },
+      {
+        "id": 136332,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/inlndqpsep41avgxl8re.jpg"
+      },
+      {
+        "id": 136333,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/kovmsqezzyde0mnacncx.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 19404,
+        "cover": {
+          "id": 90771,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1y1f.jpg"
+        }
+      },
+      {
+        "id": 22790,
+        "cover": {
+          "id": 137745,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2ya9.jpg"
+        }
+      },
+      {
+        "id": 49414,
+        "cover": {
+          "id": 81916,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r7g.jpg"
+        }
+      },
+      {
+        "id": 69007,
+        "cover": {
+          "id": 70957,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ir1.jpg"
+        }
+      },
+      {
+        "id": 96217,
+        "cover": {
+          "id": 72919,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1k9j.jpg"
+        }
+      },
+      {
+        "id": 99118,
+        "cover": {
+          "id": 82223,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rfz.jpg"
+        }
+      },
+      {
+        "id": 106987,
+        "cover": {
+          "id": 130983,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2t2f.jpg"
+        }
+      },
+      {
+        "id": 113636,
+        "cover": {
+          "id": 82689,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rsx.jpg"
+        }
+      },
+      {
+        "id": 113910,
+        "cover": {
+          "id": 70723,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ikj.jpg"
+        }
+      },
+      {
+        "id": 115653,
+        "cover": {
+          "id": 92737,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1zk1.jpg"
+        }
+      }
+    ],
+    "summary": "Baldur\u0027s Gate is a fantasy role-playing video game developed by BioWare and published in 1998 by Interplay Entertainment. It is the first game in the Baldur\u0027s Gate series and takes place in the Forgotten Realms, a high fantasy campaign setting, using a modified version of the Advanced Dungeons \u0026 Dragons (AD\u0026D) 2nd edition rules. It was the first game to use the Infinity Engine for its graphics, with Interplay using the engine for other Forgotten Realms-licensed games, including the Icewind Dale series, as well as other licensed D\u0026D campaign worlds such as Planescape: Torment. The game\u0027s story focuses on players controlling a protagonist of their own creation who finds themselves travelling across the Sword Coast alongside a party of companions, to unravel the mystery surrounding a sudden iron crisis affecting the region and attempting to discover the culprits behind it, all while uncovering dark secrets about their origins and dealing with attempts on their life.",
+    "themes": [
+      {
+        "id": 17,
+        "name": "Fantasy"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "cover": {
+      "id": 90896,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1y4w.jpg"
+    },
+    "genres": [
+      {
+        "id": 12,
+        "name": "Role-playing (RPG)"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 14,
+        "company": {
+          "id": 2,
+          "name": "BioWare"
+        }
+      },
+      {
+        "id": 158,
+        "company": {
+          "id": 12,
+          "name": "Black Isle Studios"
+        }
+      },
+      {
+        "id": 18474,
+        "company": {
+          "id": 5,
+          "name": "Interplay Entertainment"
+        }
+      },
+      {
+        "id": 18475,
+        "company": {
+          "id": 222,
+          "name": "BioWare Edmonton"
+        }
+      }
+    ],
+    "name": "Baldur\u0027s Gate II: Shadows of Amn",
     "platforms": [
       {
         "id": 3,
@@ -295,262 +988,398 @@
     ],
     "release_dates": [
       {
-        "id": 76095,
-        "human": "Jun 17, 2016"
+        "id": 28326,
+        "human": "Oct 14, 2014"
       },
       {
-        "id": 76096,
-        "human": "Jun 17, 2016"
+        "id": 124724,
+        "human": "Sep 21, 2000"
       },
       {
-        "id": 76097,
-        "human": "Jun 17, 2016"
+        "id": 124725,
+        "human": "Sep 2001"
+      },
+      {
+        "id": 124726,
+        "human": "Sep 29, 2000"
       }
     ],
     "screenshots": [
       {
-        "id": 53585,
-        "url": "//images.igdb.com/igdb/image/upload/t_thumb/jl1cxzhafxt6foz9drvl.jpg"
+        "id": 9163,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/u6oyz9tazkdzfuaha2oy.jpg"
       },
       {
-        "id": 53586,
-        "url": "//images.igdb.com/igdb/image/upload/t_thumb/yc3w51ev456sxod0nu9h.jpg"
+        "id": 11341,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/s1u29bg7vfsdent9cnhf.jpg"
       },
       {
-        "id": 53587,
-        "url": "//images.igdb.com/igdb/image/upload/t_thumb/rdsxc7haaqza95ddzixt.jpg"
+        "id": 11342,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/cwbxvah22y5lv3lnq173.jpg"
       },
       {
-        "id": 53588,
-        "url": "//images.igdb.com/igdb/image/upload/t_thumb/xfryefjbpdzdovi02wx0.jpg"
+        "id": 11343,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/lcvpmm5wtjkv7gxgzu8r.jpg"
       },
       {
-        "id": 53589,
-        "url": "//images.igdb.com/igdb/image/upload/t_thumb/nhcmvbdymacxkr2z2swu.jpg"
+        "id": 11344,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/yilgqbbkc4hdyzl2asmn.jpg"
       }
     ],
     "similar_games": [
       {
-        "id": 31515,
+        "id": 84,
         "cover": {
-          "id": 75999,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1mn3.jpg"
+          "id": 84638,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1tb2.jpg"
         }
       },
       {
-        "id": 33603,
+        "id": 125,
         "cover": {
-          "id": 97281,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2329.jpg"
+          "id": 161304,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co3ggo.jpg"
         }
       },
       {
-        "id": 36269,
+        "id": 214,
         "cover": {
-          "id": 81902,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r72.jpg"
+          "id": 84181,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1syd.jpg"
         }
       },
       {
-        "id": 36962,
+        "id": 216,
         "cover": {
-          "id": 75577,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1mbd.jpg"
+          "id": 84279,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1t13.jpg"
         }
       },
       {
-        "id": 51577,
+        "id": 472,
         "cover": {
-          "id": 82238,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rge.jpg"
+          "id": 85100,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1tnw.jpg"
         }
       },
       {
-        "id": 55590,
+        "id": 753,
         "cover": {
-          "id": 81868,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r64.jpg"
+          "id": 84545,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1t8h.jpg"
         }
       },
       {
-        "id": 55888,
+        "id": 832,
         "cover": {
-          "id": 75943,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1mlj.jpg"
+          "id": 161291,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co3ggb.jpg"
         }
       },
       {
-        "id": 65827,
+        "id": 876,
         "cover": {
-          "id": 97215,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co230f.jpg"
+          "id": 84552,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1t8o.jpg"
         }
       },
       {
-        "id": 79134,
+        "id": 1593,
         "cover": {
-          "id": 82162,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rea.jpg"
+          "id": 82246,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rgm.jpg"
         }
       },
       {
-        "id": 107992,
+        "id": 2480,
         "cover": {
-          "id": 75372,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1m5o.jpg"
+          "id": 82643,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rrn.jpg"
         }
       }
     ],
-    "summary": "Begin a journey like no other, become the Ant Queen and establish your empire.\nAnt Queen is a simulation game where you breed different types of ants to ultimately conquer your surroundings and achieve a stable ant colony."
+    "summary": "Every World has conflict. Good and evil. Friend and foe. Safety and danger. In Baldur\u0027s Gate II: Shadows of Amn, you\u0027ll find yourself between these factions. This epic sequel to the Roleplaying Game of the Year will immerse you in a world of intrigue, adventure and fierce combat where your ability to discern the difference between these sides - with the assistance of steel and spell - determines your fate. Set in the Forgotten Realms campaign setting, Baldur\u0027s Gate II is the most stunning Advanced Dungeons and Dragons game to date.",
+    "themes": [
+      {
+        "id": 17,
+        "name": "Fantasy"
+      }
+    ]
   },
   {
-    "id": 105208,
+    "id": 9,
     "cover": {
-      "id": 238049,
-      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co53oh.jpg"
+      "id": 104633,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co28qh.jpg"
     },
     "genres": [
       {
-        "id": 32,
-        "name": "Indie"
-      }
-    ],
-    "name": "Switch - Black \u0026 White",
-    "platforms": [
-      {
-        "id": 6,
-        "name": "PC (Microsoft Windows)"
-      }
-    ],
-    "release_dates": [
-      {
-        "id": 381857,
-        "human": "Jul 21, 2018"
-      }
-    ],
-    "screenshots": [
-      {
-        "id": 224316,
-        "url": "//images.igdb.com/igdb/image/upload/t_thumb/jphh00umdvmn8z4asq4g.jpg"
+        "id": 12,
+        "name": "Role-playing (RPG)"
       },
       {
-        "id": 224317,
-        "url": "//images.igdb.com/igdb/image/upload/t_thumb/yhtkw7fqe43wljde8jvx.jpg"
+        "id": 15,
+        "name": "Strategy"
       },
       {
-        "id": 224318,
-        "url": "//images.igdb.com/igdb/image/upload/t_thumb/qknixvkhraohqalkj9kd.jpg"
+        "id": 16,
+        "name": "Turn-based strategy (TBS)"
       },
       {
-        "id": 224319,
-        "url": "//images.igdb.com/igdb/image/upload/t_thumb/wkhbjfuhuxxkrc3hmtuo.jpg"
+        "id": 24,
+        "name": "Tactical"
       },
       {
-        "id": 224320,
-        "url": "//images.igdb.com/igdb/image/upload/t_thumb/fdqrmocobiwcsnjaeeqh.jpg"
-      }
-    ],
-    "similar_games": [
-      {
-        "id": 51591,
-        "cover": {
-          "id": 82498,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rnm.jpg"
-        }
-      },
-      {
-        "id": 65827,
-        "cover": {
-          "id": 97215,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co230f.jpg"
-        }
-      },
-      {
-        "id": 75948,
-        "cover": {
-          "id": 82408,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rl4.jpg"
-        }
-      },
-      {
-        "id": 94741,
-        "cover": {
-          "id": 74786,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1lpe.jpg"
-        }
-      },
-      {
-        "id": 106992,
-        "cover": {
-          "id": 70379,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1iaz.jpg"
-        }
-      },
-      {
-        "id": 111043,
-        "cover": {
-          "id": 76658,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1n5e.jpg"
-        }
-      },
-      {
-        "id": 113895,
-        "cover": {
-          "id": 73442,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ko2.jpg"
-        }
-      },
-      {
-        "id": 115850,
-        "cover": {
-          "id": 72064,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1jls.jpg"
-        }
-      },
-      {
-        "id": 119788,
-        "cover": {
-          "id": 101481,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co26ax.jpg"
-        }
-      },
-      {
-        "id": 121309,
-        "cover": {
-          "id": 213883,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co4l17.jpg"
-        }
-      }
-    ],
-    "summary": "Minimalistic game in the style \"Black \u0026 White\". Game that will test your reaction."
-  },
-  {
-    "id": 89616,
-    "cover": {
-      "id": 192106,
-      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co448a.jpg"
-    },
-    "genres": [
-      {
-        "id": 9,
-        "name": "Puzzle"
-      },
-      {
-        "id": 33,
-        "name": "Arcade"
+        "id": 31,
+        "name": "Adventure"
       }
     ],
     "involved_companies": [
       {
-        "id": 154613,
+        "id": 681,
         "company": {
-          "id": 38839,
-          "name": "Meng Li"
+          "id": 274,
+          "name": "Sir-Tech Canada"
+        }
+      },
+      {
+        "id": 682,
+        "company": {
+          "id": 267,
+          "name": "TalonSoft"
+        }
+      },
+      {
+        "id": 683,
+        "company": {
+          "id": 275,
+          "name": "Titan Computer"
         }
       }
     ],
-    "name": "Bubble Whirl Shooter",
+    "name": "Jagged Alliance 2",
     "platforms": [
+      {
+        "id": 3,
+        "name": "Linux"
+      },
+      {
+        "id": 6,
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 16,
+        "name": "Amiga"
+      }
+    ],
+    "release_dates": [
+      {
+        "id": 515,
+        "human": "Jul 23, 1999"
+      },
+      {
+        "id": 516,
+        "human": "Jul 23, 1999"
+      },
+      {
+        "id": 517,
+        "human": "Jul 23, 1999"
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 990,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/kddtrngo8vqlqcb062cc.jpg"
+      },
+      {
+        "id": 991,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/cf1m4yktirxz5fph2sbz.jpg"
+      },
+      {
+        "id": 992,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/jyuagh82tmpqt72hce9w.jpg"
+      },
+      {
+        "id": 993,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ygbth3c3ktuzvzvbn2i6.jpg"
+      },
+      {
+        "id": 994,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/zdnazfmtd5p6j6ph7o5p.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 564,
+        "cover": {
+          "id": 226098,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co4ugi.jpg"
+        }
+      },
+      {
+        "id": 848,
+        "cover": {
+          "id": 107506,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2aya.jpg"
+        }
+      },
+      {
+        "id": 2365,
+        "cover": {
+          "id": 157394,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co3dg2.jpg"
+        }
+      },
+      {
+        "id": 5652,
+        "cover": {
+          "id": 82070,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rbq.jpg"
+        }
+      },
+      {
+        "id": 8744,
+        "cover": {
+          "id": 82601,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rqh.jpg"
+        }
+      },
+      {
+        "id": 9538,
+        "cover": {
+          "id": 94038,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co20k6.jpg"
+        }
+      },
+      {
+        "id": 9938,
+        "cover": {
+          "id": 82230,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rg6.jpg"
+        }
+      },
+      {
+        "id": 10297,
+        "cover": {
+          "id": 82671,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rsf.jpg"
+        }
+      },
+      {
+        "id": 10388,
+        "cover": {
+          "id": 82673,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rsh.jpg"
+        }
+      },
+      {
+        "id": 14394,
+        "cover": {
+          "id": 70873,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1iop.jpg"
+        }
+      }
+    ],
+    "summary": "Jagged Alliance 2 is a perfect blend of strategy, roleplaying and tactical combat. With dozen of new weapons, 150+ individual in-game characters, realistic combat physics and more than 10,000 lines of digitalized speech. Welcome to the killing grounds!",
+    "themes": [
+      {
+        "id": 18,
+        "name": "Science fiction"
+      },
+      {
+        "id": 22,
+        "name": "Historical"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "cover": {
+      "id": 95796,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co21x0.jpg"
+    },
+    "genres": [
+      {
+        "id": 12,
+        "name": "Role-playing (RPG)"
+      },
+      {
+        "id": 31,
+        "name": "Adventure"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 5174,
+        "company": {
+          "id": 2,
+          "name": "BioWare"
+        }
+      },
+      {
+        "id": 5175,
+        "company": {
+          "id": 52,
+          "name": "LTI Gray Matter"
+        }
+      },
+      {
+        "id": 5176,
+        "company": {
+          "id": 53,
+          "name": "Microsoft Game Studios"
+        }
+      },
+      {
+        "id": 5177,
+        "company": {
+          "id": 8,
+          "name": "2K Games"
+        }
+      },
+      {
+        "id": 88971,
+        "company": {
+          "id": 73,
+          "name": "Aspyr Media"
+        }
+      },
+      {
+        "id": 95081,
+        "company": {
+          "id": 1,
+          "name": "Electronic Arts"
+        }
+      },
+      {
+        "id": 205391,
+        "company": {
+          "id": 54,
+          "name": "TransGaming Technologies"
+        }
+      },
+      {
+        "id": 205392,
+        "company": {
+          "id": 73,
+          "name": "Aspyr Media"
+        }
+      }
+    ],
+    "name": "Jade Empire: Special Edition",
+    "platforms": [
+      {
+        "id": 6,
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 11,
+        "name": "Xbox"
+      },
+      {
+        "id": 14,
+        "name": "Mac"
+      },
       {
         "id": 34,
         "name": "Android"
@@ -560,304 +1389,88 @@
         "name": "iOS"
       }
     ],
-    "similar_games": [
-      {
-        "id": 18115,
-        "cover": {
-          "id": 14327,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/bj9is2kiojbsu0dmmpns.jpg"
-        }
-      },
-      {
-        "id": 19222,
-        "cover": {
-          "id": 15533,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/tzsnzwgiv9ltiihzk78t.jpg"
-        }
-      },
-      {
-        "id": 25905,
-        "cover": {
-          "id": 82692,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rt0.jpg"
-        }
-      },
-      {
-        "id": 41349,
-        "cover": {
-          "id": 26537,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/z0txggvrpwn6kyo9fpxt.jpg"
-        }
-      },
-      {
-        "id": 85804,
-        "cover": {
-          "id": 63503,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/vpugdpzhmmvfwgnekecq.jpg"
-        }
-      },
-      {
-        "id": 87170,
-        "cover": {
-          "id": 63131,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/gcsw2oz25sdtlnhdfpoi.jpg"
-        }
-      },
-      {
-        "id": 87507,
-        "cover": {
-          "id": 82678,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rsm.jpg"
-        }
-      },
-      {
-        "id": 90788,
-        "cover": {
-          "id": 82609,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rqp.jpg"
-        }
-      },
-      {
-        "id": 90965,
-        "cover": {
-          "id": 82276,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rhg.jpg"
-        }
-      },
-      {
-        "id": 95776,
-        "cover": {
-          "id": 82690,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rsy.jpg"
-        }
-      }
-    ],
-    "summary": "Shoot bubbles and match colors to pop your way up to victory in this bubble shooting adventure, win magic keys to unlock more secret colorful bubble world, it’s time to enjoy the endless bubble shooting fun!"
-  },
-  {
-    "id": 85031,
-    "cover": {
-      "id": 61466,
-      "url": "//images.igdb.com/igdb/image/upload/t_thumb/yektasaxw6l4ejte7ljb.jpg"
-    },
-    "genres": [
-      {
-        "id": 9,
-        "name": "Puzzle"
-      }
-    ],
-    "involved_companies": [
-      {
-        "id": 130531,
-        "company": {
-          "id": 709,
-          "name": "Teyon"
-        }
-      },
-      {
-        "id": 130532,
-        "company": {
-          "id": 4367,
-          "name": "SelectSoft Publishing"
-        }
-      }
-    ],
-    "name": "City Mysteries",
-    "platforms": [
-      {
-        "id": 37,
-        "name": "Nintendo 3DS"
-      }
-    ],
     "release_dates": [
       {
-        "id": 138333,
-        "human": "Jul 03, 2014"
+        "id": 182661,
+        "human": "Nov 15, 2016"
+      },
+      {
+        "id": 352792,
+        "human": "Oct 05, 2016"
+      },
+      {
+        "id": 390555,
+        "human": "Feb 27, 2007"
+      },
+      {
+        "id": 390556,
+        "human": "Aug 18, 2008"
+      },
+      {
+        "id": 412088,
+        "human": "Feb 27, 2007"
+      },
+      {
+        "id": 455870,
+        "human": "Oct 06, 2016"
       }
     ],
     "screenshots": [
       {
-        "id": 155025,
-        "url": "//images.igdb.com/igdb/image/upload/t_thumb/vqubr5dngvnav82gr2qq.jpg"
+        "id": 25,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/vtithwow0cy342ihrphs.jpg"
       },
       {
-        "id": 155026,
-        "url": "//images.igdb.com/igdb/image/upload/t_thumb/hef5xbwivlqhormbijmq.jpg"
+        "id": 913,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/gjdvo89xdmrigtqevmsw.jpg"
       },
       {
-        "id": 155027,
-        "url": "//images.igdb.com/igdb/image/upload/t_thumb/z9cp1rt16dpybiqt5kcn.jpg"
+        "id": 914,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/djy4u1gxkwtwbpnnq9ag.jpg"
+      },
+      {
+        "id": 915,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/anweqofr6wx9cey82dvu.jpg"
+      },
+      {
+        "id": 916,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/pnkbxiadz8zefrq5rpxz.jpg"
       }
     ],
     "similar_games": [
       {
-        "id": 10603,
+        "id": 5867,
         "cover": {
-          "id": 95135,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co21en.jpg"
+          "id": 95797,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co21x1.jpg"
         }
       },
       {
-        "id": 19222,
+        "id": 27092,
         "cover": {
-          "id": 15533,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/tzsnzwgiv9ltiihzk78t.jpg"
+          "id": 79980,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ppo.jpg"
         }
       },
       {
-        "id": 25905,
+        "id": 28010,
         "cover": {
-          "id": 82692,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rt0.jpg"
+          "id": 69273,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1hg9.jpg"
         }
       },
       {
-        "id": 41349,
+        "id": 55199,
         "cover": {
-          "id": 26537,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/z0txggvrpwn6kyo9fpxt.jpg"
+          "id": 81874,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r6a.jpg"
         }
       },
       {
-        "id": 86974,
+        "id": 81249,
         "cover": {
-          "id": 63070,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/ji71ue6whfo0dwhrdg20.jpg"
-        }
-      },
-      {
-        "id": 87507,
-        "cover": {
-          "id": 82678,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rsm.jpg"
-        }
-      },
-      {
-        "id": 88511,
-        "cover": {
-          "id": 64638,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/eyrnmlvuighg6q9klayq.jpg"
-        }
-      },
-      {
-        "id": 90788,
-        "cover": {
-          "id": 82609,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rqp.jpg"
-        }
-      },
-      {
-        "id": 95776,
-        "cover": {
-          "id": 82690,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rsy.jpg"
-        }
-      },
-      {
-        "id": 106992,
-        "cover": {
-          "id": 70379,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1iaz.jpg"
-        }
-      }
-    ],
-    "summary": "Search buildings, streets, landmarks as you seek and find hidden objects in New York, Paris, Moscow and London!"
-  },
-  {
-    "id": 32055,
-    "genres": [
-      {
-        "id": 31,
-        "name": "Adventure"
-      },
-      {
-        "id": 32,
-        "name": "Indie"
-      }
-    ],
-    "name": "Puzzle Blocks",
-    "platforms": [
-      {
-        "id": 6,
-        "name": "PC (Microsoft Windows)"
-      }
-    ],
-    "release_dates": [
-      {
-        "id": 75624,
-        "human": "Jul 22, 2016"
-      }
-    ],
-    "screenshots": [
-      {
-        "id": 51757,
-        "url": "//images.igdb.com/igdb/image/upload/t_thumb/kvbjeprp9raj2wxv2fsw.jpg"
-      },
-      {
-        "id": 51758,
-        "url": "//images.igdb.com/igdb/image/upload/t_thumb/znnciswh1ih0qyjkrvoh.jpg"
-      },
-      {
-        "id": 51759,
-        "url": "//images.igdb.com/igdb/image/upload/t_thumb/mrngwlepyyy3zmgza1ly.jpg"
-      },
-      {
-        "id": 51760,
-        "url": "//images.igdb.com/igdb/image/upload/t_thumb/phdaozl4ensx0hddkupx.jpg"
-      },
-      {
-        "id": 51761,
-        "url": "//images.igdb.com/igdb/image/upload/t_thumb/qmbjbwsx3w7qzxhn5c90.jpg"
-      }
-    ],
-    "similar_games": [
-      {
-        "id": 13189,
-        "cover": {
-          "id": 81889,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r6p.jpg"
-        }
-      },
-      {
-        "id": 25222,
-        "cover": {
-          "id": 185047,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co3ys7.jpg"
-        }
-      },
-      {
-        "id": 27266,
-        "cover": {
-          "id": 82227,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rg3.jpg"
-        }
-      },
-      {
-        "id": 28277,
-        "cover": {
-          "id": 68046,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/v8qebygfdgzfmjaez55j.jpg"
-        }
-      },
-      {
-        "id": 55282,
-        "cover": {
-          "id": 71023,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1isv.jpg"
-        }
-      },
-      {
-        "id": 75948,
-        "cover": {
-          "id": 82408,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rl4.jpg"
-        }
-      },
-      {
-        "id": 87975,
-        "cover": {
-          "id": 71308,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1j0s.jpg"
+          "id": 91183,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ycv.jpg"
         }
       },
       {
@@ -868,134 +1481,17 @@
         }
       },
       {
-        "id": 106992,
+        "id": 101608,
         "cover": {
-          "id": 70379,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1iaz.jpg"
+          "id": 69296,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1hgw.jpg"
         }
       },
       {
-        "id": 111130,
+        "id": 103303,
         "cover": {
-          "id": 68904,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1h60.jpg"
-        }
-      }
-    ],
-    "summary": "Puzzle Blocks is a Virtual Reality Nonogram Puzzles game for HTC Vive, \nCreate \u0026 Share custom levels and puzzles directly on Steam Workshop."
-  },
-  {
-    "id": 116932,
-    "genres": [
-      {
-        "id": 32,
-        "name": "Indie"
-      }
-    ],
-    "name": "With Loneliness",
-    "platforms": [
-      {
-        "id": 6,
-        "name": "PC (Microsoft Windows)"
-      }
-    ],
-    "release_dates": [
-      {
-        "id": 419048,
-        "human": "Apr 29, 2019"
-      }
-    ],
-    "screenshots": [
-      {
-        "id": 303088,
-        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6hv4.jpg"
-      },
-      {
-        "id": 303089,
-        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6hv5.jpg"
-      },
-      {
-        "id": 303090,
-        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6hv6.jpg"
-      },
-      {
-        "id": 303091,
-        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6hv7.jpg"
-      },
-      {
-        "id": 303092,
-        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6hv8.jpg"
-      },
-      {
-        "id": 303093,
-        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6hv9.jpg"
-      },
-      {
-        "id": 303094,
-        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6hva.jpg"
-      },
-      {
-        "id": 303095,
-        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6hvb.jpg"
-      },
-      {
-        "id": 303096,
-        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6hvc.jpg"
-      },
-      {
-        "id": 303097,
-        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6hvd.jpg"
-      },
-      {
-        "id": 303098,
-        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6hve.jpg"
-      },
-      {
-        "id": 303099,
-        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6hvf.jpg"
-      }
-    ],
-    "similar_games": [
-      {
-        "id": 32902,
-        "cover": {
-          "id": 82654,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rry.jpg"
-        }
-      },
-      {
-        "id": 37419,
-        "cover": {
-          "id": 272868,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co5ujo.jpg"
-        }
-      },
-      {
-        "id": 40524,
-        "cover": {
-          "id": 99438,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co24q6.jpg"
-        }
-      },
-      {
-        "id": 76263,
-        "cover": {
-          "id": 291832,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co696g.jpg"
-        }
-      },
-      {
-        "id": 96217,
-        "cover": {
-          "id": 72919,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1k9j.jpg"
-        }
-      },
-      {
-        "id": 105233,
-        "cover": {
-          "id": 75169,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1m01.jpg"
+          "id": 91145,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ybt.jpg"
         }
       },
       {
@@ -1006,155 +1502,2476 @@
         }
       },
       {
-        "id": 111130,
+        "id": 113360,
         "cover": {
-          "id": 68904,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1h60.jpg"
-        }
-      },
-      {
-        "id": 113895,
-        "cover": {
-          "id": 73442,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ko2.jpg"
-        }
-      },
-      {
-        "id": 119121,
-        "cover": {
-          "id": 74643,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1llf.jpg"
+          "id": 81869,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r65.jpg"
         }
       }
     ],
-    "summary": "\"With Loneliness\" is an athletic VR game that aims to escape from \"garbage world\" by clearing obstacles.",
+    "summary": "Step into the role of an aspiring martial-arts master and follow the path of the open palm or the closed fist. In this multi-award-winning action-RPG, your choices and actions will determine the fate of the entire Jade Empire. Will you prevent the destruction of this beautiful land, or will you crush it beneath your heel? Are you a warrior who uses his strength and fighting mastery to bring peace, or will you instead use your power to bring pain and ruin? The choice is yours.",
     "themes": [
       {
         "id": 1,
         "name": "Action"
+      },
+      {
+        "id": 17,
+        "name": "Fantasy"
       }
     ]
   },
   {
-    "id": 230654,
-    "involved_companies": [
-      {
-        "id": 199895,
-        "company": {
-          "id": 23993,
-          "name": "Tec Toy"
-        }
-      }
-    ],
-    "name": "Hockey de Mesa",
-    "platforms": [
-      {
-        "id": 64,
-        "name": "Sega Master System/Mark III"
-      }
-    ],
-    "release_dates": [
-      {
-        "id": 436853,
-        "human": "Aug 2008"
-      }
-    ]
-  },
-  {
-    "id": 45932,
+    "id": 11,
     "cover": {
-      "id": 246696,
-      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co5aco.jpg"
+      "id": 123160,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2n14.jpg"
     },
     "genres": [
       {
-        "id": 9,
-        "name": "Puzzle"
+        "id": 12,
+        "name": "Role-playing (RPG)"
       }
     ],
-    "name": "Effacer: Hangman from the 25th Century",
+    "involved_companies": [
+      {
+        "id": 473,
+        "company": {
+          "id": 117,
+          "name": "Troika Games"
+        }
+      },
+      {
+        "id": 474,
+        "company": {
+          "id": 66,
+          "name": "Activision"
+        }
+      },
+      {
+        "id": 18932,
+        "company": {
+          "id": 1,
+          "name": "Electronic Arts"
+        }
+      }
+    ],
+    "name": "Vampire: The Masquerade - Bloodlines",
     "platforms": [
       {
-        "id": 117,
-        "name": "Philips CD-i"
+        "id": 6,
+        "name": "PC (Microsoft Windows)"
       }
     ],
     "release_dates": [
       {
-        "id": 98039,
-        "human": "Feb 01, 1994"
+        "id": 21545,
+        "human": "Nov 16, 2004"
+      },
+      {
+        "id": 21546,
+        "human": "Nov 19, 2004"
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 501,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/uhvnbk4ffkascq1gjl8s.jpg"
+      },
+      {
+        "id": 502,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/mwbjpavj9vlj72gferdu.jpg"
+      },
+      {
+        "id": 503,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/h0vzqwuqnmepah8ifkoo.jpg"
+      },
+      {
+        "id": 504,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/iw7i5qtyrkpvd86zwihr.jpg"
+      },
+      {
+        "id": 505,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/touscumdyispwjwgvp9g.jpg"
       }
     ],
     "similar_games": [
       {
-        "id": 10603,
+        "id": 6,
         "cover": {
-          "id": 95135,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co21en.jpg"
+          "id": 90896,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1y4w.jpg"
         }
       },
       {
-        "id": 19222,
+        "id": 16,
         "cover": {
-          "id": 15533,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/tzsnzwgiv9ltiihzk78t.jpg"
+          "id": 85752,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1u60.jpg"
         }
       },
       {
-        "id": 25905,
+        "id": 41,
         "cover": {
-          "id": 82692,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rt0.jpg"
+          "id": 81923,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r7n.jpg"
         }
       },
       {
-        "id": 41349,
+        "id": 80,
         "cover": {
-          "id": 26537,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/z0txggvrpwn6kyo9fpxt.jpg"
+          "id": 90429,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1xrx.jpg"
         }
       },
       {
-        "id": 86974,
+        "id": 571,
         "cover": {
-          "id": 63070,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/ji71ue6whfo0dwhrdg20.jpg"
+          "id": 81921,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r7l.jpg"
         }
       },
       {
-        "id": 87507,
+        "id": 733,
         "cover": {
-          "id": 82678,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rsm.jpg"
+          "id": 120935,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2lbb.jpg"
         }
       },
       {
-        "id": 88511,
+        "id": 1009,
         "cover": {
-          "id": 64638,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/eyrnmlvuighg6q9klayq.jpg"
+          "id": 81915,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r7f.jpg"
         }
       },
       {
-        "id": 90788,
+        "id": 3025,
         "cover": {
-          "id": 82609,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rqp.jpg"
+          "id": 94225,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co20pd.jpg"
         }
       },
       {
-        "id": 95776,
+        "id": 9498,
         "cover": {
-          "id": 82690,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rsy.jpg"
+          "id": 100505,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co25jt.jpg"
         }
       },
       {
-        "id": 106992,
+        "id": 9630,
         "cover": {
-          "id": 70379,
-          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1iaz.jpg"
+          "id": 91158,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1yc6.jpg"
         }
+      }
+    ],
+    "summary": "A first- and third-person Western RPG based on the Vampire: The Masquerade tabletop RPG with a heavy emphasis on character building and role-playing, in which the player embodies a fledgling vampire under the guidance of vampire prince Sebastian LaCroix. The player must serve the prince while getting to know the various factions of vampires in Los Angeles and forming their own political views.",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      },
+      {
+        "id": 17,
+        "name": "Fantasy"
+      },
+      {
+        "id": 19,
+        "name": "Horror"
+      },
+      {
+        "id": 20,
+        "name": "Thriller"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "cover": {
+      "id": 79871,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1pmn.jpg"
+    },
+    "genres": [
+      {
+        "id": 12,
+        "name": "Role-playing (RPG)"
+      },
+      {
+        "id": 31,
+        "name": "Adventure"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 415,
+        "company": {
+          "id": 182,
+          "name": "Nihilistic Software"
+        }
+      },
+      {
+        "id": 416,
+        "company": {
+          "id": 66,
+          "name": "Activision"
+        }
+      }
+    ],
+    "name": "Vampire: The Masquerade - Redemption",
+    "platforms": [
+      {
+        "id": 6,
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 14,
+        "name": "Mac"
+      }
+    ],
+    "release_dates": [
+      {
+        "id": 21547,
+        "human": "Jun 07, 2000"
+      },
+      {
+        "id": 21548,
+        "human": "Jun 07, 2000"
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 21902,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/f8nncndknc4w58tl0mtb.jpg"
+      },
+      {
+        "id": 21903,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/a4mwudvv4m48tyrudqya.jpg"
+      },
+      {
+        "id": 21904,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/kwjpkveqcyqfyff1lpzi.jpg"
+      },
+      {
+        "id": 21905,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/tw9gem5f0jikewah6sgq.jpg"
+      },
+      {
+        "id": 21906,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/bbdclm8m5c6iuiwra5d6.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 660,
+        "cover": {
+          "id": 82219,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rfv.jpg"
+        }
+      },
+      {
+        "id": 9243,
+        "cover": {
+          "id": 13044,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/ttaatqkearykpgkmz0ad.jpg"
+        }
+      },
+      {
+        "id": 9938,
+        "cover": {
+          "id": 82230,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rg6.jpg"
+        }
+      },
+      {
+        "id": 10388,
+        "cover": {
+          "id": 82673,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rsh.jpg"
+        }
+      },
+      {
+        "id": 14394,
+        "cover": {
+          "id": 70873,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1iop.jpg"
+        }
+      },
+      {
+        "id": 22387,
+        "cover": {
+          "id": 137538,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2y4i.jpg"
+        }
+      },
+      {
+        "id": 34155,
+        "cover": {
+          "id": 82226,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rg2.jpg"
+        }
+      },
+      {
+        "id": 36198,
+        "cover": {
+          "id": 117794,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2iw2.jpg"
+        }
+      },
+      {
+        "id": 55038,
+        "cover": {
+          "id": 82160,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1re8.jpg"
+        }
+      },
+      {
+        "id": 55199,
+        "cover": {
+          "id": 81874,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r6a.jpg"
+        }
+      }
+    ],
+    "summary": "Vampire: The Masquerade – Redemption is a 2000 role-playing video game based on White Wolf\u0027s game Vampire: The Masquerade and follows the adventures of Christof Romuald, a 12th-century French crusader who is killed and subsequently revived as a Vampire. The game depicts Christof\u0027s centuries-long journey from the Dark Ages of 12th century Prague and Vienna to modern-day London and New York City in search of his humanity and his kidnapped love, the nun Anezka.",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      },
+      {
+        "id": 17,
+        "name": "Fantasy"
+      },
+      {
+        "id": 19,
+        "name": "Horror"
+      },
+      {
+        "id": 22,
+        "name": "Historical"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "cover": {
+      "id": 91139,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ybn.jpg"
+    },
+    "genres": [
+      {
+        "id": 12,
+        "name": "Role-playing (RPG)"
+      },
+      {
+        "id": 16,
+        "name": "Turn-based strategy (TBS)"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 7806,
+        "company": {
+          "id": 244,
+          "name": "Edusoft"
+        }
+      },
+      {
+        "id": 7807,
+        "company": {
+          "id": 5,
+          "name": "Interplay Entertainment"
+        }
+      },
+      {
+        "id": 7808,
+        "company": {
+          "id": 12,
+          "name": "Black Isle Studios"
+        }
+      }
+    ],
+    "name": "Fallout",
+    "platforms": [
+      {
+        "id": 6,
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 13,
+        "name": "DOS"
+      },
+      {
+        "id": 14,
+        "name": "Mac"
+      }
+    ],
+    "release_dates": [
+      {
+        "id": 2773,
+        "human": "Sep 30, 1997"
+      },
+      {
+        "id": 2774,
+        "human": "Sep 30, 1997"
+      },
+      {
+        "id": 2775,
+        "human": "Sep 30, 1997"
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 14158,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/p2lbeztzht6mgwosmx4j.jpg"
+      },
+      {
+        "id": 14159,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/bsbrwfjo7hnjufo0wkyw.jpg"
+      },
+      {
+        "id": 14160,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/u351wabe0uvhvxfmoric.jpg"
+      },
+      {
+        "id": 23380,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/hsco2qgztxnglynokv8l.jpg"
+      },
+      {
+        "id": 23381,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/owz8jrbpfbjacqqrq4x1.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 14,
+        "cover": {
+          "id": 234031,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co50kv.jpg"
+        }
+      },
+      {
+        "id": 15,
+        "cover": {
+          "id": 91184,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ycw.jpg"
+        }
+      },
+      {
+        "id": 16,
+        "cover": {
+          "id": 85752,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1u60.jpg"
+        }
+      },
+      {
+        "id": 41,
+        "cover": {
+          "id": 81923,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r7n.jpg"
+        }
+      },
+      {
+        "id": 116,
+        "cover": {
+          "id": 85067,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1tmz.jpg"
+        }
+      },
+      {
+        "id": 495,
+        "cover": {
+          "id": 82122,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rd6.jpg"
+        }
+      },
+      {
+        "id": 733,
+        "cover": {
+          "id": 120935,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2lbb.jpg"
+        }
+      },
+      {
+        "id": 1009,
+        "cover": {
+          "id": 81915,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r7f.jpg"
+        }
+      },
+      {
+        "id": 1020,
+        "cover": {
+          "id": 120937,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2lbd.jpg"
+        }
+      },
+      {
+        "id": 9630,
+        "cover": {
+          "id": 91158,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1yc6.jpg"
+        }
+      }
+    ],
+    "summary": "The Vault Dweller is tasked with exploring post-nuclear California in order to retrieve a water chip to replace the broken chip of Vault 13, their home, which they are the first person to ever leave. The player will engage in Western RPG character building and turn-based tactical combat while getting to know settlements and factions of people, mutants and ghouls through branching dialogue trees.",
+    "themes": [
+      {
+        "id": 18,
+        "name": "Science fiction"
+      },
+      {
+        "id": 21,
+        "name": "Survival"
+      },
+      {
+        "id": 38,
+        "name": "Open world"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "cover": {
+      "id": 234031,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co50kv.jpg"
+    },
+    "genres": [
+      {
+        "id": 12,
+        "name": "Role-playing (RPG)"
+      },
+      {
+        "id": 16,
+        "name": "Turn-based strategy (TBS)"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 4152,
+        "company": {
+          "id": 12,
+          "name": "Black Isle Studios"
+        }
+      },
+      {
+        "id": 4153,
+        "company": {
+          "id": 5,
+          "name": "Interplay Entertainment"
+        }
+      }
+    ],
+    "name": "Fallout 2",
+    "platforms": [
+      {
+        "id": 6,
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 14,
+        "name": "Mac"
+      }
+    ],
+    "release_dates": [
+      {
+        "id": 338553,
+        "human": "Oct 29, 1998"
+      },
+      {
+        "id": 338554,
+        "human": "Oct 29, 1998"
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 14146,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/evnnt5pmbi15sioo3osb.jpg"
+      },
+      {
+        "id": 14147,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/swb4gu9v7wltlexijovg.jpg"
+      },
+      {
+        "id": 14148,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ot58snzzvhhthu4dw6ox.jpg"
+      },
+      {
+        "id": 14149,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/zxuqt6b7aabrvxw1cay4.jpg"
+      },
+      {
+        "id": 14150,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/smrxbmolajqzg8vtxneg.jpg"
+      },
+      {
+        "id": 14151,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/zirx33oc4igljmz5jpcr.jpg"
+      },
+      {
+        "id": 14152,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/msre6ptfvzhixsyqxte3.jpg"
+      },
+      {
+        "id": 14153,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/fs77e1gmnr0rrimrwiuw.jpg"
+      },
+      {
+        "id": 14154,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/twyn9jgelrwboonfhflt.jpg"
+      },
+      {
+        "id": 14155,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/qvv3xeie9ubur6m96g5u.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 13,
+        "cover": {
+          "id": 91139,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ybn.jpg"
+        }
+      },
+      {
+        "id": 15,
+        "cover": {
+          "id": 91184,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ycw.jpg"
+        }
+      },
+      {
+        "id": 16,
+        "cover": {
+          "id": 85752,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1u60.jpg"
+        }
+      },
+      {
+        "id": 41,
+        "cover": {
+          "id": 81923,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r7n.jpg"
+        }
+      },
+      {
+        "id": 533,
+        "cover": {
+          "id": 266140,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co5pcs.jpg"
+        }
+      },
+      {
+        "id": 832,
+        "cover": {
+          "id": 161291,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co3ggb.jpg"
+        }
+      },
+      {
+        "id": 1020,
+        "cover": {
+          "id": 120937,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2lbd.jpg"
+        }
+      },
+      {
+        "id": 9498,
+        "cover": {
+          "id": 100505,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co25jt.jpg"
+        }
+      },
+      {
+        "id": 9630,
+        "cover": {
+          "id": 91158,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1yc6.jpg"
+        }
+      },
+      {
+        "id": 19531,
+        "cover": {
+          "id": 39984,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/pzgwdpvoww1nrlkv7d5x.jpg"
+        }
+      }
+    ],
+    "summary": "A turn-based tactical Western RPG in which the Chosen One is tasked with exploring post-nuclear California to locate and retrieve the fabled Garden of Eden Creation Kit for their famine-stricken tribe, while coming into contact through branching dialogue trees with numerous tribes, factions and micro-civilizations, each with their own virtues, vices, socioeconomic situations and political agendas.",
+    "themes": [
+      {
+        "id": 18,
+        "name": "Science fiction"
+      },
+      {
+        "id": 21,
+        "name": "Survival"
+      },
+      {
+        "id": 27,
+        "name": "Comedy"
+      },
+      {
+        "id": 38,
+        "name": "Open world"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "cover": {
+      "id": 91184,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ycw.jpg"
+    },
+    "genres": [
+      {
+        "id": 5,
+        "name": "Shooter"
+      },
+      {
+        "id": 12,
+        "name": "Role-playing (RPG)"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 4156,
+        "company": {
+          "id": 126,
+          "name": "Bethesda Game Studios"
+        }
+      },
+      {
+        "id": 95336,
+        "company": {
+          "id": 16565,
+          "name": "Bethesda Softworks"
+        }
+      }
+    ],
+    "name": "Fallout 3",
+    "platforms": [
+      {
+        "id": 6,
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 9,
+        "name": "PlayStation 3"
+      },
+      {
+        "id": 12,
+        "name": "Xbox 360"
+      }
+    ],
+    "release_dates": [
+      {
+        "id": 447,
+        "human": "Oct 28, 2008"
+      },
+      {
+        "id": 449,
+        "human": "Oct 28, 2008"
+      },
+      {
+        "id": 102967,
+        "human": "Oct 28, 2008"
+      },
+      {
+        "id": 102968,
+        "human": "Oct 31, 2008"
+      },
+      {
+        "id": 102969,
+        "human": "Jan 15, 2009"
+      },
+      {
+        "id": 413221,
+        "human": "Oct 28, 2008"
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 618,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/j6vczdq7svdvttebwykb.jpg"
+      },
+      {
+        "id": 619,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/nfky0otqolphaqwu72ad.jpg"
+      },
+      {
+        "id": 620,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/opjyvwt6eysdgpwbfsmt.jpg"
+      },
+      {
+        "id": 621,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/belgt59onk6hro6et0ji.jpg"
+      },
+      {
+        "id": 6382,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/u5ohhrd1rhgjsmtfazh1.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 14,
+        "cover": {
+          "id": 234031,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co50kv.jpg"
+        }
+      },
+      {
+        "id": 16,
+        "cover": {
+          "id": 85752,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1u60.jpg"
+        }
+      },
+      {
+        "id": 20,
+        "cover": {
+          "id": 122598,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2mli.jpg"
+        }
+      },
+      {
+        "id": 21,
+        "cover": {
+          "id": 122599,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2mlj.jpg"
+        }
+      },
+      {
+        "id": 41,
+        "cover": {
+          "id": 81923,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r7n.jpg"
+        }
+      },
+      {
+        "id": 533,
+        "cover": {
+          "id": 266140,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co5pcs.jpg"
+        }
+      },
+      {
+        "id": 538,
+        "cover": {
+          "id": 123158,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2n12.jpg"
+        }
+      },
+      {
+        "id": 1020,
+        "cover": {
+          "id": 120937,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2lbd.jpg"
+        }
+      },
+      {
+        "id": 9498,
+        "cover": {
+          "id": 100505,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co25jt.jpg"
+        }
+      },
+      {
+        "id": 9630,
+        "cover": {
+          "id": 91158,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1yc6.jpg"
+        }
+      }
+    ],
+    "summary": "Fallout 3 from the creators of the award-winning Oblivion, featuring one of the most realized game worlds ever created. Create any kind of character you want and explore the open wastes of post-apocalyptic Washington D.C. Every minute is a fight for survival as you encounter Super Mutants, Ghouls, Raiders and other dangers of the Wasteland. Prepare for the future.\n\nThe third game in the Fallout series, Fallout 3 is a singleplayer action role-playing game (RPG) set in a post-apocalyptic Washington DC. Combining the horrific insanity of the Cold War era theory of mutually assured destruction gone terribly wrong, with the kitschy naivety of American 1950s nuclear propaganda, Fallout 3 will satisfy both players familiar with the popular first two games in its series as well as those coming to the franchise for the first time.",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      },
+      {
+        "id": 18,
+        "name": "Science fiction"
+      },
+      {
+        "id": 21,
+        "name": "Survival"
+      },
+      {
+        "id": 33,
+        "name": "Sandbox"
+      },
+      {
+        "id": 38,
+        "name": "Open world"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "cover": {
+      "id": 85752,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1u60.jpg"
+    },
+    "genres": [
+      {
+        "id": 5,
+        "name": "Shooter"
+      },
+      {
+        "id": 12,
+        "name": "Role-playing (RPG)"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 3714,
+        "company": {
+          "id": 47,
+          "name": "Obsidian Entertainment"
+        }
+      },
+      {
+        "id": 3716,
+        "company": {
+          "id": 248,
+          "name": "Bandai Namco Entertainment"
+        }
+      },
+      {
+        "id": 13512,
+        "company": {
+          "id": 2493,
+          "name": "1C/Cenega"
+        }
+      },
+      {
+        "id": 95349,
+        "company": {
+          "id": 16565,
+          "name": "Bethesda Softworks"
+        }
+      }
+    ],
+    "name": "Fallout: New Vegas",
+    "platforms": [
+      {
+        "id": 6,
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 9,
+        "name": "PlayStation 3"
+      },
+      {
+        "id": 12,
+        "name": "Xbox 360"
+      }
+    ],
+    "release_dates": [
+      {
+        "id": 30125,
+        "human": "Oct 19, 2010"
+      },
+      {
+        "id": 30127,
+        "human": "Oct 19, 2010"
+      },
+      {
+        "id": 30128,
+        "human": "Oct 22, 2010"
+      },
+      {
+        "id": 30130,
+        "human": "Oct 22, 2010"
+      },
+      {
+        "id": 30131,
+        "human": "Nov 04, 2010"
+      },
+      {
+        "id": 30132,
+        "human": "Nov 04, 2010"
+      },
+      {
+        "id": 30133,
+        "human": "Nov 04, 2010"
+      },
+      {
+        "id": 102979,
+        "human": "Oct 19, 2010"
+      },
+      {
+        "id": 102980,
+        "human": "Oct 22, 2010"
+      },
+      {
+        "id": 102981,
+        "human": "Nov 04, 2010"
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 43,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/tiaygjcahvaxjsn9zlih.jpg"
+      },
+      {
+        "id": 866,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/btzvsqq7lqpeffwsayni.jpg"
+      },
+      {
+        "id": 867,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/drhrr5rfvavb1xiyxnr6.jpg"
+      },
+      {
+        "id": 210798,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/yoqtxqgcq6ceoegzi5ii.jpg"
+      },
+      {
+        "id": 210799,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/mvu2bm1u1jz4lgp9qrwg.jpg"
+      },
+      {
+        "id": 210802,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/xgoin1cr0uh9o26auuns.jpg"
+      },
+      {
+        "id": 210803,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/jomecpizlep5k6jcaye7.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 14,
+        "cover": {
+          "id": 234031,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co50kv.jpg"
+        }
+      },
+      {
+        "id": 15,
+        "cover": {
+          "id": 91184,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ycw.jpg"
+        }
+      },
+      {
+        "id": 41,
+        "cover": {
+          "id": 81923,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r7n.jpg"
+        }
+      },
+      {
+        "id": 74,
+        "cover": {
+          "id": 93684,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co20ac.jpg"
+        }
+      },
+      {
+        "id": 472,
+        "cover": {
+          "id": 85100,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1tnw.jpg"
+        }
+      },
+      {
+        "id": 495,
+        "cover": {
+          "id": 82122,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rd6.jpg"
+        }
+      },
+      {
+        "id": 533,
+        "cover": {
+          "id": 266140,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co5pcs.jpg"
+        }
+      },
+      {
+        "id": 538,
+        "cover": {
+          "id": 123158,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2n12.jpg"
+        }
+      },
+      {
+        "id": 1020,
+        "cover": {
+          "id": 120937,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2lbd.jpg"
+        }
+      },
+      {
+        "id": 9630,
+        "cover": {
+          "id": 91158,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1yc6.jpg"
+        }
+      }
+    ],
+    "summary": "In this first-person Western RPG, the player takes on the role of Courier 6, barely surviving after being robbed of their cargo, shot and put into a shallow grave by a New Vegas mob boss. The Courier sets out to track down their robbers and retrieve their cargo, and winds up getting tangled in the complex ideological and socioeconomic web of the many factions and settlements of post-nuclear Nevada.",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      },
+      {
+        "id": 18,
+        "name": "Science fiction"
+      },
+      {
+        "id": 21,
+        "name": "Survival"
+      },
+      {
+        "id": 33,
+        "name": "Sandbox"
+      },
+      {
+        "id": 38,
+        "name": "Open world"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "cover": {
+      "id": 91143,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ybr.jpg"
+    },
+    "genres": [
+      {
+        "id": 12,
+        "name": "Role-playing (RPG)"
+      },
+      {
+        "id": 15,
+        "name": "Strategy"
+      },
+      {
+        "id": 16,
+        "name": "Turn-based strategy (TBS)"
+      },
+      {
+        "id": 24,
+        "name": "Tactical"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 5221,
+        "company": {
+          "id": 246,
+          "name": "Micro Forté"
+        }
+      },
+      {
+        "id": 5222,
+        "company": {
+          "id": 247,
+          "name": "14 Degrees East"
+        }
+      }
+    ],
+    "name": "Fallout Tactics: Brotherhood of Steel",
+    "platforms": [
+      {
+        "id": 6,
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 14,
+        "name": "Mac"
+      }
+    ],
+    "release_dates": [
+      {
+        "id": 2777,
+        "human": "Mar 15, 2001"
+      },
+      {
+        "id": 51334,
+        "human": "2013"
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 42,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/gs9dc1zpmlt7ami6ret9.jpg"
+      },
+      {
+        "id": 874,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/fontwipwzlg05mjgfe0b.jpg"
+      },
+      {
+        "id": 875,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/yz71mh6bbb0mqt6jt8ju.jpg"
+      },
+      {
+        "id": 876,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/t7vpjxfjip4ajknblujq.jpg"
+      },
+      {
+        "id": 877,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/pdj8oohdzlvoevktf1n9.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 13,
+        "cover": {
+          "id": 91139,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ybn.jpg"
+        }
+      },
+      {
+        "id": 14,
+        "cover": {
+          "id": 234031,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co50kv.jpg"
+        }
+      },
+      {
+        "id": 16,
+        "cover": {
+          "id": 85752,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1u60.jpg"
+        }
+      },
+      {
+        "id": 41,
+        "cover": {
+          "id": 81923,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r7n.jpg"
+        }
+      },
+      {
+        "id": 533,
+        "cover": {
+          "id": 266140,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co5pcs.jpg"
+        }
+      },
+      {
+        "id": 1020,
+        "cover": {
+          "id": 120937,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2lbd.jpg"
+        }
+      },
+      {
+        "id": 3188,
+        "cover": {
+          "id": 81910,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r7a.jpg"
+        }
+      },
+      {
+        "id": 9498,
+        "cover": {
+          "id": 100505,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co25jt.jpg"
+        }
+      },
+      {
+        "id": 11270,
+        "cover": {
+          "id": 82220,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rfw.jpg"
+        }
+      },
+      {
+        "id": 19531,
+        "cover": {
+          "id": 39984,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/pzgwdpvoww1nrlkv7d5x.jpg"
+        }
+      }
+    ],
+    "summary": "This is a Tactical Squad-Based Combat comes to the Fallout Universe. You are the wretched refuse. You may be born from dirt, but we will forge you into steel. You will learn to bend; if not you, will you break. In these dark times, the Brotherhood - your Brotherhood - is all that stands between the rekindled flame of civilization and the howling, radiated wasteland.\n\nYour weapons will become more than your tools, they will become your friends. You will use your skills to inspire the lowly and protect the weak... whether they like it or not. Your squadmates will be more dear to you than your kin and for those that survive there will be honor, respect and the spoils of war.",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      },
+      {
+        "id": 18,
+        "name": "Science fiction"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "cover": {
+      "id": 181838,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co3wb2.jpg"
+    },
+    "genres": [
+      {
+        "id": 5,
+        "name": "Shooter"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 801,
+        "company": {
+          "id": 204,
+          "name": "Gathering of Developers"
+        }
+      },
+      {
+        "id": 17915,
+        "company": {
+          "id": 130,
+          "name": "MacSoft Games"
+        }
+      },
+      {
+        "id": 42242,
+        "company": {
+          "id": 306,
+          "name": "Rockstar Toronto"
+        }
+      },
+      {
+        "id": 42245,
+        "company": {
+          "id": 224,
+          "name": "3D Realms"
+        }
+      },
+      {
+        "id": 42247,
+        "company": {
+          "id": 3190,
+          "name": "neo Software"
+        }
+      },
+      {
+        "id": 42248,
+        "company": {
+          "id": 2134,
+          "name": "War Drum Studios"
+        }
+      },
+      {
+        "id": 42250,
+        "company": {
+          "id": 378,
+          "name": "Westlake Interactive"
+        }
+      },
+      {
+        "id": 58168,
+        "company": {
+          "id": 23,
+          "name": "Feral Interactive"
+        }
+      },
+      {
+        "id": 99757,
+        "company": {
+          "id": 29,
+          "name": "Rockstar Games"
+        }
+      },
+      {
+        "id": 99758,
+        "company": {
+          "id": 305,
+          "name": "Remedy Entertainment"
+        }
+      },
+      {
+        "id": 99759,
+        "company": {
+          "id": 139,
+          "name": "Take-Two Interactive"
+        }
+      }
+    ],
+    "name": "Max Payne",
+    "platforms": [
+      {
+        "id": 6,
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 8,
+        "name": "PlayStation 2"
+      },
+      {
+        "id": 9,
+        "name": "PlayStation 3"
+      },
+      {
+        "id": 11,
+        "name": "Xbox"
+      },
+      {
+        "id": 12,
+        "name": "Xbox 360"
+      },
+      {
+        "id": 14,
+        "name": "Mac"
+      },
+      {
+        "id": 34,
+        "name": "Android"
+      },
+      {
+        "id": 39,
+        "name": "iOS"
+      },
+      {
+        "id": 48,
+        "name": "PlayStation 4"
+      }
+    ],
+    "release_dates": [
+      {
+        "id": 19929,
+        "human": "Jul 23, 2001"
+      },
+      {
+        "id": 19930,
+        "human": "Jul 27, 2001"
+      },
+      {
+        "id": 19933,
+        "human": "May 22, 2003"
+      },
+      {
+        "id": 19934,
+        "human": "Dec 12, 2001"
+      },
+      {
+        "id": 19935,
+        "human": "Mar 14, 2002"
+      },
+      {
+        "id": 19936,
+        "human": "Jul 16, 2002"
+      },
+      {
+        "id": 19939,
+        "human": "Apr 12, 2012"
+      },
+      {
+        "id": 19940,
+        "human": "Jun 14, 2012"
+      },
+      {
+        "id": 53245,
+        "human": "Apr 22, 2016"
+      },
+      {
+        "id": 61626,
+        "human": "Apr 27, 2009"
+      },
+      {
+        "id": 107972,
+        "human": "Jan 11, 2002"
+      },
+      {
+        "id": 107973,
+        "human": "Dec 06, 2001"
+      },
+      {
+        "id": 196992,
+        "human": "Apr 22, 2016"
+      },
+      {
+        "id": 196993,
+        "human": "Apr 22, 2016"
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 1168,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sjswehm6zwc4wiurtobr.jpg"
+      },
+      {
+        "id": 1169,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/zdwbfncyf0nnjjq5fhbh.jpg"
+      },
+      {
+        "id": 1170,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ynx8jkcz0uvqt9zyenhn.jpg"
+      },
+      {
+        "id": 1171,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/c76rbj1hmz7kdsyv6qfq.jpg"
+      },
+      {
+        "id": 1172,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ny2ahlezesjnm1kwny92.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 41,
+        "cover": {
+          "id": 81923,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r7n.jpg"
+        }
+      },
+      {
+        "id": 43,
+        "cover": {
+          "id": 82118,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rd2.jpg"
+        }
+      },
+      {
+        "id": 241,
+        "cover": {
+          "id": 157207,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co3dav.jpg"
+        }
+      },
+      {
+        "id": 564,
+        "cover": {
+          "id": 226098,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co4ugi.jpg"
+        }
+      },
+      {
+        "id": 571,
+        "cover": {
+          "id": 81921,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r7l.jpg"
+        }
+      },
+      {
+        "id": 733,
+        "cover": {
+          "id": 120935,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2lbb.jpg"
+        }
+      },
+      {
+        "id": 960,
+        "cover": {
+          "id": 122532,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2mjo.jpg"
+        }
+      },
+      {
+        "id": 1009,
+        "cover": {
+          "id": 81915,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r7f.jpg"
+        }
+      },
+      {
+        "id": 1020,
+        "cover": {
+          "id": 120937,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2lbd.jpg"
+        }
+      },
+      {
+        "id": 19441,
+        "cover": {
+          "id": 125839,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2p3j.jpg"
+        }
+      }
+    ],
+    "summary": "Max Payne, gritty ex-cop and titular hero of this third-person shooter, sets out on his own to take revenge on those who murdered his wife and child, only for the plot he\u0027s involved in to get deeper and deeper. As his guilt and trauma build, Payne finds himself in more and more impossibly unfavourable and astounding situations, which challenge his methods, his worldview, and even his existence.",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      },
+      {
+        "id": 20,
+        "name": "Thriller"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "cover": {
+      "id": 120981,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2lcl.jpg"
+    },
+    "genres": [
+      {
+        "id": 5,
+        "name": "Shooter"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 17926,
+        "company": {
+          "id": 305,
+          "name": "Remedy Entertainment"
+        }
+      },
+      {
+        "id": 43412,
+        "company": {
+          "id": 307,
+          "name": "Rockstar Vienna"
+        }
+      },
+      {
+        "id": 43413,
+        "company": {
+          "id": 29,
+          "name": "Rockstar Games"
+        }
+      }
+    ],
+    "name": "Max Payne 2: The Fall of Max Payne",
+    "platforms": [
+      {
+        "id": 6,
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 8,
+        "name": "PlayStation 2"
+      },
+      {
+        "id": 9,
+        "name": "PlayStation 3"
+      },
+      {
+        "id": 11,
+        "name": "Xbox"
+      },
+      {
+        "id": 12,
+        "name": "Xbox 360"
+      }
+    ],
+    "release_dates": [
+      {
+        "id": 19943,
+        "human": "Oct 24, 2003"
+      },
+      {
+        "id": 19944,
+        "human": "Nov 25, 2003"
+      },
+      {
+        "id": 19945,
+        "human": "Dec 02, 2003"
+      },
+      {
+        "id": 19946,
+        "human": "Dec 05, 2003"
+      },
+      {
+        "id": 19947,
+        "human": "Dec 05, 2003"
+      },
+      {
+        "id": 63941,
+        "human": "Oct 14, 2003"
+      },
+      {
+        "id": 63942,
+        "human": "Jan 04, 2008"
+      },
+      {
+        "id": 63943,
+        "human": "Apr 27, 2009"
+      },
+      {
+        "id": 63944,
+        "human": "Apr 27, 2009"
+      },
+      {
+        "id": 63945,
+        "human": "Apr 27, 2009"
+      },
+      {
+        "id": 63946,
+        "human": "May 01, 2012"
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 1173,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/cc0berjmosjw8u3znfv9.jpg"
+      },
+      {
+        "id": 1174,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/emdp8dyfmzbitsxbsdi3.jpg"
+      },
+      {
+        "id": 1175,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/qwaqp1uuyvezcf88rwyj.jpg"
+      },
+      {
+        "id": 1176,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/ldymtknsdvwxchhnr7xk.jpg"
+      },
+      {
+        "id": 9931,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/de7g6xhsy4hffuvvw0iy.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 11171,
+        "cover": {
+          "id": 73663,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ku7.jpg"
+        }
+      },
+      {
+        "id": 19164,
+        "cover": {
+          "id": 94287,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co20r3.jpg"
+        }
+      },
+      {
+        "id": 55038,
+        "cover": {
+          "id": 82160,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1re8.jpg"
+        }
+      },
+      {
+        "id": 55984,
+        "cover": {
+          "id": 281763,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co61er.jpg"
+        }
+      },
+      {
+        "id": 75242,
+        "cover": {
+          "id": 82268,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rh8.jpg"
+        }
+      },
+      {
+        "id": 76263,
+        "cover": {
+          "id": 291832,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co696g.jpg"
+        }
+      },
+      {
+        "id": 103292,
+        "cover": {
+          "id": 125681,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2oz5.jpg"
+        }
+      },
+      {
+        "id": 105269,
+        "cover": {
+          "id": 82218,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rfu.jpg"
+        }
+      },
+      {
+        "id": 106805,
+        "cover": {
+          "id": 87782,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1vqe.jpg"
+        }
+      },
+      {
+        "id": 119177,
+        "cover": {
+          "id": 82672,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rsg.jpg"
+        }
+      }
+    ],
+    "summary": "Max Payne 2 is a third-person shooter, in which the player assumes the role of Max Payne, but also plays as Mona Sax in a few levels. Initially, the player\u0027s weapon is a 9mm pistol. As they progress, players access other weapons including other handguns, shotguns, submachine guns, assault rifles, sniper rifles, and hand-thrown weapons. To move the game along, the player is told what the next objective is through Max\u0027s internal monologue, in which Max iterates what his next steps should be.",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      },
+      {
+        "id": 20,
+        "name": "Thriller"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "cover": {
+      "id": 122598,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2mli.jpg"
+    },
+    "genres": [
+      {
+        "id": 5,
+        "name": "Shooter"
+      },
+      {
+        "id": 12,
+        "name": "Role-playing (RPG)"
+      },
+      {
+        "id": 31,
+        "name": "Adventure"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 91804,
+        "company": {
+          "id": 13,
+          "name": "Demiurge Studios"
+        }
+      },
+      {
+        "id": 184941,
+        "company": {
+          "id": 8,
+          "name": "2K Games"
+        }
+      },
+      {
+        "id": 184942,
+        "company": {
+          "id": 2492,
+          "name": "2K Australia"
+        }
+      },
+      {
+        "id": 184943,
+        "company": {
+          "id": 649,
+          "name": "2K Boston"
+        }
+      },
+      {
+        "id": 184944,
+        "company": {
+          "id": 411,
+          "name": "Robosoft Technologies"
+        }
+      }
+    ],
+    "name": "BioShock",
+    "platforms": [
+      {
+        "id": 6,
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 9,
+        "name": "PlayStation 3"
+      },
+      {
+        "id": 12,
+        "name": "Xbox 360"
+      },
+      {
+        "id": 14,
+        "name": "Mac"
+      }
+    ],
+    "release_dates": [
+      {
+        "id": 223936,
+        "human": "Aug 21, 2007"
+      },
+      {
+        "id": 223939,
+        "human": "Aug 24, 2007"
+      },
+      {
+        "id": 384050,
+        "human": "Feb 21, 2008"
+      },
+      {
+        "id": 421106,
+        "human": "Aug 21, 2007"
+      },
+      {
+        "id": 421693,
+        "human": "Oct 07, 2009"
+      },
+      {
+        "id": 436984,
+        "human": "Oct 21, 2008"
+      },
+      {
+        "id": 458660,
+        "human": "Oct 07, 2009"
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 5817,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/unvhwxrfzpjys4txfv4a.jpg"
+      },
+      {
+        "id": 5818,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/wworjqefsfzc9ouvrpxd.jpg"
+      },
+      {
+        "id": 5819,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/kjbwbdqemykovdzgidhu.jpg"
+      },
+      {
+        "id": 5820,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/yg3j0yco50gq3wfcxujb.jpg"
+      },
+      {
+        "id": 5821,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/usn4aw2k54ym8jcjbkmg.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 21,
+        "cover": {
+          "id": 122599,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2mlj.jpg"
+        }
+      },
+      {
+        "id": 533,
+        "cover": {
+          "id": 266140,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co5pcs.jpg"
+        }
+      },
+      {
+        "id": 538,
+        "cover": {
+          "id": 123158,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2n12.jpg"
+        }
+      },
+      {
+        "id": 1020,
+        "cover": {
+          "id": 120937,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2lbd.jpg"
+        }
+      },
+      {
+        "id": 1164,
+        "cover": {
+          "id": 82074,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rbu.jpg"
+        }
+      },
+      {
+        "id": 1377,
+        "cover": {
+          "id": 106715,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2acb.jpg"
+        }
+      },
+      {
+        "id": 2031,
+        "cover": {
+          "id": 95040,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co21c0.jpg"
+        }
+      },
+      {
+        "id": 3188,
+        "cover": {
+          "id": 81910,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r7a.jpg"
+        }
+      },
+      {
+        "id": 9498,
+        "cover": {
+          "id": 100505,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co25jt.jpg"
+        }
+      },
+      {
+        "id": 11270,
+        "cover": {
+          "id": 82220,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rfw.jpg"
+        }
+      }
+    ],
+    "summary": "BioShock is a horror-themed first-person shooter set in a steampunk underwater dystopia. The player is urged to turn everything into a weapon: biologically modifying their own body with Plasmids, hacking devices and systems, upgrading their weapons, crafting new ammo variants, and experimenting with different battle techniques are all possible. The game is described by the developers as a spiritual successor to their previous PC title System Shock 2. BioShock received high praise in critical reviews for its atmospheric audio and visual quality, absorbing and original plot and its unique gaming experience.",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      },
+      {
+        "id": 18,
+        "name": "Science fiction"
+      },
+      {
+        "id": 19,
+        "name": "Horror"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "cover": {
+      "id": 122599,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2mlj.jpg"
+    },
+    "genres": [
+      {
+        "id": 5,
+        "name": "Shooter"
+      },
+      {
+        "id": 12,
+        "name": "Role-playing (RPG)"
+      },
+      {
+        "id": 31,
+        "name": "Adventure"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 25,
+        "company": {
+          "id": 8,
+          "name": "2K Games"
+        }
+      },
+      {
+        "id": 20004,
+        "company": {
+          "id": 139,
+          "name": "Take-Two Interactive"
+        }
+      },
+      {
+        "id": 184993,
+        "company": {
+          "id": 449,
+          "name": "D3 Publisher"
+        }
+      },
+      {
+        "id": 184994,
+        "company": {
+          "id": 2492,
+          "name": "2K Australia"
+        }
+      },
+      {
+        "id": 184995,
+        "company": {
+          "id": 18,
+          "name": "2K China"
+        }
+      },
+      {
+        "id": 184996,
+        "company": {
+          "id": 17,
+          "name": "Digital Extremes"
+        }
+      },
+      {
+        "id": 184997,
+        "company": {
+          "id": 649,
+          "name": "2K Boston"
+        }
+      },
+      {
+        "id": 184998,
+        "company": {
+          "id": 19,
+          "name": "Arkane Studios"
+        }
+      },
+      {
+        "id": 184999,
+        "company": {
+          "id": 23,
+          "name": "Feral Interactive"
+        }
+      },
+      {
+        "id": 185001,
+        "company": {
+          "id": 20,
+          "name": "Darkside Game Studios"
+        }
+      }
+    ],
+    "name": "BioShock 2",
+    "platforms": [
+      {
+        "id": 6,
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 9,
+        "name": "PlayStation 3"
+      },
+      {
+        "id": 12,
+        "name": "Xbox 360"
+      },
+      {
+        "id": 14,
+        "name": "Mac"
+      }
+    ],
+    "release_dates": [
+      {
+        "id": 101891,
+        "human": "Feb 09, 2010"
+      },
+      {
+        "id": 101892,
+        "human": "Feb 09, 2010"
+      },
+      {
+        "id": 101893,
+        "human": "Mar 04, 2010"
+      },
+      {
+        "id": 147153,
+        "human": "Mar 29, 2012"
+      },
+      {
+        "id": 356853,
+        "human": "Feb 09, 2010"
+      },
+      {
+        "id": 356855,
+        "human": "Feb 09, 2010"
+      },
+      {
+        "id": 356856,
+        "human": "Mar 04, 2010"
+      },
+      {
+        "id": 413568,
+        "human": "Feb 09, 2010"
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 865030,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scijgm.jpg"
+      },
+      {
+        "id": 865031,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scijgn.jpg"
+      },
+      {
+        "id": 865032,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scijgo.jpg"
+      },
+      {
+        "id": 865033,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scijgp.jpg"
+      },
+      {
+        "id": 865034,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/scijgq.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 20,
+        "cover": {
+          "id": 122598,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2mli.jpg"
+        }
+      },
+      {
+        "id": 41,
+        "cover": {
+          "id": 81923,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r7n.jpg"
+        }
+      },
+      {
+        "id": 533,
+        "cover": {
+          "id": 266140,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co5pcs.jpg"
+        }
+      },
+      {
+        "id": 538,
+        "cover": {
+          "id": 123158,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2n12.jpg"
+        }
+      },
+      {
+        "id": 1020,
+        "cover": {
+          "id": 120937,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2lbd.jpg"
+        }
+      },
+      {
+        "id": 2031,
+        "cover": {
+          "id": 95040,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co21c0.jpg"
+        }
+      },
+      {
+        "id": 3188,
+        "cover": {
+          "id": 81910,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r7a.jpg"
+        }
+      },
+      {
+        "id": 9498,
+        "cover": {
+          "id": 100505,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co25jt.jpg"
+        }
+      },
+      {
+        "id": 9727,
+        "cover": {
+          "id": 106344,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2a20.jpg"
+        }
+      },
+      {
+        "id": 19531,
+        "cover": {
+          "id": 39984,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/pzgwdpvoww1nrlkv7d5x.jpg"
+        }
+      }
+    ],
+    "summary": "BioShock 2 is the second game of the BioShock series and the sequel to BioShock. It continues the grand storyline of the underwater metropolis Rapture. BioShock 2 capitalizes and improves upon the high-quality effects, unique gameplay elements, and immersive atmosphere that defined the first game. It explores more brutal gameplay than its predecessor, with new enemies, weapons, Plasmids, and Gene Tonics.",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      },
+      {
+        "id": 18,
+        "name": "Science fiction"
+      },
+      {
+        "id": 20,
+        "name": "Thriller"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "cover": {
+      "id": 201260,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/co4bak.jpg"
+    },
+    "genres": [
+      {
+        "id": 5,
+        "name": "Shooter"
+      },
+      {
+        "id": 12,
+        "name": "Role-playing (RPG)"
+      }
+    ],
+    "involved_companies": [
+      {
+        "id": 751,
+        "company": {
+          "id": 21,
+          "name": "Irrational Games"
+        }
+      },
+      {
+        "id": 752,
+        "company": {
+          "id": 3,
+          "name": "Looking Glass Studios"
+        }
+      },
+      {
+        "id": 753,
+        "company": {
+          "id": 1,
+          "name": "Electronic Arts"
+        }
+      }
+    ],
+    "name": "System Shock 2",
+    "platforms": [
+      {
+        "id": 6,
+        "name": "PC (Microsoft Windows)"
+      },
+      {
+        "id": 14,
+        "name": "Mac"
+      }
+    ],
+    "release_dates": [
+      {
+        "id": 622,
+        "human": "Aug 11, 1999"
+      },
+      {
+        "id": 421263,
+        "human": "May 10, 2013"
+      }
+    ],
+    "screenshots": [
+      {
+        "id": 6776,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/svqo3ngaapyvcvjza7yx.jpg"
+      },
+      {
+        "id": 6777,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/g11vipidv1pmwqdqthvn.jpg"
+      },
+      {
+        "id": 6778,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/tn5gpywrvya92wq1ang8.jpg"
+      },
+      {
+        "id": 6779,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/gdanfmlxy57gzla4smbb.jpg"
+      },
+      {
+        "id": 6780,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/kg9eb5wd5u5j9wtvafrw.jpg"
+      },
+      {
+        "id": 258217,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc5j8p.jpg"
+      },
+      {
+        "id": 258218,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc5j8q.jpg"
+      },
+      {
+        "id": 258219,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc5j8r.jpg"
+      },
+      {
+        "id": 258220,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc5j8s.jpg"
+      },
+      {
+        "id": 258221,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc5j8t.jpg"
+      }
+    ],
+    "similar_games": [
+      {
+        "id": 20,
+        "cover": {
+          "id": 122598,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2mli.jpg"
+        }
+      },
+      {
+        "id": 21,
+        "cover": {
+          "id": 122599,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2mlj.jpg"
+        }
+      },
+      {
+        "id": 37,
+        "cover": {
+          "id": 114332,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2g7w.jpg"
+        }
+      },
+      {
+        "id": 41,
+        "cover": {
+          "id": 81923,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r7n.jpg"
+        }
+      },
+      {
+        "id": 533,
+        "cover": {
+          "id": 266140,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co5pcs.jpg"
+        }
+      },
+      {
+        "id": 571,
+        "cover": {
+          "id": 81921,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r7l.jpg"
+        }
+      },
+      {
+        "id": 2031,
+        "cover": {
+          "id": 95040,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co21c0.jpg"
+        }
+      },
+      {
+        "id": 9498,
+        "cover": {
+          "id": 100505,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co25jt.jpg"
+        }
+      },
+      {
+        "id": 9727,
+        "cover": {
+          "id": 106344,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2a20.jpg"
+        }
+      },
+      {
+        "id": 19531,
+        "cover": {
+          "id": 39984,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/pzgwdpvoww1nrlkv7d5x.jpg"
+        }
+      }
+    ],
+    "summary": "A first-person cyberpunk exploratory horror RPG and sequel to System Shock (1994) in which a soldier wakes up in the starship Van Braun in the aftermath of a disaster and finds himself in the midst of a conflict between SHODAN, the artificial intelligence antagonist of System Shock seeking mastery over humanity, and The Many, a flesh-based psychic hive mind led by the ship\u0027s corrupted AI.",
+    "themes": [
+      {
+        "id": 1,
+        "name": "Action"
+      },
+      {
+        "id": 18,
+        "name": "Science fiction"
+      },
+      {
+        "id": 19,
+        "name": "Horror"
+      },
+      {
+        "id": 21,
+        "name": "Survival"
       }
     ]
   }
