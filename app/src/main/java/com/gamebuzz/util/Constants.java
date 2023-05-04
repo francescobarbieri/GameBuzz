@@ -12,4 +12,14 @@ public class Constants
     public static final String WEAK_PASSWORD_ERROR = "passwordIsWeak";
 
     public static final int MINIMUM_PASSWORD_LENGTH = 6;
+
+    // Constants for Room database
+    public static final String GAME_DATABASE_NAME = "game_db";
+    public static final int DATABASE_VERSION = 1;
+
+    public static final String SERIALIZE_GENRE_NAME = "genre_name";
+    public static final String SERIALIZE_PLATFORM_NAME = "platform_name";
+    public static final String SERIALIZE_SCREENSHOT_URL = "screenshot_url";
+    public static final String SERIALIZE_THEME_NAME = "theme_name";
+
 }

@@ -2,7 +2,7 @@ package com.gamebuzz.data.repository.user;
 
 import androidx.lifecycle.MutableLiveData;
 
-import com.gamebuzz.data.repository.source.user.BaseUserAuthenticationRemoteDataSource;
+import com.gamebuzz.data.source.user.user.BaseUserAuthenticationRemoteDataSource;
 import com.gamebuzz.model.Result;
 import com.gamebuzz.model.User;
 

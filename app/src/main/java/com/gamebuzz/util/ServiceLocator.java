@@ -3,10 +3,13 @@ package com.gamebuzz.util;
 
 import android.app.Application;
 
-import com.gamebuzz.data.repository.source.user.BaseUserAuthenticationRemoteDataSource;
-import com.gamebuzz.data.repository.source.user.UserAuthenticationRemoteDataSource;
+import com.gamebuzz.data.database.GameRoomDatabase;
+import com.gamebuzz.data.repository.game.IGameRepository;
+import com.gamebuzz.data.source.user.user.BaseUserAuthenticationRemoteDataSource;
+import com.gamebuzz.data.source.user.user.UserAuthenticationRemoteDataSource;
 import com.gamebuzz.data.repository.user.IUserRepository;
 import com.gamebuzz.data.repository.user.UserRepository;
+import com.gamebuzz.model.Game;
 
 public class ServiceLocator {
     private static volatile ServiceLocator INSTANCE = null;
@@ -22,6 +25,10 @@ public class ServiceLocator {
             }
         }
         return INSTANCE;
+    }
+
+    public GameRoomDatabase getGameDao(Application application) {
+        return GameRoomDatabase.getDatabase(application);
     }
 
     public IUserRepository getUserRepository(Application application) {

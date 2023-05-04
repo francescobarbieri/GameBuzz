@@ -1,4 +1,4 @@
-package com.gamebuzz.data.repository.source.user;
+package com.gamebuzz.data.source.user.user;
 
 import static com.gamebuzz.util.Constants.INVALID_CREDENTIALS_ERROR;
 import static com.gamebuzz.util.Constants.INVALID_USER_ERROR;
@@ -20,7 +20,7 @@ import com.google.firebase.auth.FirebaseAuthWeakPasswordException;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
 
-public class UserAuthenticationRemoteDataSource extends BaseUserAuthenticationRemoteDataSource{
+public class UserAuthenticationRemoteDataSource extends com.gamebuzz.data.source.user.user.BaseUserAuthenticationRemoteDataSource  {
     private static final String TAG = UserAuthenticationRemoteDataSource.class.getSimpleName();
 
     private final FirebaseAuth firebaseAuth;

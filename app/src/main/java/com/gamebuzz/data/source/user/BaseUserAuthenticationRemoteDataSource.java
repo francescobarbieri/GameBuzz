@@ -1,4 +1,4 @@
-package com.gamebuzz.data.repository.source.user;
+package com.gamebuzz.data.source.user.user;
 
 import com.gamebuzz.data.repository.user.UserResponseCallback;
 import com.gamebuzz.model.User;

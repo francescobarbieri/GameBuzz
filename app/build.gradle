@@ -43,9 +43,8 @@ dependencies {
     implementation group: 'commons-validator', name: 'commons-validator', version: '1.7'
     implementation group: 'commons-io', name: 'commons-io', version: '2.11.0'
 
-    def nav_version = "2.5.3"
-
     // Java language implementation
+    def nav_version = "2.5.3"
     implementation "androidx.navigation:navigation-fragment:$nav_version"
     implementation "androidx.navigation:navigation-ui:$nav_version"
 
@@ -54,8 +53,8 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth'
     implementation 'com.google.firebase:firebase-database'
 
+    // Room dependencies
     def room_version = "2.4.3"
-
     implementation "androidx.room:room-runtime:$room_version"
     annotationProcessor "androidx.room:room-compiler:$room_version"
 
