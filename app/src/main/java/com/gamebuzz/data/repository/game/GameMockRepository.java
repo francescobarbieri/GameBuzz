@@ -2,6 +2,7 @@ package com.gamebuzz.data.repository.game;
 
 import android.app.Application;
 import android.app.GameManager;
+import android.util.Log;
 
 import com.gamebuzz.data.database.GameDao;
 import com.gamebuzz.data.database.GameRoomDatabase;
@@ -16,6 +17,8 @@ import java.io.IOException;
 import java.util.List;
 
 public class GameMockRepository implements IGameRepository {
+
+    private static final String TAG = GameMockRepository.class.getSimpleName();
 
     private final Application application;
     private final GameResponseCallback gameResponseCallback;
@@ -41,6 +44,7 @@ public class GameMockRepository implements IGameRepository {
             case JSON_OBJECT_ARRAY:
                 try {
                     gameApiResponse = jsonParserUtil.parseJSONWithJSONObjectArray("game-list.json");
+
                 } catch (IOException | JSONException e) {
                     e.printStackTrace();
                 }

@@ -15,6 +15,9 @@ import android.view.ViewGroup;
 
 import com.gamebuzz.R;
 import com.gamebuzz.adapter.GameRecyclerViewAdapter;
+import com.gamebuzz.data.repository.game.GameMockRepository;
+import com.gamebuzz.data.repository.game.GameResponseCallback;
+import com.gamebuzz.data.repository.game.IGameRepository;
 import com.gamebuzz.model.Game;
 import com.gamebuzz.model.GameApiResponse;
 import com.gamebuzz.model.GameCompany;
@@ -24,6 +27,7 @@ import com.gamebuzz.model.GameGenre;
 import com.gamebuzz.model.GamePlatform;
 import com.gamebuzz.model.GameScreenshot;
 import com.gamebuzz.model.GameTheme;
+import com.gamebuzz.util.JSONParserUtil;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -48,12 +52,12 @@ import java.util.List;
  * Use the {@link HomeFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class HomeFragment extends Fragment {
+public class HomeFragment extends Fragment implements GameResponseCallback {
 
     private static final String TAG = HomeFragment.class.getSimpleName();
+    private List<Game> gameList;
+    private IGameRepository iGameRepository;
     private GameRecyclerViewAdapter gameRecyclerViewAdapter;
-
-    private List<Game> gameList = new ArrayList<>();
 
     public HomeFragment() {
         // Required empty public constructor
@@ -67,6 +71,10 @@ public class HomeFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        iGameRepository = new GameMockRepository(requireActivity().getApplication(), this, JSONParserUtil.JsonParserType.JSON_OBJECT_ARRAY);
+
+        gameList = new ArrayList<>();
     }
 
     @Override
@@ -80,10 +88,6 @@ public class HomeFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        for(int i = 0; i < 40; i++) {
-            gameList.add(new Game("Title: " + i));
-        }
-
         RecyclerView recyclerViewGame = view.findViewById(R.id.recyclerview_game);
         GridLayoutManager layoutManager = new GridLayoutManager(requireContext(), 2, RecyclerView.VERTICAL, false);
 
@@ -96,7 +100,20 @@ public class HomeFragment extends Fragment {
 
         recyclerViewGame.setLayoutManager(layoutManager);
         recyclerViewGame.setAdapter(gameRecyclerViewAdapter);
+
+        iGameRepository.fetchGames();
+
     }
 
+    public void onSuccess(List<Game> gameList) {
+        if(gameList != null) {
+            this.gameList.clear();
+            this.gameList.addAll(gameList);
+        }
+    }
+
+    public void onFailure(String errorMessage) {
+        // TODO: do this
+    }
 
 }
