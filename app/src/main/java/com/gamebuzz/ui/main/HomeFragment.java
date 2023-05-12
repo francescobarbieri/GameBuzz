@@ -19,32 +19,10 @@ import com.gamebuzz.data.repository.game.GameMockRepository;
 import com.gamebuzz.data.repository.game.GameResponseCallback;
 import com.gamebuzz.data.repository.game.IGameRepository;
 import com.gamebuzz.model.Game;
-import com.gamebuzz.model.GameApiResponse;
-import com.gamebuzz.model.GameCompany;
-import com.gamebuzz.model.GameCover;
-import com.gamebuzz.model.GameDate;
-import com.gamebuzz.model.GameGenre;
-import com.gamebuzz.model.GamePlatform;
-import com.gamebuzz.model.GameScreenshot;
-import com.gamebuzz.model.GameTheme;
 import com.gamebuzz.util.JSONParserUtil;
 import com.google.android.material.snackbar.Snackbar;
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
 
-import org.apache.commons.io.IOUtils;
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.lang.reflect.Type;
-import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 
 /**
@@ -102,6 +80,11 @@ public class HomeFragment extends Fragment implements GameResponseCallback {
         recyclerViewGame.setAdapter(gameRecyclerViewAdapter);
 
         iGameRepository.fetchGames();
+
+        if(gameList.size() > 0) {
+            Log.e(TAG, gameList.get(0).toString());
+            Log.e(TAG, gameList.get(0).getCover().getUrl());
+        }
 
     }
 

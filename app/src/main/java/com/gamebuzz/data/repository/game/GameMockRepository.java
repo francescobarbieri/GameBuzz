@@ -14,6 +14,8 @@ import com.gamebuzz.util.ServiceLocator;
 import org.json.JSONException;
 
 import java.io.IOException;
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.List;
 
 public class GameMockRepository implements IGameRepository {
@@ -43,9 +45,10 @@ public class GameMockRepository implements IGameRepository {
         switch (jsonParserType) {
             case JSON_OBJECT_ARRAY:
                 try {
-                    gameApiResponse = jsonParserUtil.parseJSONWithJSONObjectArray("game-list.json");
+                    //gameApiResponse = jsonParserUtil.parseJSONWithJSONObjectArray("game-list.json");
+                    gameApiResponse = jsonParserUtil.parseJSONFileWithGSon("game-list.json");
 
-                } catch (IOException | JSONException e) {
+                } catch (IOException e) {
                     e.printStackTrace();
                 }
                 break;

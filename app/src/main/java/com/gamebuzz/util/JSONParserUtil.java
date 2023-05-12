@@ -1,30 +1,17 @@
 package com.gamebuzz.util;
 
 import android.app.Application;
-import android.util.Log;
 
 import com.gamebuzz.model.Game;
 import com.gamebuzz.model.GameApiResponse;
-import com.gamebuzz.model.GameCompany;
-import com.gamebuzz.model.GameCover;
-import com.gamebuzz.model.GameDate;
-import com.gamebuzz.model.GameGenre;
-import com.gamebuzz.model.GamePlatform;
-import com.gamebuzz.model.GameScreenshot;
-import com.gamebuzz.model.GameTheme;
 import com.google.gson.Gson;
-
-import org.apache.commons.io.IOUtils;
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
+import com.google.gson.reflect.TypeToken;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.nio.charset.StandardCharsets;
-import java.util.ArrayList;
+import java.lang.reflect.Type;
 import java.util.List;
 
 public class JSONParserUtil {
@@ -42,7 +29,7 @@ public class JSONParserUtil {
         this.application = application;
     }
 
-    // TODO:  deve ritornare un GameApiResponse
+    /*
     public GameApiResponse parseJSONWithJSONObjectArray(String filename) throws IOException, JSONException {
         InputStream inputStream = null;
 
@@ -73,18 +60,6 @@ public class JSONParserUtil {
 
                     game = new Game();
 
-                    /*
-                        id*
-                        cover[]*
-                        genres[]*
-                        involved_companies[]*
-                        name*
-                        platforms[]*
-                        release_dates[]
-                        screenshots[]
-                        summary*
-                        themes[]*
-                     */
                     // id
                     // name
                     // summary
@@ -169,11 +144,17 @@ public class JSONParserUtil {
 
     }
 
+     */
+
 
     public GameApiResponse parseJSONFileWithGSon (String filename) throws IOException {
         InputStream inputStream = application.getAssets().open(filename);
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
 
-        return new Gson().fromJson(bufferedReader, GameApiResponse.class);
+        // return new Gson().fromJson(bufferedReader, GameApiResponse.class);
+        Type collectionType = new TypeToken<List<Game>>(){}.getType();
+        List<Game> list = new Gson().fromJson(bufferedReader, collectionType);
+
+        return new GameApiResponse(list);
     }
 }

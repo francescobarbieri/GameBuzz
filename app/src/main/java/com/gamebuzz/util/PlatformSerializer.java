@@ -2,6 +2,8 @@ package com.gamebuzz.util;
 
 import static com.gamebuzz.util.Constants.SERIALIZE_PLATFORM_NAME;
 
+import android.util.Log;
+
 import com.gamebuzz.model.GamePlatform;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;

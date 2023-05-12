@@ -3,26 +3,29 @@ package com.gamebuzz.model;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+import com.google.gson.annotations.SerializedName;
+
 public class GameDate implements Parcelable {
 
-    public String date;
+    @SerializedName("human")
+    public String human;
 
     public GameDate() {}
 
-    public GameDate(String date) { this.date = date; }
+    public GameDate(String human) { this.human = human; }
 
-    public void setDate(String date) {
-        this.date = date;
+    public void setDate(String human) {
+        this.human = human;
     }
 
     public String getDate() {
-        return date;
+        return human;
     }
 
     public int describeContents() { return 0; }
 
     public void writeToParcel(Parcel dest, int flags) {
-        dest.writeString(this.date);
+        dest.writeString(this.human);
     }
 
     public static final Parcelable.Creator<GameDate> CREATOR = new Parcelable.Creator<GameDate>() {

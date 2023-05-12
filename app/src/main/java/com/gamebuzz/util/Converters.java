@@ -2,7 +2,7 @@ package com.gamebuzz.util;
 
 import androidx.room.TypeConverter;
 
-import com.gamebuzz.model.Game;
+import com.gamebuzz.model.GameDate;
 import com.gamebuzz.model.GameGenre;
 import com.gamebuzz.model.GamePlatform;
 import com.gamebuzz.model.GameScreenshot;
@@ -69,6 +69,18 @@ public class Converters {
     public static List<GameTheme> toGameTheme(String json) {
         Gson gson = new GsonBuilder().registerTypeAdapter(GameTheme.class, new ThemeDeserializer()).create();
         return gson.fromJson(json, new TypeToken<List<GameTheme>>(){}.getType());
+    }
+
+    @TypeConverter
+    public static String fromGameDate(List<GameDate> gameDateList) {
+        Gson gson = new GsonBuilder().registerTypeAdapter(GameDate.class, new DateSerializer()).create();
+        return gson.toJson(gameDateList);
+    }
+
+    @TypeConverter
+    public static List<GameDate> toGameDate(String json) {
+        Gson gson = new GsonBuilder().registerTypeAdapter(GameDate.class, new DateDeserializer()).create();
+        return gson.fromJson(json, new TypeToken<List<GameDate>>(){}.getType());
     }
 
 }

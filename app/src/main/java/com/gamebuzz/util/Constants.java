@@ -21,5 +21,7 @@ public class Constants
     public static final String SERIALIZE_PLATFORM_NAME = "platform_name";
     public static final String SERIALIZE_SCREENSHOT_URL = "screenshot_url";
     public static final String SERIALIZE_THEME_NAME = "theme_name";
+    public static final String SERIALIZE_DATE_NAME = "date_name";
+    public static final String SERIALIZE_COMPANIES_NAME = "companies";
 
 }
