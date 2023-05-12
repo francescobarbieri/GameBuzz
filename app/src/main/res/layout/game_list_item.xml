@@ -4,6 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
     android:descendantFocusability="blocksDescendants">
 
         <ImageView
@@ -24,7 +28,10 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="12dp"
+            android:fontFamily="@font/open_sans"
             android:scrollbarSize="14sp"
+            android:textColor="#000000"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/imageview_game_cover_image"
             tools:text="title" />

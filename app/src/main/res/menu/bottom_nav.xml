@@ -9,7 +9,11 @@
         android:id="@+id/exploreFragment"
         android:icon="@drawable/compass"/>
     <item
-        android:title="Search"
+        android:title="Profile"
         android:id="@+id/searchFragment"
+        android:icon="@drawable/account"/>
+    <item
+        android:title="Settings"
+        android:id="@+id/settingsFragment"
         android:icon="@drawable/account"/>
 </menu>
