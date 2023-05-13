@@ -17,8 +17,6 @@ public class DateDeserializer implements JsonDeserializer<GameDate> {
     @Override
     public GameDate deserialize(JsonElement jsonElement, Type typeOfT, JsonDeserializationContext context) {
 
-        Log.e("dateSerializer", jsonElement.toString());
-
         GameDate gameDate = new GameDate();
         JsonObject jsonObject = jsonElement.getAsJsonObject();
         gameDate.setDate(jsonObject.get(SERIALIZE_DATE_NAME).getAsString());

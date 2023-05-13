@@ -16,6 +16,7 @@ import android.view.ViewGroup;
 import com.gamebuzz.R;
 import com.gamebuzz.adapter.GameRecyclerViewAdapter;
 import com.gamebuzz.data.repository.game.GameMockRepository;
+import com.gamebuzz.data.repository.game.GameRepository;
 import com.gamebuzz.data.repository.game.GameResponseCallback;
 import com.gamebuzz.data.repository.game.IGameRepository;
 import com.gamebuzz.model.Game;
@@ -50,7 +51,9 @@ public class HomeFragment extends Fragment implements GameResponseCallback {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        iGameRepository = new GameMockRepository(requireActivity().getApplication(), this, JSONParserUtil.JsonParserType.JSON_OBJECT_ARRAY);
+        //iGameRepository = new GameMockRepository(requireActivity().getApplication(), this, JSONParserUtil.JsonParserType.JSON_OBJECT_ARRAY);
+
+        iGameRepository = new GameRepository(requireActivity().getApplication(), this);
 
         gameList = new ArrayList<>();
     }

@@ -19,8 +19,6 @@ public class DateSerializer implements JsonSerializer<GameDate> {
         JsonObject json = new JsonObject();
         json.addProperty(SERIALIZE_DATE_NAME, gameDate.getDate());
 
-        Log.e("DateDeserializer", json.toString());
-
         return json;
     }
 }
