@@ -28,4 +28,10 @@ public class Constants
     public static final String GAME_API_BASE_URL = "https://api.igdb.com/v4/";
     public static final String GAME_API_GAME_ENDPOINT = "games";
 
+    // Constants for Firebase Realtime Database
+
+    public static final String FIREBASE_REALTIME_DATABASE = "https://gamebuzz-6c020-default-rtdb.europe-west1.firebasedatabase.app/";
+    public static final String FIREBASE_USERS_COLLECTION = "users";
+    public static final String FIREBASE_FAVORITE_GAMES_COLLECTION = "favorite_games";
+
 }

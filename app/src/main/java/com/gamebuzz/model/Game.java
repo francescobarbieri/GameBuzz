@@ -10,6 +10,7 @@ import androidx.room.PrimaryKey;
 import androidx.room.TypeConverters;
 
 import com.gamebuzz.util.Converters;
+import com.google.firebase.database.Exclude;
 import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
@@ -55,11 +56,14 @@ public class Game implements Parcelable {
     @ColumnInfo(name="is_favorite")
     private boolean isFavorite;
 
+    @ColumnInfo(name = "is_synchronized")
+    private boolean isSynchronized;
+
     public Game() {}
 
     public Game(int gameId, String title, GameCover cover, List<GameGenre> gameGenre,
                 List<GamePlatform> gamePlatform, List<GameDate> gameDates, List<GameScreenshot> screenshotList,
-                List<GameTheme> gameThemeList, String summary, boolean isFavorite) {
+                List<GameTheme> gameThemeList, String summary, boolean isFavorite, boolean isSynchronized) {
         this.gameId = gameId;
         this.title = title;
         this.cover = cover;
@@ -70,6 +74,7 @@ public class Game implements Parcelable {
         this.gameThemeList = gameThemeList;
         this.summary = summary;
         this.isFavorite = isFavorite;
+        this.isSynchronized = isSynchronized;
     }
 
     public Game(String title) {
@@ -108,6 +113,9 @@ public class Game implements Parcelable {
     public List<GameTheme> getGameThemeList() { return gameThemeList; }
     public boolean getFavorite() { return isFavorite; }
 
+    @Exclude
+    public boolean isSynchronized() { return isSynchronized; }
+    public void setSynchronized(boolean aSynchronized) { isSynchronized = aSynchronized; }
 
     @Override
     public String toString() {
@@ -123,6 +131,7 @@ public class Game implements Parcelable {
                 ", themes='" + gameThemeList + '\'' +
                 ", summary='" + summary + '\'' +
                 ", isFavorite=" + isFavorite +
+                ", isSynchronized=" + isSynchronized +
                 '}';
     }
 
@@ -145,6 +154,8 @@ public class Game implements Parcelable {
     public int describeContents() { return 0; }
 
     public void writeToParcel(Parcel dest, int flags) {
+        // TODO: this
+
         dest.writeLong(this.id);
         dest.writeString(this.title);
     }

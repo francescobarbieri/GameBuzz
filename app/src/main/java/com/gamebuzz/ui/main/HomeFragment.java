@@ -5,22 +5,25 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.lifecycle.ViewModelProvider;
+import androidx.navigation.Navigation;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.gamebuzz.R;
 import com.gamebuzz.adapter.GameRecyclerViewAdapter;
-import com.gamebuzz.data.repository.game.GameMockRepository;
-import com.gamebuzz.data.repository.game.GameRepository;
 import com.gamebuzz.data.repository.game.GameResponseCallback;
 import com.gamebuzz.data.repository.game.IGameRepository;
+import com.gamebuzz.data.repository.game.IGamesRepositoryWithLiveData;
 import com.gamebuzz.model.Game;
-import com.gamebuzz.util.JSONParserUtil;
+import com.gamebuzz.model.GameApiResponse;
+import com.gamebuzz.model.Result;
+import com.gamebuzz.util.ErrorMessagesUtil;
+import com.gamebuzz.util.ServiceLocator;
 import com.google.android.material.snackbar.Snackbar;
 
 import java.util.ArrayList;
@@ -35,6 +38,8 @@ public class HomeFragment extends Fragment implements GameResponseCallback {
 
     private static final String TAG = HomeFragment.class.getSimpleName();
     private List<Game> gameList;
+
+    private GameViewModel gameViewModel;
     private IGameRepository iGameRepository;
     private GameRecyclerViewAdapter gameRecyclerViewAdapter;
 
@@ -51,9 +56,18 @@ public class HomeFragment extends Fragment implements GameResponseCallback {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        // sharedPreferencesUtil = new SharedPreferencesUtil(requireActivity().getApplication());
         //iGameRepository = new GameMockRepository(requireActivity().getApplication(), this, JSONParserUtil.JsonParserType.JSON_OBJECT_ARRAY);
 
-        iGameRepository = new GameRepository(requireActivity().getApplication(), this);
+        IGamesRepositoryWithLiveData gamesRepositoryWithLiveData = ServiceLocator.getInstance().getGameRepository(requireActivity().getApplication(), false);
+
+        if(gamesRepositoryWithLiveData != null) {
+            gameViewModel = new ViewModelProvider(
+                    requireActivity(),
+                    new GameViewModelFactory(gamesRepositoryWithLiveData)).get(GameViewModel.class);
+        } else {
+            Snackbar.make(requireActivity().findViewById(android.R.id.content), "Unexpected error", Snackbar.LENGTH_SHORT).show();
+        }
 
         gameList = new ArrayList<>();
     }
@@ -75,19 +89,43 @@ public class HomeFragment extends Fragment implements GameResponseCallback {
         gameRecyclerViewAdapter = new GameRecyclerViewAdapter(gameList, new GameRecyclerViewAdapter.OnItemClickListener() {
             @Override
             public void onGameItemClick(Game game) {
-                Snackbar.make(view, game.getTitle(), Snackbar.LENGTH_SHORT).show();
+
+
+                Navigation.findNavController(view).navigate(action);
+                // Snackbar.make(view, game.getTitle(), Snackbar.LENGTH_SHORT).show();
             }
         });
 
         recyclerViewGame.setLayoutManager(layoutManager);
         recyclerViewGame.setAdapter(gameRecyclerViewAdapter);
 
-        iGameRepository.fetchGames();
 
-        if(gameList.size() > 0) {
-            Log.e(TAG, gameList.get(0).toString());
-            Log.e(TAG, gameList.get(0).getCover().getUrl());
-        }
+        gameViewModel.getGames().observe(getViewLifecycleOwner(), result -> {
+
+            if (result instanceof Result.GameResponseSuccess) {
+                GameApiResponse gameResponse = ((Result.GameResponseSuccess) result).getData();
+                List<Game> fetchedGames = gameResponse.getGamesList();
+
+                if(!gameViewModel.isLoading()) {
+                    if(gameViewModel.isFirstLoading()) {
+                        gameViewModel.setFirstLoading(false);
+                        this.gameList.addAll(fetchedGames);
+                        gameRecyclerViewAdapter.notifyItemRangeInserted(0, this.gameList.size());
+                    } else {
+                        gameList.clear();
+                        gameList.addAll(fetchedGames);
+                        gameRecyclerViewAdapter.notifyItemChanged(0, fetchedGames.size());
+                    }
+                } else {
+                    gameViewModel.setLoading(false);
+
+                }
+            } else {
+                ErrorMessagesUtil errorMessagesUtil = new ErrorMessagesUtil(requireActivity().getApplication());
+                Snackbar.make(view, errorMessagesUtil.getErrorMessage(((Result.Error) result).getMessage()), Snackbar.LENGTH_SHORT);
+            }
+
+        });
 
     }
 
@@ -100,6 +138,13 @@ public class HomeFragment extends Fragment implements GameResponseCallback {
 
     public void onFailure(String errorMessage) {
         // TODO: do this
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        gameViewModel.setFirstLoading(true);
+        gameViewModel.setLoading(false);
     }
 
 }

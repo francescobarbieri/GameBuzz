@@ -21,6 +21,13 @@ public class Result {
         }
     }
 
+    public static final class GameResponseSuccess extends Result {
+        private final GameApiResponse gameResponse;
+
+        public GameResponseSuccess(GameApiResponse gameResponse) { this.gameResponse = gameResponse; }
+        public GameApiResponse getData() { return gameResponse; }
+    }
+
 
     public static final class Error extends Result {
         private final String message;
