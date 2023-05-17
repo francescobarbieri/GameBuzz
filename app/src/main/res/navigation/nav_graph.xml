@@ -9,7 +9,11 @@
         android:id="@+id/homeFragment"
         android:name="com.gamebuzz.ui.main.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_gameDetailFragment"
+            app:destination="@+id/detailsFragment"></action>
+    </fragment>
     <fragment
         android:id="@+id/exploreFragment"
         android:name="com.gamebuzz.ui.main.ExploreFragment"
@@ -28,4 +32,13 @@
         android:label="fragment_settings"
         tools:layout="@layout/fragment_settings" />
 
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.gamebuzz.ui.main.DetailsFragment"
+        android:label="GameDtails"
+        tools:layout="@layout/fragment_details">
+        <argument
+            android:name="game"
+            app:argType="com.gamebuzz.model.Game" />
+    </fragment>
 </navigation>

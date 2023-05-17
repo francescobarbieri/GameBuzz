@@ -89,10 +89,8 @@ public class HomeFragment extends Fragment implements GameResponseCallback {
         gameRecyclerViewAdapter = new GameRecyclerViewAdapter(gameList, new GameRecyclerViewAdapter.OnItemClickListener() {
             @Override
             public void onGameItemClick(Game game) {
-
-
+                HomeFragmentDirections.ActionHomeFragmentToGameDetailFragment action = HomeFragmentDirections.actionHomeFragmentToGameDetailFragment(game);
                 Navigation.findNavController(view).navigate(action);
-                // Snackbar.make(view, game.getTitle(), Snackbar.LENGTH_SHORT).show();
             }
         });
 
