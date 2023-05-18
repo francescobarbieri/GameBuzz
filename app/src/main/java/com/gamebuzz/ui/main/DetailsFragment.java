@@ -5,12 +5,17 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.navigation.Navigation;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.gamebuzz.R;
 import com.gamebuzz.model.Game;
 
@@ -72,9 +77,38 @@ public class DetailsFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
+        final String TAG = DetailsFragment.class.getSimpleName();
+
         Game game = DetailsFragmentArgs.fromBundle(getArguments()).getGame();
 
+        ImageButton goBack = view.findViewById(R.id.details_goBack);
+        ImageView cover = view.findViewById(R.id.details_cover);
         TextView title = view.findViewById(R.id.details_game_title);
+        TextView summary = view.findViewById(R.id.details_game_summary);
+        TextView date = view.findViewById(R.id.details_date);
+        TextView platforms = view.findViewById(R.id.details_platforms);
+
         title.setText(game.getTitle());
+        summary.setText(game.getSummary());
+        date.setText(game.getReleaseDates().get(0).getDate());
+
+        String platformString = "";
+        for(int i = 0; i < game.getGamePlatform().size(); i++) {
+            platformString += game.getGamePlatform().get(i).getName() + ", ";
+        }
+
+        platforms.setText(platformString);
+
+        Glide.with(getContext())
+                .load("https://" + game.getCover().getUrl().replace("t_thumb", "t_cover_big"))
+                .into(cover);
+
+        goBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Navigation.findNavController(view).navigate(R.id.action_detailsFragment_to_homeFragment);
+            }
+        });
+
     }
 }

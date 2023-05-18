@@ -40,5 +40,8 @@
         <argument
             android:name="game"
             app:argType="com.gamebuzz.model.Game" />
+        <action
+            android:id="@+id/action_detailsFragment_to_homeFragment"
+            app:destination="@+id/homeFragment"></action>
     </fragment>
 </navigation>

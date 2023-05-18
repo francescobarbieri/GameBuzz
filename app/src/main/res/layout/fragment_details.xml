@@ -23,98 +23,149 @@
         android:orientation="vertical"
         app:layout_constraintGuide_end="26dp" />
 
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="1dp"
-        android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="@id/guideline2"
-        app:layout_constraintStart_toStartOf="@id/guideline"
-        app:layout_constraintTop_toTopOf="parent">
 
+    <ImageButton
+        android:id="@+id/details_goBack"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="#FFFFFF"
+        android:contentDescription="back_button"
+        android:src="@drawable/arrow_back"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="@id/guideline2"
+        app:layout_constraintStart_toStartOf="@id/guideline">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <ImageView
+                android:id="@+id/details_cover"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/compass"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:src="@tools:sample/backgrounds/scenic"
+                android:layout_gravity="center"/>
 
             <TextView
                 android:id="@+id/details_game_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
                 android:fontFamily="@font/libre_franklin_bold"
                 android:text="Titolo su due righe"
-                android:textColor="#000000"
-                android:textSize="20sp" />
+                android:textColor="#003366"
+                android:textSize="20sp"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/textView9"
+                android:id="@+id/details_game_summary"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Editore: Cazzello"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/open_sans"
+                android:text="Payload consists of 2 second generation Earth-imaging satellites for BlackSky. They are part of a constellation of 60 Low Earth Orbit Earth imaging satellites adding capacity to the company’s real-time geospatial intelligence and monitoring capabilities"
                 android:textColor="#000000"
                 android:textSize="13sp" />
 
             <TextView
-                android:id="@+id/textView10"
+                android:id="@+id/releaseDate_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Tags: tag1, tag2, tag3"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/libre_franklin_bold"
+                android:text="Release date"
+                android:textColor="#003366"
+                android:textSize="16sp"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/details_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/open_sans"
+                android:text="12 Ott 1201"
                 android:textColor="#000000"
                 android:textSize="13sp" />
 
-            <ImageButton
-                android:id="@+id/imageButton2"
-                android:layout_width="wrap_content"
+            <TextView
+                android:id="@+id/platform_title"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/account" />
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/libre_franklin_bold"
+                android:text="Available on"
+                android:textColor="#003366"
+                android:textSize="16sp"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/details_platforms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/open_sans"
+                android:text="Pc, Console, Linux, Frigorifero"
+                android:textColor="#000000"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/category_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/libre_franklin_bold"
+                android:text="Category"
+                android:textColor="#003366"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/genres_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/libre_franklin_bold"
+                android:text="Genres"
+                android:textColor="#003366"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/screenshot_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/libre_franklin_bold"
+                android:text="Screenshots"
+                android:textColor="#003366"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/compass" />
+            </LinearLayout>
 
         </LinearLayout>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="619dp"
-        android:layout_marginEnd="1dp"
-        android:orientation="vertical"
-        app:layout_constraintEnd_toEndOf="@id/guideline2"
-        app:layout_constraintStart_toStartOf="@id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
-
-        <TextView
-            android:id="@+id/textView11"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/open_sans"
-            android:layout_marginTop="20sp"
-            android:text="Payload consists of 2 second generation Earth-imaging satellites for BlackSky. They are part of a constellation of 60 Low Earth Orbit Earth imaging satellites adding capacity to the company’s real-time geospatial intelligence and monitoring capabilities"
-            android:textColor="#000000"
-            android:textSize="13sp" />
-
-        <TextView
-            android:id="@+id/textView12"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20sp"
-            android:fontFamily="@font/libre_franklin_bold"
-            android:text="Available on:"
-            android:textColor="#000000"
-            android:textSize="16sp" />
-
-        <TextView
-            android:id="@+id/textView13"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/libre_franklin_bold"
-            android:layout_marginTop="20sp"
-            android:text="Screenshots:"
-            android:textColor="#000000"
-            android:textSize="16sp" />
-
-
-    </LinearLayout>
+    </ScrollView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -86,7 +86,7 @@ public class HomeFragment extends Fragment implements GameResponseCallback {
         RecyclerView recyclerViewGame = view.findViewById(R.id.recyclerview_game);
         GridLayoutManager layoutManager = new GridLayoutManager(requireContext(), 2, RecyclerView.VERTICAL, false);
 
-        gameRecyclerViewAdapter = new GameRecyclerViewAdapter(gameList, new GameRecyclerViewAdapter.OnItemClickListener() {
+        gameRecyclerViewAdapter = new GameRecyclerViewAdapter(gameList, requireActivity().getApplication(), new GameRecyclerViewAdapter.OnItemClickListener() {
             @Override
             public void onGameItemClick(Game game) {
                 HomeFragmentDirections.ActionHomeFragmentToGameDetailFragment action = HomeFragmentDirections.actionHomeFragmentToGameDetailFragment(game);
