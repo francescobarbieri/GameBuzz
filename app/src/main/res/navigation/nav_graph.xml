@@ -12,7 +12,9 @@
         tools:layout="@layout/fragment_home">
         <action
             android:id="@+id/action_homeFragment_to_gameDetailFragment"
-            app:destination="@+id/detailsFragment"></action>
+            app:destination="@+id/detailsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"/>
     </fragment>
     <fragment
         android:id="@+id/exploreFragment"
@@ -42,6 +44,9 @@
             app:argType="com.gamebuzz.model.Game" />
         <action
             android:id="@+id/action_detailsFragment_to_homeFragment"
-            app:destination="@+id/homeFragment"></action>
+            app:destination="@+id/homeFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"/>
+
     </fragment>
 </navigation>

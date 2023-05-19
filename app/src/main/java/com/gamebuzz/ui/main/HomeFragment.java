@@ -13,6 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ProgressBar;
 
 import com.gamebuzz.R;
 import com.gamebuzz.adapter.GameRecyclerViewAdapter;
@@ -97,6 +98,8 @@ public class HomeFragment extends Fragment implements GameResponseCallback {
         recyclerViewGame.setLayoutManager(layoutManager);
         recyclerViewGame.setAdapter(gameRecyclerViewAdapter);
 
+        ProgressBar progressBar = view.findViewById(R.id.progress_bar);
+        progressBar.setVisibility(View.VISIBLE);
 
         gameViewModel.getGames().observe(getViewLifecycleOwner(), result -> {
 
@@ -114,6 +117,7 @@ public class HomeFragment extends Fragment implements GameResponseCallback {
                         gameList.addAll(fetchedGames);
                         gameRecyclerViewAdapter.notifyItemChanged(0, fetchedGames.size());
                     }
+                    progressBar.setVisibility(View.GONE);
                 } else {
                     gameViewModel.setLoading(false);
 
@@ -121,6 +125,7 @@ public class HomeFragment extends Fragment implements GameResponseCallback {
             } else {
                 ErrorMessagesUtil errorMessagesUtil = new ErrorMessagesUtil(requireActivity().getApplication());
                 Snackbar.make(view, errorMessagesUtil.getErrorMessage(((Result.Error) result).getMessage()), Snackbar.LENGTH_SHORT);
+                progressBar.setVisibility(View.GONE);
             }
 
         });
