@@ -70,6 +70,7 @@
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_marginTop="80dp"
+        android:layout_marginBottom="55dp"
         app:layout_constraintEnd_toEndOf="@id/guideline2"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@id/guideline"
@@ -167,16 +168,6 @@
                 android:textSize="13sp" />
 
             <TextView
-                android:id="@+id/category_title"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:fontFamily="@font/libre_franklin_bold"
-                android:text="Category"
-                android:textColor="#003366"
-                android:textSize="16sp" />
-
-            <TextView
                 android:id="@+id/genres_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -186,27 +177,29 @@
                 android:textColor="#003366"
                 android:textSize="16sp" />
 
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/details_genres_recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
             <TextView
                 android:id="@+id/screenshot_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
                 android:fontFamily="@font/libre_franklin_bold"
                 android:text="Screenshots"
                 android:textColor="#003366"
                 android:textSize="16sp" />
 
-            <LinearLayout
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/details_screenshot_recyclerView"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:layout_height="wrap_content" >
 
-                <ImageView
-                    android:id="@+id/imageView2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/compass" />
-            </LinearLayout>
+            </androidx.recyclerview.widget.RecyclerView>
+
 
         </LinearLayout>
 
