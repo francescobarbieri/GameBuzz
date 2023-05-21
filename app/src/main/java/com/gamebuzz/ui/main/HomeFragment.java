@@ -120,7 +120,6 @@ public class HomeFragment extends Fragment implements GameResponseCallback {
                     progressBar.setVisibility(View.GONE);
                 } else {
                     gameViewModel.setLoading(false);
-
                 }
             } else {
                 ErrorMessagesUtil errorMessagesUtil = new ErrorMessagesUtil(requireActivity().getApplication());

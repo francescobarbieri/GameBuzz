@@ -24,7 +24,7 @@ public class AppActivity extends AppCompatActivity {
         BottomNavigationView bottomNav = findViewById(R.id.bottom_navigation);
 
         AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.homeFragment, R.id.searchFragment, R.id.profileFragment, R.id.settingsFragment).build();
+                R.id.homeFragment, R.id.favoriteFragment, R.id.exploreFragment, R.id.settingsFragment).build();
 
         // For the BottomNavigationView
         NavigationUI.setupWithNavController(bottomNav, navController);

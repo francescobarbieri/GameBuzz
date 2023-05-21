@@ -40,7 +40,18 @@ public class GamesLocalDataSource extends BaseGamesLocalDataSource {
 
     @Override
     public void updateGames(Game game) {
-        // TODO: do this
+        GameRoomDatabase.databaseWriteExecutor.execute(() -> {
+            if(game != null) {
+                int rowUpdatedCounter = gameDao.updateSingleFavoriteGame(game);
+
+                if(rowUpdatedCounter == 1) {
+                    Game updatedGame = gameDao.getGame(game.getId());
+                    gamesCallback.onGameFavoriteStatusChanged(updatedGame, gameDao.getFavoriteGame());
+                } else {
+                    gamesCallback.onFailureFromLocal(new Exception("Unexpected error"));
+                }
+            }
+        });
     }
 
     @Override

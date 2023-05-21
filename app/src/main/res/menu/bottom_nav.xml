@@ -9,9 +9,9 @@
         android:id="@+id/exploreFragment"
         android:icon="@drawable/compass"/>
     <item
-        android:title="Profile"
-        android:id="@+id/searchFragment"
-        android:icon="@drawable/account"/>
+        android:title="Favorite"
+        android:id="@+id/favoriteFragment"
+        android:icon="@drawable/bookmark"/>
     <item
         android:title="Settings"
         android:id="@+id/settingsFragment"

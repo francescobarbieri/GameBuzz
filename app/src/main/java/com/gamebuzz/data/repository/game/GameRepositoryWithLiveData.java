@@ -47,9 +47,6 @@ public class GameRepositoryWithLiveData implements IGamesRepositoryWithLiveData,
     @Override
     public MutableLiveData<Result> fetchGames() {
         gamesRemoteDataSource.getGames();
-
-        Log.e(TAG, "Fin qui ok, wow!");
-
         return allGamesMutableLiveData;
     }
 
@@ -66,11 +63,18 @@ public class GameRepositoryWithLiveData implements IGamesRepositoryWithLiveData,
     @Override
     public void updateGames(Game game) {
         gamesLocalDataSource.updateGames(game);
+
+        Log.e(TAG, "game: " + game.toString());
+
+        // TODO: remove this for Firebase Realtime DB
+        /*
         if(game.getFavorite()) {
             backupDataSource.addFavoriteGames(game);
         } else {
             backupDataSource.deleteFavoriteGames(game);
         }
+
+         */
     }
 
     @Override

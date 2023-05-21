@@ -37,6 +37,7 @@ public class GameViewModel extends ViewModel {
         return favoriteGameListLiveData;
     }
 
+    public void updateGames(Game game) { gameRepositoryWithLiveData.updateGames(game); }
 
     private void fetchGames() {
         gameListLiveData = gameRepositoryWithLiveData.fetchGames();
