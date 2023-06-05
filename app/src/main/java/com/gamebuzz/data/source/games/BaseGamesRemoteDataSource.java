@@ -7,4 +7,6 @@ public abstract class BaseGamesRemoteDataSource {
     public void setGamesCallback(GamesCallback gamesCallback) { this.gamesCallback = gamesCallback; }
 
     public abstract void getGames();
+
+    public abstract void searchGames(String query);
 }

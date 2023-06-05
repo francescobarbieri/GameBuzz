@@ -30,6 +30,13 @@ public class GameViewModel extends ViewModel {
         return gameListLiveData;
     }
 
+    public MutableLiveData<Result> getGames(String query) {
+        if(gameListLiveData == null) {
+            searchGames(query);
+        }
+        return gameListLiveData;
+    }
+
     public MutableLiveData<Result> getFavoriteGamesLiveData(boolean firstLoading) {
         if(favoriteGameListLiveData == null) {
             getFavoriteGames(firstLoading);
@@ -42,6 +49,8 @@ public class GameViewModel extends ViewModel {
     private void fetchGames() {
         gameListLiveData = gameRepositoryWithLiveData.fetchGames();
     }
+
+    private void searchGames(String query) { gameListLiveData = gameRepositoryWithLiveData.searchGames(query); }
 
     public void getFavoriteGames(boolean firstLoading) {
         favoriteGameListLiveData = gameRepositoryWithLiveData.getFavoriteGames(firstLoading);

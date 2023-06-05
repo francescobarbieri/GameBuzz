@@ -18,6 +18,7 @@ import com.gamebuzz.data.source.user.user.UserAuthenticationRemoteDataSource;
 import com.gamebuzz.data.repository.user.IUserRepository;
 import com.gamebuzz.data.repository.user.UserRepository;
 import com.gamebuzz.service.GameApiService;
+import com.gamebuzz.service.SearchGameApiService;
 
 import java.io.IOException;
 import java.security.GeneralSecurityException;
@@ -48,6 +49,11 @@ public class ServiceLocator {
     public GameApiService getGameApiService () {
         Retrofit retrofit = new Retrofit.Builder().baseUrl(Constants.GAME_API_BASE_URL).addConverterFactory(GsonConverterFactory.create()).build();
         return retrofit.create(GameApiService.class);
+    }
+
+    public SearchGameApiService getSearchGameApiService () {
+        Retrofit retrofit = new Retrofit.Builder().baseUrl(Constants.GAME_API_BASE_URL).addConverterFactory(GsonConverterFactory.create()).build();
+        return retrofit.create(SearchGameApiService.class);
     }
 
     public IGamesRepositoryWithLiveData getGameRepository(Application application, boolean debugMode) {

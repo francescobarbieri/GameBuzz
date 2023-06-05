@@ -30,4 +30,9 @@ public class GamesMockRemoteDataSource extends BaseGamesRemoteDataSource {
             gamesCallback.onFailureFromRemote(new Exception("Error"));
         }
     }
+
+    @Override
+    public void searchGames(String query) {
+
+    }
 }

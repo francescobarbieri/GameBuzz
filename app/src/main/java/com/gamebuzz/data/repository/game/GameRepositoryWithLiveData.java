@@ -51,6 +51,12 @@ public class GameRepositoryWithLiveData implements IGamesRepositoryWithLiveData,
     }
 
     @Override
+    public MutableLiveData<Result> searchGames(String query) {
+        gamesRemoteDataSource.searchGames(query);
+        return allGamesMutableLiveData;
+    }
+
+    @Override
     public MutableLiveData<Result> getFavoriteGames(boolean isFirstLoading) {
         if(isFirstLoading) {
             backupDataSource.getFavoriteGames();

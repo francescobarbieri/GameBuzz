@@ -8,6 +8,8 @@ import com.gamebuzz.model.Result;
 public interface IGamesRepositoryWithLiveData {
     MutableLiveData<Result> fetchGames();
 
+    MutableLiveData<Result> searchGames(String query);
+
     MutableLiveData<Result> getFavoriteGames(boolean firsLoading);
 
     void updateGames(Game game);
