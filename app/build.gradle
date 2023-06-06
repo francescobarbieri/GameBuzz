@@ -44,6 +44,11 @@ dependencies {
     implementation group: 'commons-validator', name: 'commons-validator', version: '1.7'
     implementation group: 'commons-io', name: 'commons-io', version: '2.11.0'
 
+    implementation "androidx.security:security-crypto:1.1.0-alpha04"
+    implementation 'com.google.android.gms:play-services-base:18.1.0'
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+    implementation 'com.google.android.gms:play-services-auth:20.4.0'
+
     // Java language implementation
     def nav_version = "2.5.3"
     implementation "androidx.navigation:navigation-fragment:$nav_version"

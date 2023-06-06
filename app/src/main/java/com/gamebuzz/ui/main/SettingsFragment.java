@@ -1,5 +1,7 @@
 package com.gamebuzz.ui.main;
 
+import static com.gamebuzz.util.Constants.ENCRYPTED_SHARED_PREFERENCES_FILE_NAME;
+
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -24,6 +26,7 @@ import com.gamebuzz.data.repository.user.IUserRepository;
 import com.gamebuzz.model.Result;
 import com.gamebuzz.ui.welcome.UserViewModel;
 import com.gamebuzz.ui.welcome.UserViewModelFactory;
+import com.gamebuzz.util.DataEncryptionUtil;
 import com.gamebuzz.util.ServiceLocator;
 import com.google.android.material.snackbar.Snackbar;
 
@@ -63,6 +66,8 @@ public class SettingsFragment extends Fragment {
             userViewModel.logout().observe(getViewLifecycleOwner(), result -> {
                 Log.e(TAG, result.toString());
                 if(result instanceof Result.UserResponseSuccess) {
+                    DataEncryptionUtil dataEncryptionUtil = new DataEncryptionUtil(requireActivity().getApplication());
+                    dataEncryptionUtil.deleteAll(ENCRYPTED_SHARED_PREFERENCES_FILE_NAME);
                     Navigation.findNavController(view).navigate(R.id.action_settingsFragment_to_authActivity);
                 } else {
                     Snackbar.make(view, "Unexpected error", Snackbar.LENGTH_SHORT);

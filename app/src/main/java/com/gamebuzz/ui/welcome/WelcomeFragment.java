@@ -1,63 +1,69 @@
 package com.gamebuzz.ui.welcome;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
+import androidx.lifecycle.ViewModelProvider;
 import androidx.navigation.Navigation;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
 import com.gamebuzz.R;
+import com.gamebuzz.data.repository.user.IUserRepository;
+import com.gamebuzz.model.Result;
+import com.gamebuzz.model.User;
+import com.gamebuzz.util.DataEncryptionUtil;
+import com.gamebuzz.util.ServiceLocator;
+import com.google.android.gms.auth.api.identity.BeginSignInRequest;
+import com.google.android.gms.auth.api.identity.Identity;
+import com.google.android.gms.auth.api.identity.SignInClient;
+import com.google.android.gms.common.util.SharedPreferencesUtils;
+import com.google.android.material.snackbar.Snackbar;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link WelcomeFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
+import static com.gamebuzz.util.Constants.EMAIL_ADDRESS;
+import static com.gamebuzz.util.Constants.ENCRYPTED_SHARED_PREFERENCES_FILE_NAME;
+import static com.gamebuzz.util.Constants.INVALID_CREDENTIALS_ERROR;
+import static com.gamebuzz.util.Constants.INVALID_USER_ERROR;
+import static com.gamebuzz.util.Constants.PASSWORD;
+
+import java.io.IOException;
+import java.security.GeneralSecurityException;
+
 public class WelcomeFragment extends Fragment {
 
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
+    private final static String TAG = WelcomeFragment.class.getSimpleName();
 
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
+    private UserViewModel userViewModel;
+    private DataEncryptionUtil dataEncryptionUtil;
+    private SignInClient oneTapClient;
+
+    private BeginSignInRequest signInRequest;
 
     public WelcomeFragment() {
         // Required empty public constructor
     }
 
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment WelcomeFragment.
-     */
-    // TODO: Rename and change types and number of parameters
     public static WelcomeFragment newInstance(String param1, String param2) {
         WelcomeFragment fragment = new WelcomeFragment();
-        Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
         return fragment;
     }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
+
+        IUserRepository userRepository = ServiceLocator.getInstance().getUserRepository(requireActivity().getApplication());
+
+        userViewModel = new ViewModelProvider(requireActivity(), new UserViewModelFactory(userRepository)).get(UserViewModel.class);
+
+        dataEncryptionUtil = new DataEncryptionUtil(requireActivity().getApplication());
+
     }
 
     @Override
@@ -69,6 +75,36 @@ public class WelcomeFragment extends Fragment {
 
     @Override
     public void onViewCreated (@NonNull View view, @NonNull Bundle savedInstanceState) {
+
+        try {
+            String email = dataEncryptionUtil.readSecretDataWithEncryptedSharePreferences(ENCRYPTED_SHARED_PREFERENCES_FILE_NAME, EMAIL_ADDRESS);
+            String password = dataEncryptionUtil.readSecretDataWithEncryptedSharePreferences(ENCRYPTED_SHARED_PREFERENCES_FILE_NAME, PASSWORD);
+
+            if(email != null && password != null) {
+                if(!userViewModel.isAuthenticationError()) {
+                    userViewModel.getUserMutableLiveData(email, password, true).observe(
+                            getViewLifecycleOwner(), result -> {
+                                if(result.isSuccess()) {
+                                    User user = ((Result.UserResponseSuccess) result).getData();
+                                    userViewModel.setAuthenticationError(false);
+                                    // TODO: retrieveUserInformationAndStartActivity(user, R.id.navigate_to_newsPreferenceActivity);
+                                    Navigation.findNavController(view).navigate(
+                                            R.id.navigate_to_appActivity
+                                    );
+                                } else {
+                                    userViewModel.setAuthenticationError(true);
+                                    Snackbar.make(requireActivity().findViewById(android.R.id.content), getErrorMessage(((Result.Error) result).getMessage()), Snackbar.LENGTH_SHORT).show();
+                                }
+                            });
+                } else {
+                    userViewModel.getUser(email, password, true);
+                }
+            }
+
+        } catch (GeneralSecurityException | IOException e ) {
+            e.printStackTrace();
+        }
+
         final Button buttonSignup = view.findViewById(R.id.button_to_signin);
         final Button buttonLogin = view.findViewById(R.id.button_to_login);
 
@@ -80,4 +116,16 @@ public class WelcomeFragment extends Fragment {
             Navigation.findNavController(view).navigate(R.id.navigate_to_loginFragment);
         });
     }
+
+    private String getErrorMessage(String errorType) {
+        switch (errorType) {
+            case INVALID_CREDENTIALS_ERROR:
+                return "Invalid credential error";
+            case INVALID_USER_ERROR:
+                return "Invalid user error";
+            default:
+                return "Unknown error";
+        }
+    }
+
 }

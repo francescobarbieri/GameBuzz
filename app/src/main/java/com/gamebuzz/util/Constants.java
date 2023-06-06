@@ -34,4 +34,10 @@ public class Constants
     public static final String FIREBASE_USERS_COLLECTION = "users";
     public static final String FIREBASE_FAVORITE_GAMES_COLLECTION = "favorite_games";
 
+    // Constants for EncryptedSharedPreferences
+    public static final String ENCRYPTED_SHARED_PREFERENCES_FILE_NAME = "com.gamebuzz.encrypted_preferences";
+    public static final String EMAIL_ADDRESS = "email_address";
+    public static final String PASSWORD = "password";
+    public static final String ID_TOKEN = "google_token";
+
 }
