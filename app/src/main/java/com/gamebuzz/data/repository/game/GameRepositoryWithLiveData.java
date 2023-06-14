@@ -70,8 +70,6 @@ public class GameRepositoryWithLiveData implements IGamesRepositoryWithLiveData,
     public void updateGames(Game game) {
         gamesLocalDataSource.updateGames(game);
 
-        Log.e(TAG, "game: " + game.toString());
-
         // TODO: remove this for Firebase Realtime DB
         /*
         if(game.getFavorite()) {
@@ -79,7 +77,6 @@ public class GameRepositoryWithLiveData implements IGamesRepositoryWithLiveData,
         } else {
             backupDataSource.deleteFavoriteGames(game);
         }
-
          */
     }
 

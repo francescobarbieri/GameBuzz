@@ -59,9 +59,6 @@ public class ScreenshotRecyclerViewAdapter extends RecyclerView.Adapter<Recycler
         }
 
         public void bind(GameScreenshot gameScreenshot) {
-
-            Log.e(TAG, "https:" + gameScreenshot.getUrl().replace("t_thumb", "t_screenshot_big"));
-
             Glide.with(application)
                     .load("https:" + gameScreenshot.getUrl().replace("t_thumb", "t_screenshot_big"))
                     .into(imageView);

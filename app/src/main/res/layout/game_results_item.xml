@@ -1,23 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginBottom="25dp">
 
-    <TextView
-        android:id="@+id/textview_game_title"
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Heartstone"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:cardCornerRadius="8dp"
+        android:elevation="0dp">
 
-    <TextView
-        android:id="@+id/textview_pub_date"
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="110dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/compass"
+            android:id="@+id/imageview_game_search_cover_image"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="2010"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textview_game_title" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        >
+
+        <TextView
+            android:id="@+id/textview_game_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/open_sans"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:text="Heartstone"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/textview_pub_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2010" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

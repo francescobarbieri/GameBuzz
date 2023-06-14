@@ -20,7 +20,13 @@
         android:id="@+id/exploreFragment"
         android:name="com.gamebuzz.ui.main.ExploreFragment"
         android:label="fragment_search"
-        tools:layout="@layout/fragment_explore" />
+        tools:layout="@layout/fragment_explore">
+        <action
+            android:id="@+id/action_exploreFragment_to_gameDetailFragment"
+            app:destination="@+id/detailsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"/>
+    </fragment>
 
     <fragment
         android:id="@+id/favoriteFragment"

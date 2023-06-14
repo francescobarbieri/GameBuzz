@@ -10,6 +10,7 @@ import androidx.navigation.Navigation;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -76,8 +77,10 @@ public class FavoriteFragment extends Fragment {
                     gameList.clear();
                     gameList.addAll(((Result.GameResponseSuccess) result).getData().getGamesList());
                     gameRecyclerViewAdapter.notifyDataSetChanged();
+                    Log.e(TAG, ((Result.GameResponseSuccess) result).getData().getGamesList().toString());
                     if(isFirstLoading) {
                         // TODO: change firstLoading
+
                     }
                 } else {
                     ErrorMessagesUtil errorMessagesUtil = new ErrorMessagesUtil(requireActivity().getApplication());

@@ -1,5 +1,7 @@
 package com.gamebuzz.data.source.games;
 
+import android.util.Log;
+
 import com.gamebuzz.data.database.GameDao;
 import com.gamebuzz.data.database.GameRoomDatabase;
 import com.gamebuzz.model.Game;
@@ -10,6 +12,8 @@ import com.google.android.gms.common.util.SharedPreferencesUtils;
 import java.util.List;
 
 public class GamesLocalDataSource extends BaseGamesLocalDataSource {
+
+    private static final String TAG = GamesLocalDataSource.class.getSimpleName();
 
     private final GameDao gameDao;
     //TODO: private final SharedPreferencesUtils sharedPreferencesUtils;
@@ -56,6 +60,7 @@ public class GamesLocalDataSource extends BaseGamesLocalDataSource {
 
     @Override
     public void insertGames(GameApiResponse gameApiResponse) {
+
         GameRoomDatabase.databaseWriteExecutor.execute( () -> {
             List<Game> allGames = gameDao.getAll();
             List<Game> gameList = gameApiResponse.getGamesList();

@@ -7,9 +7,11 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.widget.SearchView;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
+import androidx.navigation.Navigation;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -32,6 +34,8 @@ import java.util.List;
 
 public class ExploreFragment extends Fragment {
 
+    private static final String TAG = ExploreFragment.class.getSimpleName();
+
     private TextInputLayout inputText;
     private Button submitButton;
     private RecyclerView recyclerView;
@@ -43,10 +47,6 @@ public class ExploreFragment extends Fragment {
         // Required empty public constructor
     }
 
-    public static ExploreFragment newInstance(String param1, String param2) {
-        ExploreFragment fragment = new ExploreFragment();
-        return fragment;
-    }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -56,7 +56,7 @@ public class ExploreFragment extends Fragment {
 
         if(gamesRepositoryWithLiveData != null) {
             gameViewModel = new ViewModelProvider(
-                    requireActivity(),
+                    this,
                     new GameViewModelFactory(gamesRepositoryWithLiveData)).get(GameViewModel.class);
         } else {
             Snackbar.make(requireActivity().findViewById(android.R.id.content), "Unexpected error", Snackbar.LENGTH_SHORT).show();
@@ -73,7 +73,6 @@ public class ExploreFragment extends Fragment {
     }
 
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
-
         inputText = view.findViewById(R.id.search_games_texInput);
         submitButton = view.findViewById(R.id.searchSubmmitButton);
         recyclerView = view.findViewById(R.id.recyclerview_games_results);
@@ -83,7 +82,8 @@ public class ExploreFragment extends Fragment {
 
             @Override
             public void OnItemClick(Game game){
-                //TODO: directions
+                ExploreFragmentDirections.ActionExploreFragmentToGameDetailFragment action = ExploreFragmentDirections.actionExploreFragmentToGameDetailFragment(game);
+                Navigation.findNavController(view).navigate(action);
             }
         });
         recyclerView.setAdapter(searchResultsAdapter);
@@ -91,7 +91,6 @@ public class ExploreFragment extends Fragment {
         submitButton.setOnClickListener( v -> {
             performSearch(inputText.getEditText().getText().toString().trim(), view);
         });
-
     }
 
     private void performSearch(String query, View view) {
@@ -121,7 +120,6 @@ public class ExploreFragment extends Fragment {
                 Snackbar.make(view, errorMessagesUtil.getErrorMessage(((Result.Error) result).getMessage()), Snackbar.LENGTH_SHORT);
                 //    progressBar.setVisibility(View.GONE);
             }
-
         });
     }
 

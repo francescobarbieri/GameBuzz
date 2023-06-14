@@ -10,6 +10,7 @@ import androidx.navigation.Navigation;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -64,7 +65,7 @@ public class HomeFragment extends Fragment implements GameResponseCallback {
 
         if(gamesRepositoryWithLiveData != null) {
             gameViewModel = new ViewModelProvider(
-                    requireActivity(),
+                    this,
                     new GameViewModelFactory(gamesRepositoryWithLiveData)).get(GameViewModel.class);
         } else {
             Snackbar.make(requireActivity().findViewById(android.R.id.content), "Unexpected error", Snackbar.LENGTH_SHORT).show();
@@ -102,6 +103,8 @@ public class HomeFragment extends Fragment implements GameResponseCallback {
         progressBar.setVisibility(View.VISIBLE);
 
         gameViewModel.getGames().observe(getViewLifecycleOwner(), result -> {
+
+            Log.e(TAG, "Metodo principale");
 
             if (result instanceof Result.GameResponseSuccess) {
                 GameApiResponse gameResponse = ((Result.GameResponseSuccess) result).getData();
