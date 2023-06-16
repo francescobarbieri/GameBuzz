@@ -140,15 +140,14 @@ public class Game implements Parcelable {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Game game = (Game) o;
-        return Objects.equals(gameId, game.gameId) && Objects.equals(title, game.title) && Objects.equals(cover, game.cover) &&
-                Objects.equals(gameGenre, game.gameGenre) && Objects.equals(gamePlatform, game.gamePlatform) &&
-                 Objects.equals(releaseDates, game.releaseDates) && Objects.equals(screenshotList, game.screenshotList)
-                && Objects.equals(gameThemeList, game.gameThemeList) && Objects.equals(summary, game.summary);
+        return Objects.equals(title, game.title) &&
+                Objects.equals(releaseDates, game.releaseDates) && Objects.equals(screenshotList, game.screenshotList)
+                && Objects.equals(summary, game.summary);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(gameId, title, cover, gameGenre, gamePlatform, releaseDates, screenshotList, gameThemeList, summary);
+        return Objects.hash(title, releaseDates, screenshotList, summary);
     }
 
     public int describeContents() { return 0; }

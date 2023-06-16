@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "563584544916",
+    "firebase_url": "https://gamebuzz-6c020-default-rtdb.europe-west1.firebasedatabase.app",
     "project_id": "gamebuzz-6c020",
     "storage_bucket": "gamebuzz-6c020.appspot.com"
   },
@@ -13,6 +14,14 @@
         }
       },
       "oauth_client": [
+        {
+          "client_id": "563584544916-g3bvbnd4pcr6up6e7n58i9fv3h7d7s11.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gamebuzz",
+            "certificate_hash": "9da2c0d74a9fb50a600e66dfe0e6a26cfcf0aa3d"
+          }
+        },
         {
           "client_id": "563584544916-roq09sq5mmdi8t05n78u89ru2734d3ob.apps.googleusercontent.com",
           "client_type": 3

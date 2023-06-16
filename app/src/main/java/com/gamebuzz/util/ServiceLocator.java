@@ -13,8 +13,10 @@ import com.gamebuzz.data.source.games.FavoriteGamesDataSource;
 import com.gamebuzz.data.source.games.GameRemoteDataSource;
 import com.gamebuzz.data.source.games.GamesLocalDataSource;
 import com.gamebuzz.data.source.games.GamesMockRemoteDataSource;
+import com.gamebuzz.data.source.user.BaseUserDataRemoteDataSource;
+import com.gamebuzz.data.source.user.UserDataRemoteDataSource;
 import com.gamebuzz.data.source.user.user.BaseUserAuthenticationRemoteDataSource;
-import com.gamebuzz.data.source.user.user.UserAuthenticationRemoteDataSource;
+import com.gamebuzz.data.source.user.UserAuthenticationRemoteDataSource;
 import com.gamebuzz.data.repository.user.IUserRepository;
 import com.gamebuzz.data.repository.user.UserRepository;
 import com.gamebuzz.service.GameApiService;
@@ -82,6 +84,10 @@ public class ServiceLocator {
 
         BaseUserAuthenticationRemoteDataSource userRemoteAuthenticationDataSource = new UserAuthenticationRemoteDataSource();
 
-        return new UserRepository(userRemoteAuthenticationDataSource);
+        BaseUserDataRemoteDataSource userDataRemoteDataSource = new UserDataRemoteDataSource();
+
+        BaseGamesLocalDataSource gamesLocalDataSource = new GamesLocalDataSource(getGameDao(application));
+
+        return new UserRepository(userRemoteAuthenticationDataSource, gamesLocalDataSource, userDataRemoteDataSource);
     }
 }

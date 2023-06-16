@@ -5,6 +5,8 @@ import android.os.Parcelable;
 
 import com.google.gson.annotations.SerializedName;
 
+import java.util.Objects;
+
 public class GameDate implements Parcelable {
 
     @SerializedName("human")
@@ -26,6 +28,19 @@ public class GameDate implements Parcelable {
 
     public void writeToParcel(Parcel dest, int flags) {
         dest.writeString(this.human);
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        GameDate that = (GameDate) o;
+        return Objects.equals(human, that.human);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(human);
     }
 
     public static final Parcelable.Creator<GameDate> CREATOR = new Parcelable.Creator<GameDate>() {

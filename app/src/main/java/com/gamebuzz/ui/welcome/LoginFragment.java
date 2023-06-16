@@ -15,6 +15,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.navigation.Navigation;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -86,11 +87,13 @@ public class LoginFragment extends Fragment {
                 if(!userViewModel.isAuthenticationError()) {
                     userViewModel.getUserMutableLiveData(email, password, true).observe(
                             getViewLifecycleOwner(), result -> {
+
+                                Log.e(TAG, result.toString());
+
                                 if(result.isSuccess()) {
                                     User user = ((Result.UserResponseSuccess) result).getData();
                                     saveLoginData(email, password, user.getIdToken());
                                     userViewModel.setAuthenticationError(false);
-                                    // TODO: retrieveUserInformationAndStartActivity(user, R.id.navigate_to_newsPreferenceActivity);
                                     Navigation.findNavController(view).navigate(
                                             R.id.navigate_to_appActivity
                                     );

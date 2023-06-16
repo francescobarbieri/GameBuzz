@@ -70,14 +70,13 @@ public class GameRepositoryWithLiveData implements IGamesRepositoryWithLiveData,
     public void updateGames(Game game) {
         gamesLocalDataSource.updateGames(game);
 
-        // TODO: remove this for Firebase Realtime DB
-        /*
-        if(game.getFavorite()) {
+        Log.e(TAG, "Msg: " +  game.getFavorite());
+
+        if(!game.getFavorite()) {
             backupDataSource.addFavoriteGames(game);
         } else {
             backupDataSource.deleteFavoriteGames(game);
         }
-         */
     }
 
     @Override
@@ -115,6 +114,7 @@ public class GameRepositoryWithLiveData implements IGamesRepositoryWithLiveData,
     @Override
     public void onGameFavoriteStatusChanged(Game game, List<Game> favoriteGames) {
         Result allGamesResult = allGamesMutableLiveData.getValue();
+
 
         if(allGamesResult != null & allGamesResult.isSuccess()) {
             List<Game> oldAllGames = ((Result.GameResponseSuccess)allGamesResult).getData().getGamesList();

@@ -9,8 +9,10 @@ import com.gamebuzz.model.User;
 
 public class UserViewModel extends ViewModel {
     private static final String TAG = UserViewModel.class.getSimpleName();
-    public final IUserRepository userRepository;
+    private final IUserRepository userRepository;
     private MutableLiveData<Result> userMutableLiveData;
+
+    private MutableLiveData<Result> userFavoriteGamesMutableLiveData;
     private boolean authenticationError;
 
     public UserViewModel (IUserRepository userRepository) {
@@ -33,6 +35,15 @@ public class UserViewModel extends ViewModel {
 
         return userMutableLiveData;
     }
+
+    public MutableLiveData<Result> getUserFavoriteGamesMutableLiveData(String idToken) {
+        if(userFavoriteGamesMutableLiveData == null) {
+            getUserFavoriteGames(idToken);
+        }
+
+        return  userFavoriteGamesMutableLiveData;
+    }
+
 
     public User getLoggedUser() {
         return userRepository.getLoggedUser();
@@ -66,6 +77,10 @@ public class UserViewModel extends ViewModel {
 
     private void getUserData(String token) {
         userMutableLiveData = userRepository.getGoogleUser(token);
+    }
+
+    private void getUserFavoriteGames(String idToken) {
+        userFavoriteGamesMutableLiveData = userRepository.getUserFavoriteGames(idToken);
     }
 
 }

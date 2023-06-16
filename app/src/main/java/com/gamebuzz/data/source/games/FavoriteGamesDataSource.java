@@ -64,6 +64,7 @@ public class FavoriteGamesDataSource extends BaseFavoriteGamesDataSource {
         }).addOnFailureListener(new OnFailureListener() {
             @Override
             public void onFailure(@NonNull Exception e) {
+                Log.e(TAG, e.getLocalizedMessage());
                 gamesCallback.onFailureFromCloud(e);
             }
         });

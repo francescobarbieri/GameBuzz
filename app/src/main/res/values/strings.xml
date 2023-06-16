@@ -5,9 +5,9 @@
     <string name="logout">Logout</string>
     <string name="send_feedback">Send feedback</string>
     <string name="settings">Settings</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="search_hint">Search video games</string>
     <string name="Discover">Discover</string>
+    <string name="default_web_client_id_2">563584544916-roq09sq5mmdi8t05n78u89ru2734d3ob.apps.googleusercontent.com</string>
 
 </resources>

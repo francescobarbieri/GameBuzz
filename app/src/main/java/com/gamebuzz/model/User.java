@@ -3,6 +3,8 @@ package com.gamebuzz.model;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+import com.google.firebase.database.Exclude;
+
 public class User implements Parcelable {
     private String name;
     private String email;
@@ -22,7 +24,7 @@ public class User implements Parcelable {
 
     public void setEmail(String email) { this.email = email; }
 
-    // @Exclude
+    @Exclude
     public String getIdToken() { return idToken; }
 
     public void setIdToken(String idToken) { this.idToken = idToken; }

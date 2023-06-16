@@ -1,4 +1,4 @@
-package com.gamebuzz.data.source.user.user;
+package com.gamebuzz.data.source.user;
 
 import static com.gamebuzz.util.Constants.INVALID_CREDENTIALS_ERROR;
 import static com.gamebuzz.util.Constants.INVALID_USER_ERROR;
@@ -59,9 +59,11 @@ public class UserAuthenticationRemoteDataSource extends com.gamebuzz.data.source
     @Override
     public void signUp (String email, String password) {
         firebaseAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(task -> {
+
             if(task.isSuccessful()) {
                 FirebaseUser firebaseUser = firebaseAuth.getCurrentUser();
                 if(firebaseUser != null) {
+
                     userResponseCallback.onSuccessFromAuthentication(new User(firebaseUser.getDisplayName(), email, firebaseUser.getUid()));
                 } else {
                     userResponseCallback.onFailureFromAuthentication(getErrorMessage(task.getException()));

@@ -3,6 +3,8 @@ package com.gamebuzz.model;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+import java.util.Objects;
+
 public class GameScreenshot implements Parcelable {
 
     private String url;
@@ -23,6 +25,19 @@ public class GameScreenshot implements Parcelable {
 
     public void writeToParcel(Parcel dest, int flags) {
         dest.writeString(this.url);
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        GameScreenshot that = (GameScreenshot) o;
+        return Objects.equals(url, that.url);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(url);
     }
 
     public static final Parcelable.Creator<GameScreenshot> CREATOR = new Parcelable.Creator<GameScreenshot>() {

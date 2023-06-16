@@ -77,7 +77,6 @@ public class FavoriteFragment extends Fragment {
                     gameList.clear();
                     gameList.addAll(((Result.GameResponseSuccess) result).getData().getGamesList());
                     gameRecyclerViewAdapter.notifyDataSetChanged();
-                    Log.e(TAG, ((Result.GameResponseSuccess) result).getData().getGamesList().toString());
                     if(isFirstLoading) {
                         // TODO: change firstLoading
 

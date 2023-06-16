@@ -65,7 +65,7 @@ public class HomeFragment extends Fragment implements GameResponseCallback {
 
         if(gamesRepositoryWithLiveData != null) {
             gameViewModel = new ViewModelProvider(
-                    this,
+                    requireActivity(),
                     new GameViewModelFactory(gamesRepositoryWithLiveData)).get(GameViewModel.class);
         } else {
             Snackbar.make(requireActivity().findViewById(android.R.id.content), "Unexpected error", Snackbar.LENGTH_SHORT).show();

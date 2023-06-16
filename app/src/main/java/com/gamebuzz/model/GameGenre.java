@@ -3,6 +3,8 @@ package com.gamebuzz.model;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+import java.util.Objects;
+
 public class GameGenre implements Parcelable {
 
     private String name;
@@ -21,6 +23,19 @@ public class GameGenre implements Parcelable {
 
     public void writeToParcel(Parcel dest, int flags) {
         dest.writeString(this.name);
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        GameGenre that = (GameGenre) o;
+        return Objects.equals(name, that.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name);
     }
 
     public static final Parcelable.Creator<GameGenre> CREATOR = new Parcelable.Creator<GameGenre>() {
