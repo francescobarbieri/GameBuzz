@@ -82,7 +82,6 @@ public class WelcomeFragment extends Fragment {
         signInRequest = BeginSignInRequest.builder()
                 .setPasswordRequestOptions(BeginSignInRequest.PasswordRequestOptions.builder().setSupported(true).build())
                 .setGoogleIdTokenRequestOptions(BeginSignInRequest.GoogleIdTokenRequestOptions.builder().setSupported(true).setServerClientId(getString(R.string.default_web_client_id_2))
-                        .setFilterByAuthorizedAccounts(true)
                         .setFilterByAuthorizedAccounts(false).build())
                 .setAutoSelectEnabled(true)
                 .build();
