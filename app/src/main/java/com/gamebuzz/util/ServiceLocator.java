@@ -1,6 +1,9 @@
 package com.gamebuzz.util;
 
 
+import static com.gamebuzz.util.Constants.ENCRYPTED_SHARED_PREFERENCES_FILE_NAME;
+import static com.gamebuzz.util.Constants.ID_TOKEN;
+
 import android.app.Application;
 
 import com.gamebuzz.data.database.GameRoomDatabase;
@@ -63,7 +66,7 @@ public class ServiceLocator {
         BaseGamesLocalDataSource gamesLocalDataSource;
         BaseFavoriteGamesDataSource favoriteGamesDataSource;
         // SharedPreferencesUtil sharedPreferencesUtil = new SharedPreferencesUtil(application);
-        // DataEncryptionUtil dataEncryptionUtil = new DataEncryptionUtil(application);
+        DataEncryptionUtil dataEncryptionUtil = new DataEncryptionUtil(application);
 
         if(debugMode) {
             JSONParserUtil jsonParserUtil = new JSONParserUtil(application);
@@ -74,8 +77,11 @@ public class ServiceLocator {
 
         gamesLocalDataSource = new GamesLocalDataSource(getGameDao(application));
 
-        favoriteGamesDataSource = new FavoriteGamesDataSource("");
-
+        try {
+            favoriteGamesDataSource = new FavoriteGamesDataSource(dataEncryptionUtil.readSecretDataWithEncryptedSharePreferences(ENCRYPTED_SHARED_PREFERENCES_FILE_NAME, ID_TOKEN));
+        } catch (GeneralSecurityException | IOException e) {
+            return null;
+        }
 
         return new GameRepositoryWithLiveData(gamesRemoteDataSource, gamesLocalDataSource, favoriteGamesDataSource);
     }

@@ -40,4 +40,8 @@ public class Constants
     public static final String PASSWORD = "password";
     public static final String ID_TOKEN = "google_token";
 
+    // Constants for SharedPreferences
+    public static final String SHARED_PREFERENCES_FILE_NAME = "com.gamebuzz.preferences";
+    public static final String SHARED_PREFERENCES_FIRST_LOADING = "first_loading";
+
 }

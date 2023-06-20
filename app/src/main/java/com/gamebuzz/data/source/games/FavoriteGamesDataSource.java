@@ -7,6 +7,7 @@ import static com.gamebuzz.util.Constants.FIREBASE_USERS_COLLECTION;
 import android.util.Log;
 
 import androidx.annotation.NonNull;
+import androidx.core.graphics.drawable.BitmapDrawableKt;
 
 import com.gamebuzz.model.Game;
 import com.google.android.gms.tasks.OnFailureListener;

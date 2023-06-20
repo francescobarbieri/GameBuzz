@@ -19,7 +19,10 @@ import com.gamebuzz.R;
 import com.gamebuzz.adapter.GameRecyclerViewAdapter;
 import com.gamebuzz.model.Game;
 import com.gamebuzz.model.Result;
+import com.gamebuzz.util.Constants;
 import com.gamebuzz.util.ErrorMessagesUtil;
+import com.gamebuzz.util.SharedPreferencesUtil;
+import com.google.android.gms.common.util.SharedPreferencesUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -68,7 +71,7 @@ public class FavoriteFragment extends Fragment {
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setAdapter(gameRecyclerViewAdapter);
 
-        boolean isFirstLoading = false;
+        boolean isFirstLoading = true;
 
         // TODO: edit true accordingly
         gameViewModel.getFavoriteGamesLiveData(isFirstLoading).observe(getViewLifecycleOwner(), result -> {
