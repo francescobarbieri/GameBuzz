@@ -116,11 +116,20 @@ public class DetailsFragment extends Fragment {
         recyclerViewGameScreenshots.setNestedScrollingEnabled(false);
 
         if(game.getFavorite()) {
-            favoriteButton.setCompoundDrawablesWithIntrinsicBounds(R.drawable.bookmarkcheckfill, 0, 0 , 0);
+            favoriteButton.setCompoundDrawablesWithIntrinsicBounds(R.drawable.bookmarkcheckfill, 0, 0, 0);
+        } else {
+            favoriteButton.setCompoundDrawablesWithIntrinsicBounds(R.drawable.bookmark, 0, 0, 0);
         }
 
         favoriteButton.setOnClickListener(v -> {
             onFavoriteButtonPressed(game);
+
+            if(game.getFavorite()) {
+                favoriteButton.setCompoundDrawablesWithIntrinsicBounds(R.drawable.bookmarkcheckfill, 0, 0, 0);
+            } else {
+                favoriteButton.setCompoundDrawablesWithIntrinsicBounds(R.drawable.bookmark, 0, 0, 0);
+            }
+
         });
 
     }
@@ -130,4 +139,5 @@ public class DetailsFragment extends Fragment {
         game.setFavorite(!game.getFavorite());
         gameViewModel.updateGames(game);
     }
+
 }

@@ -70,9 +70,7 @@ public class GameRepositoryWithLiveData implements IGamesRepositoryWithLiveData,
     public void updateGames(Game game) {
         gamesLocalDataSource.updateGames(game);
 
-        Log.e(TAG, "Msg: " +  game.getFavorite());
-
-        if(!game.getFavorite()) {
+        if(game.getFavorite()) {
             backupDataSource.addFavoriteGames(game);
         } else {
             backupDataSource.deleteFavoriteGames(game);
