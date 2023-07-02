@@ -1,5 +1,6 @@
 package com.gamebuzz.ui.main;
 
+import static com.gamebuzz.util.Constants.EMAIL_ADDRESS;
 import static com.gamebuzz.util.Constants.ENCRYPTED_SHARED_PREFERENCES_FILE_NAME;
 
 import android.os.Bundle;
@@ -19,8 +20,10 @@ import androidx.navigation.Navigation;
 import android.content.DialogInterface;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
+import com.gamebuzz.BuildConfig;
 import com.gamebuzz.R;
 import com.gamebuzz.data.repository.user.IUserRepository;
 import com.gamebuzz.model.Result;
@@ -30,6 +33,9 @@ import com.gamebuzz.util.DataEncryptionUtil;
 import com.gamebuzz.util.ServiceLocator;
 import com.google.android.material.snackbar.Snackbar;
 
+import java.io.IOException;
+import java.security.GeneralSecurityException;
+
 public class SettingsFragment extends Fragment {
 
     private static String TAG = SettingsFragment.class.getSimpleName();
@@ -37,6 +43,8 @@ public class SettingsFragment extends Fragment {
     private Button logoutButton;
 
     private UserViewModel userViewModel;
+
+    private DataEncryptionUtil dataEncryptionUtil;
 
     public SettingsFragment() {
         // Required empty public constructor
@@ -48,6 +56,8 @@ public class SettingsFragment extends Fragment {
 
         IUserRepository userRepository = ServiceLocator.getInstance().getUserRepository(requireActivity().getApplication());
         userViewModel = new ViewModelProvider(requireActivity(), new UserViewModelFactory(userRepository)).get(UserViewModel.class);
+
+        dataEncryptionUtil = new DataEncryptionUtil(requireActivity().getApplication());
     }
 
     @Override
@@ -61,6 +71,22 @@ public class SettingsFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         logoutButton = view.findViewById(R.id.logout_button);
+        String email;
+        try {
+            email = dataEncryptionUtil.readSecretDataWithEncryptedSharePreferences(ENCRYPTED_SHARED_PREFERENCES_FILE_NAME, EMAIL_ADDRESS);
+        } catch (GeneralSecurityException | IOException e) {
+            email = "email";
+            e.printStackTrace();
+        }
+
+        TextView emailTextview = view.findViewById(R.id.textView_email);
+        emailTextview.setText(email);
+
+        String versionName = BuildConfig.VERSION_NAME;
+
+        TextView versionTextview = view.findViewById(R.id.textView_version);
+        versionTextview.setText(versionName);
+
 
         logoutButton.setOnClickListener( v -> {
             userViewModel.logout().observe(getViewLifecycleOwner(), result -> {

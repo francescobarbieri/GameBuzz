@@ -77,47 +77,7 @@ public class WelcomeFragment extends Fragment {
 
         dataEncryptionUtil = new DataEncryptionUtil(requireActivity().getApplication());
 
-        oneTapClient = Identity.getSignInClient(requireActivity());
-
-        signInRequest = BeginSignInRequest.builder()
-                .setPasswordRequestOptions(BeginSignInRequest.PasswordRequestOptions.builder().setSupported(true).build())
-                .setGoogleIdTokenRequestOptions(BeginSignInRequest.GoogleIdTokenRequestOptions.builder().setSupported(true).setServerClientId(getString(R.string.default_web_client_id_2))
-                        .setFilterByAuthorizedAccounts(false).build())
-                .setAutoSelectEnabled(true)
-                .build();
-
         startIntentSenderForResult = new ActivityResultContracts.StartIntentSenderForResult();
-
-        activityResultLauncher = registerForActivityResult(startIntentSenderForResult, activityResult -> {
-            if(activityResult.getResultCode() == Activity.RESULT_OK) {
-                try {
-                    SignInCredential credential = oneTapClient.getSignInCredentialFromIntent(activityResult.getData());
-                    String idToken = credential.getGoogleIdToken();
-
-                    if(idToken != null) {
-                        userViewModel.getGoogleUserMutableLiveData(idToken).observe(getViewLifecycleOwner(), authResult -> {
-                            if (authResult.isSuccess()) {
-                                User user = ((Result.UserResponseSuccess) authResult).getData();
-                                saveLoginData(user.getEmail(), null, user.getIdToken());
-                                userViewModel.setAuthenticationError((false));
-                                /*
-                                Navigation.findNavController(view).navigate(
-                                        R.id.navigate_to_appActivity
-                                );
-
-                                 */
-                            } else {
-                                userViewModel.setAuthenticationError(true);
-                                Snackbar.make(requireActivity().findViewById(android.R.id.content), getErrorMessage(((Result.Error) authResult).getMessage()), Snackbar.LENGTH_SHORT).show();
-                            }
-                        });
-                    }
-                } catch (ApiException e) {
-                    Snackbar.make(requireActivity().findViewById(android.R.id.content), "Unexpected Error", Snackbar.LENGTH_SHORT).show();
-                }
-            }
-        });
-
     }
 
     @Override
@@ -158,26 +118,6 @@ public class WelcomeFragment extends Fragment {
         } catch (GeneralSecurityException | IOException e ) {
             e.printStackTrace();
         }
-
-        final Button loginWithGoogleButton = view.findViewById(R.id.login_with_google_button);
-
-        loginWithGoogleButton.setOnClickListener( v -> oneTapClient.beginSignIn(signInRequest)
-                .addOnSuccessListener(requireActivity(), new OnSuccessListener<BeginSignInResult>() {
-                    @Override
-                    public void onSuccess(BeginSignInResult beginSignInResult) {
-                        IntentSenderRequest intentSenderRequest = new IntentSenderRequest.Builder(beginSignInResult.getPendingIntent()).build();
-                        activityResultLauncher.launch(intentSenderRequest);
-                    }
-                })
-                .addOnFailureListener(requireActivity(), new OnFailureListener() {
-                    @Override
-                    public void onFailure(@NonNull Exception e) {
-                        Log.e(TAG, e.getMessage());
-
-                        Snackbar.make(requireActivity().findViewById(android.R.id.content), "No google accoutns have been found", Snackbar.LENGTH_SHORT).show();
-                    }
-                })
-        );
 
         final Button buttonSignup = view.findViewById(R.id.button_to_signin);
         final Button buttonLogin = view.findViewById(R.id.button_to_login);
