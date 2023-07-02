@@ -20,6 +20,38 @@
         android:orientation="vertical"
         app:layout_constraintGuide_end="26dp" />
 
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="26dp" />
+
+        <TextView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/libre_franklin_bold"
+            android:text="Favorite Games"
+            android:textColor="@color/dark_blue"
+            android:textSize="19dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/applogo" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/search_games_texInput"
         android:layout_width="0dp"
@@ -29,7 +61,7 @@
         app:boxBackgroundColor="@android:color/transparent"
         app:layout_constraintEnd_toStartOf="@+id/guideline5"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@id/top_bar">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
