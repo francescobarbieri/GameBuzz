@@ -161,8 +161,6 @@ public class GameRepositoryWithLiveData implements IGamesRepositoryWithLiveData,
             Result.GameResponseSuccess result = new Result.GameResponseSuccess(new GameApiResponse(favoriteGames));
             favoriteGamesMutableLiveData.postValue(result);
         }
-
-        // TODO: IMPORTANT backupDataSource.deleteAllFavoriteGames();
     }
 
     @Override

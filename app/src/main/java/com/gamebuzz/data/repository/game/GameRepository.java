@@ -83,12 +83,12 @@ public class GameRepository implements IGameRepository {
 
     @Override
     public void getFavoriteGames() {
-        //TODO: add room db
+
     }
 
     @Override
     public void deleteFavoriteGames() {
-        // TODO: add room db
+
     }
 
 }

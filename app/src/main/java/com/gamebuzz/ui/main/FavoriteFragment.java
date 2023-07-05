@@ -73,17 +73,12 @@ public class FavoriteFragment extends Fragment {
 
         boolean isFirstLoading = true;
 
-        // TODO: edit true accordingly
         gameViewModel.getFavoriteGamesLiveData(isFirstLoading).observe(getViewLifecycleOwner(), result -> {
             if(result != null) {
                 if(result instanceof Result.GameResponseSuccess) {
                     gameList.clear();
                     gameList.addAll(((Result.GameResponseSuccess) result).getData().getGamesList());
                     gameRecyclerViewAdapter.notifyDataSetChanged();
-                    if(isFirstLoading) {
-                        // TODO: change firstLoading
-
-                    }
                 } else {
                     ErrorMessagesUtil errorMessagesUtil = new ErrorMessagesUtil(requireActivity().getApplication());
                 }

@@ -104,8 +104,6 @@ public class HomeFragment extends Fragment implements GameResponseCallback {
 
         gameViewModel.getGames().observe(getViewLifecycleOwner(), result -> {
 
-            Log.e(TAG, "Metodo principale");
-
             if (result instanceof Result.GameResponseSuccess) {
                 GameApiResponse gameResponse = ((Result.GameResponseSuccess) result).getData();
                 List<Game> fetchedGames = gameResponse.getGamesList();

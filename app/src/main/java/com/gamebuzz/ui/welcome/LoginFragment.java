@@ -87,9 +87,6 @@ public class LoginFragment extends Fragment {
                 if(!userViewModel.isAuthenticationError()) {
                     userViewModel.getUserMutableLiveData(email, password, true).observe(
                             getViewLifecycleOwner(), result -> {
-
-                                Log.e(TAG, result.toString());
-
                                 if(result.isSuccess()) {
                                     User user = ((Result.UserResponseSuccess) result).getData();
                                     saveLoginData(email, password, user.getIdToken());

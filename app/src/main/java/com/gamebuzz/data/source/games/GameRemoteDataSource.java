@@ -64,8 +64,6 @@ public class GameRemoteDataSource extends BaseGamesRemoteDataSource {
     public void searchGames(String query) {
         String text = "fields name, summary, genres.name, cover.url, release_dates.human, screenshots.url, involved_companies.company.name, themes.name, platforms.name; where summary != null & genres.name != null & cover.url != null & involved_companies != null & themes != null & platforms != null;  limit 10; search \"" + query + "\";";
 
-        Log.e(TAG, text);
-
         RequestBody body = RequestBody.create(MediaType.parse("text/plain"), text);
 
         Call<List<Game>> gameResponseCall = searchGameApiService.getGames(body);

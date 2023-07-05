@@ -16,6 +16,8 @@ public class AuthActivity extends AppCompatActivity  {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_auth);
 
+        // Carica nav_host_fragment, gestisce auth_nav_graph che carica WelcomeFragment
+
         NavHostFragment navHostFragment = (NavHostFragment) getSupportFragmentManager().
                 findFragmentById(R.id.nav_host_fragment);
         NavController navController = navHostFragment.getNavController();

@@ -51,12 +51,6 @@ public class WelcomeFragment extends Fragment {
 
     private UserViewModel userViewModel;
     private DataEncryptionUtil dataEncryptionUtil;
-    private SignInClient oneTapClient;
-
-    private BeginSignInRequest signInRequest;
-
-    private ActivityResultLauncher<IntentSenderRequest> activityResultLauncher;
-    private ActivityResultContracts.StartIntentSenderForResult startIntentSenderForResult;
 
     public WelcomeFragment() {
         // Required empty public constructor
@@ -76,8 +70,6 @@ public class WelcomeFragment extends Fragment {
         userViewModel = new ViewModelProvider(requireActivity(), new UserViewModelFactory(userRepository)).get(UserViewModel.class);
 
         dataEncryptionUtil = new DataEncryptionUtil(requireActivity().getApplication());
-
-        startIntentSenderForResult = new ActivityResultContracts.StartIntentSenderForResult();
     }
 
     @Override
@@ -90,6 +82,7 @@ public class WelcomeFragment extends Fragment {
     @Override
     public void onViewCreated (@NonNull View view, @NonNull Bundle savedInstanceState) {
 
+        // Se loggato l'utente evita di reinserire psw e email in quanto sono salvati nelle sharedPreference
         try {
             String email = dataEncryptionUtil.readSecretDataWithEncryptedSharePreferences(ENCRYPTED_SHARED_PREFERENCES_FILE_NAME, EMAIL_ADDRESS);
             String password = dataEncryptionUtil.readSecretDataWithEncryptedSharePreferences(ENCRYPTED_SHARED_PREFERENCES_FILE_NAME, PASSWORD);
@@ -101,7 +94,6 @@ public class WelcomeFragment extends Fragment {
                                 if(result.isSuccess()) {
                                     User user = ((Result.UserResponseSuccess) result).getData();
                                     userViewModel.setAuthenticationError(false);
-                                    // TODO: retrieveUserInformationAndStartActivity(user, R.id.navigate_to_newsPreferenceActivity);
                                     Navigation.findNavController(view).navigate(
                                             R.id.navigate_to_appActivity
                                     );
@@ -141,16 +133,4 @@ public class WelcomeFragment extends Fragment {
                 return "Unknown error";
         }
     }
-
-    private void saveLoginData(String email, String password, String idToken) {
-        try {
-            dataEncryptionUtil.writeSecretDaatWithEncryptedSharedPreferences(ENCRYPTED_SHARED_PREFERENCES_FILE_NAME, EMAIL_ADDRESS, email);
-            dataEncryptionUtil.writeSecretDaatWithEncryptedSharedPreferences(ENCRYPTED_SHARED_PREFERENCES_FILE_NAME, PASSWORD, password);
-            dataEncryptionUtil.writeSecretDaatWithEncryptedSharedPreferences(ENCRYPTED_SHARED_PREFERENCES_FILE_NAME, ID_TOKEN, idToken);
-
-        } catch (GeneralSecurityException | IOException e ) {
-            e.printStackTrace();
-        }
-    }
-
 }
