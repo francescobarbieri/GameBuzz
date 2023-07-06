@@ -19,7 +19,7 @@ public interface GameApiService {
     @Headers({
             "Accept: application/json",
             "Client-ID: 9xiakk40c8cslp3k9o5mp0ep6ma7tr",
-            "Authorization: Bearer v39811a9a3tmr3cdrrkkygix7kpube"
+            "Authorization: Bearer uzym96kuyv19d46h7nrhxhvulp48xj"
     })
     @POST(Constants.GAME_API_GAME_ENDPOINT)
     Call<List<Game>> getGames(@Body RequestBody body);
