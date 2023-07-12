@@ -111,7 +111,6 @@ public class ExploreFragment extends Fragment {
                         gameList.addAll(fetchedGames);
                         searchResultsAdapter.notifyItemChanged(0, fetchedGames.size());
                     }
-                    //TODO:   progressBar.setVisibility(View.GONE);
                 } else {
                     gameViewModel.setLoading(false);
                 }

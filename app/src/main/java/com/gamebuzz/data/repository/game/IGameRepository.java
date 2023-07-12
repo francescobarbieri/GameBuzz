@@ -8,7 +8,6 @@ public interface IGameRepository {
         JSON_ERROR
     };
 
-    // TODO: serve questo metodo?
     // void updateGames();
 
     void getFavoriteGames();

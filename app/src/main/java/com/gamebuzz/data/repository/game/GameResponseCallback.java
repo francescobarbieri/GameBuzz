@@ -11,6 +11,5 @@ public interface GameResponseCallback {
     void onSuccess(List<Game> gameList);
     void onFailure(String errorMessage);
 
-    // TODO: metodi per la gestione dei preferiti
     // void onGameFavoriteStatusChanged(Game game);
 }

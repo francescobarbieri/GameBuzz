@@ -140,7 +140,6 @@ public class HomeFragment extends Fragment implements GameResponseCallback {
     }
 
     public void onFailure(String errorMessage) {
-        // TODO: do this
     }
 
     @Override

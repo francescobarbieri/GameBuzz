@@ -96,7 +96,6 @@ public class SignupFragment extends Fragment {
             String password = binding.textInputEditTextPassword.getText().toString().trim();
 
             if(isEmailOkay(email) & isPasswordOkay(password)) {
-                // TODO: binding.progressBar.setVisibility(View.VISIBLE);
                 if(!userViewModel.isAuthenticationError()) {
                     Log.e(TAG, "First if");
                     userViewModel.getUserMutableLiveData(email, password, false).observe(
@@ -118,7 +117,6 @@ public class SignupFragment extends Fragment {
                 } else {
                     userViewModel.getUser(email, password, false);
                 }
-                // TODO: binding.progressBar.setVisibility(View.GONE);
             } else {
                 userViewModel.setAuthenticationError(true);
                 Snackbar.make(requireActivity().findViewById(android.R.id.content),

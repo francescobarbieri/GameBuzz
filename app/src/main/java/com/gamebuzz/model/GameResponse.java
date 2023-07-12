@@ -9,7 +9,6 @@ public class GameResponse implements Parcelable {
 
     private boolean isLoading;
 
-    // TODO: @SerializedName("articles") se serve
     private List<Game> gameList;
 
     public GameResponse() {}

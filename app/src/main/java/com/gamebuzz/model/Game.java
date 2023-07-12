@@ -153,7 +153,6 @@ public class Game implements Parcelable {
     public int describeContents() { return 0; }
 
     public void writeToParcel(Parcel dest, int flags) {
-        // TODO: this
 
         dest.writeLong(this.id);
         dest.writeString(this.title);

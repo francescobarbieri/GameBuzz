@@ -16,8 +16,6 @@ public class GamesLocalDataSource extends BaseGamesLocalDataSource {
     private static final String TAG = GamesLocalDataSource.class.getSimpleName();
 
     private final GameDao gameDao;
-    //TODO: private final SharedPreferencesUtils sharedPreferencesUtils;
-    //TODO: private final DataEncryptionUtil dataEncryptionUtil;
 
     public GamesLocalDataSource(GameRoomDatabase gameRoomDatabase) {
         this.gameDao = gameRoomDatabase.gameDao();
@@ -77,7 +75,6 @@ public class GamesLocalDataSource extends BaseGamesLocalDataSource {
                     gameList.get(i).setId((insertedGamesIds.get(i)));
                 }
 
-                // TODO: sharedPreferencesUtil.writeStringData(SHARED_PREFERENCES_FILE_NAME, LAST_UPDATE, String.valueOf(System.currentTimeMillis()));
 
                 gamesCallback.onSuccessFromLocal(gameApiResponse);
             }
@@ -114,8 +111,6 @@ public class GamesLocalDataSource extends BaseGamesLocalDataSource {
             int gameDeletedGames = gameDao.deleteAll();
 
             if(gameDeletedGames == gameCounter) {
-                // TODO: sharedPreferencesUtil.deleteAll(SHARED_PREFERENCES_FILE_NAME);
-                // TODO: dataEncryptionUtil.deleteAll(ENCRYPTED_SHARED_PREFERENCES_FILE_NAME, ENCRYPTED_DATA_FILE_NAME);
                 gamesCallback.onSuccessDeletion();
             }
         });
