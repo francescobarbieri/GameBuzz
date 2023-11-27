@@ -10,5 +10,7 @@ Developed an Android App in Java as part of Mobile Development University course
 - Focused on an intuitive and polished user interface for a positive end-user experience.
 
 Gruppo Monzello:
+
 F.Barbieri - 856375 - f.barbieri17@campus.unimib.it
+
 A.Moscardo - 856177 - a.moscardo@campus.unimib.it
